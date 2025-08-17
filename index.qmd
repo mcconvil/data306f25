@@ -1,0 +1,12 @@
+---
+title: "DATA/MATH 306: Data Science & Statistical Consulting"
+---
+
+The lecture slides (both in HTML and PDF) will be posted here. 
+
+::: column-screen-inset-right
+| Class Period | HTML Slides                                                                      | PDF Slides                                                                            |
+|-----------------|--------------------------|----------------------------|
+| Week 1, Mon  | [{{< fa display >}}](https://mcconvil.github.io/stat100s24/stat100_wk01mon.html) | [{{< fa file-pdf >}}](https://mcconvil.github.io/stat100s24/pdfs/stat100_wk01mon.pdf) |
+
+:::

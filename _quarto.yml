@@ -1,19 +1,33 @@
 project:
   type: website
+  output-dir: docs
+#  resources: 
+#      - materials
 
 website:
-  title: "data306f25"
+  page-navigation: true
+  title: "DATA/MATH 306"
+  site-url: "https://mcconvil.github.io/data306f25"
+  search: 
+    type: overlay
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: "#283618" 
+    search: true
+    style: "docked"
+  # navbar:
+  #   left:
+  #   - text: "Homepage"
+  #     icon: fa-home
+  #     href: index.qmd
+  #   - text: "Slides (First Half)"
+  #     icon: fa-chart-area
+  #     menu: 
+  #       - text: "Week 1 Wed"
+  #         icon: fa-file
+  #         href: stat100_wk01wed.qmd
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: yeti
+    css: ["styles.css", "more.css"]
     toc: true
-
-
-
