@@ -38,7 +38,7 @@ library(tidyverse)
 
 
 ::::: columns
-::: {.column .center width="60%"}
+::: {.column .center width="70%"}
 
 <br>
 <br>
@@ -46,10 +46,12 @@ library(tidyverse)
 ![](img/my_path-7.jpg){width="110%"}
 :::
 
-::: {.column .center width="40%"}
+::: {.column .center width="30%"}
+<br>
+<br>
 <br>
 
-[My Background & Career Trajectory]{.custom-title}
+[My Background & Career Trajectory]{.custom-title2}
 
 
 
