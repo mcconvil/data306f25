@@ -1,0 +1,234 @@
+---
+pagetitle: "Kelly"
+format: 
+  revealjs:
+    chalkboard: true
+#    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+
+<br>
+<br>
+
+![](img/my_path-7.jpg){width="110%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[My Background & Career Trajectory]{.custom-title}
+
+
+
+:::
+:::::
+
+<br>
+
+[Kelly McConville \| SRMS Career Webinar \| Fall 2025]{.custom-subtitle .center}
+
+------------------------------------------------------------------------
+
+## Who am I?
+
+::::: columns
+::: {.column .center width="35%"}
+![](img/bison_charts.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+\
+
+
+-   I am the inaugural director of the [Dominguez Center for Data Science](https://www.bucknell.edu/dcds) at [Bucknell University](https://www.bucknell.edu).
+
+
+
+- We are building it up to be the campus hub for data science  **practice**, **support**, and **community**.
+
+
+
+-   I also spend my days figuring out our relationship to AI.
+
+
+
+- This is my first administrative gig.
+
+:::
+:::::
+
+----
+
+
+
+# Let's talk career path!
+
+---
+
+### My path to Bucknell...
+
+![](img/my_path-1.jpg)
+
+
+-------------------------------------------------------------
+
+### My path to Bucknell...
+
+![](img/my_path-2.jpg)
+
+
+
+------------------------------------------------------------------------
+
+### My path to Bucknell...
+
+![](img/my_path-3.jpg)
+
+------------------------------------------------------------------------
+
+### My path to Bucknell...
+
+![](img/my_path-4.jpg)
+
+------------------------------------------------------------------------
+
+### My path to Bucknell...
+
+![](img/my_path-5.jpg)
+
+------------------------------------------------------------------------
+
+### My path to Bucknell...
+
+![](img/my_path-6.jpg)
+
+------------------------------------------------------------------------
+
+### My path to Bucknell...
+
+
+![](img/my_path-7.jpg)
+
+
+------------------------------------------------------------------------
+
+## Research Interests: Where survey statistics meets data science
+
+<br>
+
+Have had sabbaticals with  
+
+* The [Forest Service Forest Inventory and Analysis Program](https://research.fs.usda.gov/programs/fia)
+* The [Bureau of Labor Statistics](https://www.bls.gov/)
+
+
+![](img/logos.jpeg){width="60%" fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Research Interests: Where survey statistics meets data science
+
+```{r, echo = FALSE}
+
+knitr::include_graphics("img/data.jpeg")
+
+```
+
+------------------------------------------------------------------------
+
+### Advising Undergraduate Forestry Data Science Research
+
+::: {layout-ncol="2"}
+![](img/Forest_and_IceCream_Lovers.jpeg)
+
+
+![](img/trees_UFDS2025.jpg)
+:::
+
+------------------------------------------------------------------------
+
+## Some Reflections
+
+::::: columns
+::: {.column .center width="40%"}
+![](img/seedlings.jpg){width="80%"}
+:::
+
+::: {.column width="60%"}
+
+
+-   I have been on the job market a few times and so have thoughts on how to put together a **good** packet.
+
+
+-   Happy to compare and contrast the different roles I've held:
+    - **Assistant to associate professor** at small liberal arts colleges
+    - **Teaching faculty** at a research university
+    - **Administrator** for a data science center
+    - Happy to compare and contrast these types of roles.
+
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Some Reflections
+
+::::: columns
+::: {.column .center width="40%"}
+![](img/seedlings.jpg){width="80%"}
+:::
+
+::: {.column width="60%"}
+
+
+-  It is okay to **move** and it is okay to **stay**.
+    - Don't strive for the **perfect fit.**
+
+-  The people you work with regularly are important.
+    - You have **less control** over your departmental colleagues.
+    - You have **more control** over your research collaborators.
+    
+-  Choose your service commitments wisely.
+
+:::
+:::::
+
+
+##  Excited to chat about the application process!
+
+
+![](img/my_path-7.jpg)
+

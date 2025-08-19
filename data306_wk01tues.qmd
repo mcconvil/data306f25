@@ -1,0 +1,216 @@
+---
+pagetitle: "DATA 306"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/data306_unicorn.jpg){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Intro to DATA/MATH 306]{.custom-title}
+
+<br> <br> <br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 1 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Getting Started in DATA 306
+
+XXX
+
+------------------------------------------------------------------------
+
+## DATA 306 Tech & Materials {.center}
+
+
+
+------------------------------------------------------------------------
+
+## Announcements
+
+
+
+------------------------------------------------------------------------
+
+## Day 1 Goals
+
+XXX
+
+------------------------------------------------------------------------
+
+## Looking Ahead to Day 2...
+
+XXX
+
+
+# But first, let me quickly introduce myself...
+
+---
+
+### Let's start with my path to Bucknell...
+
+![](img/my_path-1.jpg)
+
+
+-------------------------------------------------------------
+
+### Let's start with my path to Bucknell...
+
+![](img/my_path-2.jpg)
+
+
+
+------------------------------------------------------------------------
+
+### Let's start with my path to Bucknell...
+
+![](img/my_path-3.jpg)
+
+------------------------------------------------------------------------
+
+### Let's start with my path to Bucknell...
+
+![](img/my_path-4.jpg)
+
+------------------------------------------------------------------------
+
+### Let's start with my path to Bucknell...
+
+![](img/my_path-5.jpg)
+
+------------------------------------------------------------------------
+
+### Let's start with my path to Bucknell...
+
+![](img/my_path-6.jpg)
+
+------------------------------------------------------------------------
+
+### Let's start with my path to Bucknell...
+
+
+![](img/my_path-7.jpg)
+
+
+------------------------------------------------------------------------
+
+## Research Interests {.center}
+
+### Survey statistics and collaborate with
+
+![](img/logos.jpeg){width="60%"}
+
+------------------------------------------------------------------------
+
+## Research Interests {.center}
+
+### Where survey statistics meets data science
+
+```{r, echo = FALSE}
+
+knitr::include_graphics("img/data.jpeg")
+
+```
+
+------------------------------------------------------------------------
+
+### Advising Undergraduate Forestry Data Science Research
+
+::: {layout-ncol="2"}
+![](img/Forest_and_IceCream_Lovers.jpeg)
+```{r}
+
+```
+
+![](img/trees_UFDS2025.jpg)
+:::
+
+------------------------------------------------------------------------
+
+::::: columns
+::: {.column .center width="40%"}
+![](img/seedlings.jpg){width="80%"}
+:::
+
+::: {.column width="60%"}
+\
+\
+
+-   I **love** teaching data science.
+
+
+\
+
+-   But, learning stats, coding, and data communication is **hard**.
+
+\
+
+-   With the **right scaffolding**, **good strategies**, and **sustained effort**, you can excel at all three!
+
+\
+
+-   And mistakes are part of the learning process. They don't imply that you are bad at data science.
+:::
+:::::
+
+
+
+
+##  {.center data-menu-title="RStudio"}
+
+::: {style="margin-top: 80px; font-size: 2em; color: #19647E;"}
+Demo of accessing the RStudio Server on Posit Cloud
+:::
+
+::: {style="margin-top: 80px; font-size: 1.2em; color: #19647E;"}
+Try to access the RStudio Server between now and next lecture.
+
+:::
+
+------------------------------------------------------------------------
+
+## Reminders
+
