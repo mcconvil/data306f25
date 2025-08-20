@@ -76,6 +76,7 @@ library(tidyverse)
 
 
 -   I am the inaugural director of the [Dominguez Center for Data Science](https://www.bucknell.edu/dcds) at [Bucknell University](https://www.bucknell.edu).
+    - This is my first administrative gig.
 
 
 
@@ -86,13 +87,8 @@ library(tidyverse)
 -   I also spend my days figuring out our relationship to AI.
 
 
-
-- This is my first administrative gig.
-
 :::
 :::::
-
-----
 
 
 
@@ -199,7 +195,6 @@ knitr::include_graphics("img/data.jpeg")
     - **Assistant to associate professor** at small liberal arts colleges
     - **Teaching faculty** at a research university
     - **Administrator** for a data science center
-    - Happy to compare and contrast these types of roles.
 
 :::
 :::::
