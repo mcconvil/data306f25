@@ -39,7 +39,7 @@ library(tidyverse)
 
 ::::: columns
 ::: {.column .center width="60%"}
-![](img/data306_unicorn.jpg){width="90%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
 :::
 
 ::: {.column .center width="40%"}
@@ -47,7 +47,7 @@ library(tidyverse)
 
 [Intro to DATA/MATH 306]{.custom-title}
 
-<br> <br> <br>
+<br> <br> 
 
 [Kelly McConville]{.custom-subtitle}
 
@@ -161,9 +161,6 @@ knitr::include_graphics("img/data.jpeg")
 
 ::: {layout-ncol="2"}
 ![](img/Forest_and_IceCream_Lovers.jpeg)
-```{r}
-
-```
 
 ![](img/trees_UFDS2025.jpg)
 :::
