@@ -67,7 +67,7 @@
     "href": "data306_wk01tues.html#day-1-goals",
     "title": "DATA/MATH 306",
     "section": "Day 1 Goals",
-    "text": "Day 1 Goals\n\nCourse overview\nIntroduce the projects\nData analysis workflow"
+    "text": "Day 1 Goals\n\nCourse overview\nIntroduction to the projects"
   },
   {
     "objectID": "data306_wk01tues.html#course-sites",
@@ -77,18 +77,53 @@
     "text": "Course Sites\nMain site:\n\nA (private) GitHub Repository https://github.com/Bucknell-DATA306-F25/class-site\n\nI will add all of you once you provide your GitHub username.\n\nWe will NOT use Moodle.\n\nA learning objective of the course is to get comfortable with git/GitHub.\n\nMake sure to check the Schedule page often.\n\n\nGradescope:\n\n\nFor turning in work.\n\n\nSlack for course communication.\n\nMake sure to check Slack at least once a day during the work week.\n\nYou can join the course Slack via this link."
   },
   {
-    "objectID": "data306_wk01tues.html#overarching-theme-developing-data-science-unicorns",
-    "href": "data306_wk01tues.html#overarching-theme-developing-data-science-unicorns",
-    "title": "DATA/MATH 306",
-    "section": "Overarching Theme: Developing Data Science Unicorns",
-    "text": "Overarching Theme: Developing Data Science Unicorns"
-  },
-  {
     "objectID": "data306_wk01tues.html#learning-objectives",
     "href": "data306_wk01tues.html#learning-objectives",
     "title": "DATA/MATH 306",
     "section": "Learning Objectives",
     "text": "Learning Objectives\nYou will engage in collaborative, data science projects. Upon successful completion of this course, you will be able to:\n\nConduct a full data analysis project.\nCommunicate about your data work at a variety of levels and via a variety of formats including short presentations, longer presentations, and written reports.\nThink statistically about data and research questions.\nCollaborate on projects with a reproducible workflow.\nRun a productive consulting meeting.\nUndertake future projects with greater independence."
+  },
+  {
+    "objectID": "data306_wk01tues.html#overarching-goal-create-data-science-unicorns",
+    "href": "data306_wk01tues.html#overarching-goal-create-data-science-unicorns",
+    "title": "DATA/MATH 306",
+    "section": "Overarching Goal: Create Data Science Unicorns!",
+    "text": "Overarching Goal: Create Data Science Unicorns!"
+  },
+  {
+    "objectID": "data306_wk01tues.html#data-science-skills",
+    "href": "data306_wk01tues.html#data-science-skills",
+    "title": "DATA/MATH 306",
+    "section": "Data Science Skills",
+    "text": "Data Science Skills\n\n\n\nMapping a vague question to data\nExploratory data analysis\nData visualization\nModeling\nWriting clean, robust, and consistent code\n\n\n\n\n\nhttps://xkcd.com/2048/"
+  },
+  {
+    "objectID": "data306_wk01tues.html#story-telling-skills",
+    "href": "data306_wk01tues.html#story-telling-skills",
+    "title": "DATA/MATH 306",
+    "section": "Story Telling Skills",
+    "text": "Story Telling Skills\n\n\n\nOral presentations\nWritten technical reports\nElevator speeches\nConsulting conversations\n\n\n\n\n\nhttps://www.xkcd.com/1984/"
+  },
+  {
+    "objectID": "data306_wk01tues.html#collaboration-skills",
+    "href": "data306_wk01tues.html#collaboration-skills",
+    "title": "DATA/MATH 306",
+    "section": "Collaboration Skills",
+    "text": "Collaboration Skills\n\n\n\nReproducible workflow\n\nGit and GitHub\nQuarto\nDocumentation\n\nTeam Science\n\nStakeholders\nPeers\nTeam Leaders\nData science mentor\n\nRunning a meeting"
+  },
+  {
+    "objectID": "data306_wk01tues.html#ethics",
+    "href": "data306_wk01tues.html#ethics",
+    "title": "DATA/MATH 306",
+    "section": "Ethics",
+    "text": "Ethics\n\n\n\nReport results honestly\nAre transparent in your data wrangling, assumptions and model building choices\nFollow a reproducible workflow\nConsider data privacy issues\n\n\n\n\n\nhttps://dilbert.com"
+  },
+  {
+    "objectID": "data306_wk01tues.html#ethics-1",
+    "href": "data306_wk01tues.html#ethics-1",
+    "title": "DATA/MATH 306",
+    "section": "Ethics",
+    "text": "Ethics\n\n\n\n\n\nhttps://xkcd.com/1390/\n\n\n\n\n\n\nhttps://xkcd.com/882"
   },
   {
     "objectID": "data306_wk01tues.html#research-tools",
@@ -123,14 +158,7 @@
     "href": "data306_wk01tues.html#policies",
     "title": "DATA/MATH 306",
     "section": "Policies",
-    "text": "Policies\n\nMake sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.\n\n\nAI Policy\n\nWhile A.I. tools, such as ChatGPT, are being used to generate code and analyze data, goals of this course are to develop your own ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.\nStudents may use AI in these course activities:\n\nProviding feedback on their writing. The original draft should be the student’s work but you can ask for feedback from AI and incorporate thate feedback into the revision.\nProviding coding suggestions. The student is responsible for understanding every line of code in their project, regardless of whether it was written by them, their project members, their mentor, or AI.\nBrainstorming ideas for their project."
-  },
-  {
-    "objectID": "data306_wk01tues.html#data-sciencestatistical-consulting",
-    "href": "data306_wk01tues.html#data-sciencestatistical-consulting",
-    "title": "DATA/MATH 306",
-    "section": "Data Science/Statistical Consulting",
-    "text": "Data Science/Statistical Consulting\nXXX"
+    "text": "Policies\n\nMake sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.\n\n\nAI Policy\nWhile A.I. tools, such as ChatGPT, are being used to generate code and analyze data, goals of this course are to develop your own ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.\nStudents may use AI in these course activities:\n\n\nBrainstorming ideas for their project.\nProviding feedback on their writing. The original draft should be the student’s work but you can ask for feedback from AI and incorporate thate feedback into the revision.\nProviding coding suggestions. The student is responsible for understanding every line of code in their project, regardless of whether it was written by them, their project members, their mentor, or AI."
   },
   {
     "objectID": "data306_wk01tues.html#projects",
@@ -138,6 +166,13 @@
     "title": "DATA/MATH 306",
     "section": "Projects",
     "text": "Projects\nEach project charter has:\n\nTeam composition: Student researchers will be assigned later this week.\nProject background: Short summary motivating the project.\nProject goals: What the stakeholder mentor wants to accomplish.\nData: A brief description of the data for the project.\nDesired deliverables: Vary by project but all include a well-documented repository, technical report, and a final presentation (Dec 15th 9am - 11am).\nRoles and expectations for each person on the team.\nResearch plan\nCommunication\n\n\nPlease read over the project charters and complete the Background and Interest Survey by noon tomorrow!"
+  },
+  {
+    "objectID": "data306_wk01tues.html#reflection",
+    "href": "data306_wk01tues.html#reflection",
+    "title": "DATA/MATH 306",
+    "section": "Reflection",
+    "text": "Reflection\n\n\n\n\n\nOf our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.\nOf our data science unicorn skills, list 1-2 where you feel you have the most room to grow."
   },
   {
     "objectID": "data306_wk01tues.html#looking-ahead-to-day-2",
@@ -154,18 +189,18 @@
     "text": "Demo of accessing the RStudio Server on Posit Cloud\n\n\nTry to access the RStudio Server between now and next lecture."
   },
   {
-    "objectID": "data306_wk01tues.html#reminders",
-    "href": "data306_wk01tues.html#reminders",
+    "objectID": "data306_wk01tues.html#rest-of-class",
+    "href": "data306_wk01tues.html#rest-of-class",
     "title": "DATA/MATH 306",
-    "section": "Reminders",
-    "text": "Reminders\n\nStart tackling the items here: burl.live/start"
+    "section": "Rest of Class",
+    "text": "Rest of Class\n\nStart tackling the items here: burl.live/start\nRead over the project descriptions.\nAdd your GitHub username."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "DATA/MATH 306: Data Science & Statistical Consulting",
     "section": "",
-    "text": "The lecture slides (both in HTML and PDF) will be posted here.\n\n\n\n\nClass Period\nHTML Slides\nPDF Slides\n\n\n\n\nWeek 1, Mon"
+    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Mon"
   },
   {
     "objectID": "about.html",
