@@ -55,38 +55,7 @@ library(tidyverse)
 :::
 :::::
 
-------------------------------------------------------------------------
-
-## Getting Started in DATA 306
-
-XXX
-
-------------------------------------------------------------------------
-
-## DATA 306 Tech & Materials {.center}
-
-
-
-------------------------------------------------------------------------
-
-## Announcements
-
-
-
-------------------------------------------------------------------------
-
-## Day 1 Goals
-
-XXX
-
-------------------------------------------------------------------------
-
-## Looking Ahead to Day 2...
-
-XXX
-
-
-# But first, let me quickly introduce myself...
+# Let me quickly introduce myself...
 
 ---
 
@@ -195,6 +164,215 @@ knitr::include_graphics("img/data.jpeg")
 
 
 
+------------------------------------------------------------------------
+
+## Getting Started in DATA 306
+
+Make a copy of this: [burl.live/start](burl.live/start)
+
+
+
+
+------------------------------------------------------------------------
+
+## Day 1 Goals
+
+* Course overview
+* Introduce the projects
+* Data analysis workflow
+
+
+----
+
+## Course Sites
+
+Main site:
+
+* A (private) GitHub Repository [https://github.com/Bucknell-DATA306-F25/class-site](https://github.com/Bucknell-DATA306-F25/class-site)
+    + I will add all of you once you provide your GitHub username.
+* We will NOT use Moodle.
+    + A learning objective of the course is to get comfortable with git/GitHub.
+* Make sure to check the [Schedule page](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Schedule.md) often.
+
+::: fragment
+
+[Gradescope](https://www.gradescope.com/courses/1100417):
+
+:::
+
+* For turning in work.
+
+::: fragment
+
+[Slack](bucknelldata306.slack.com) for course communication.  
+
+* Make sure to check Slack at least once a day during the work week.  
+* You can join the course Slack via [this link](https://join.slack.com/t/bucknelldata306/shared_invite/zt-3bhtgn1hz-4ekAAtBRXzl8jA2ZAvV5qQ).
+
+
+:::
+
+---
+
+## Overarching Theme: Developing Data Science Unicorns
+
+::::: columns
+::: {.column .center width="100%"}
+
+![](img/Data306_Unicorn_Fall2025.png){width="60%"}
+
+:::
+
+:::::
+
+---
+
+## Learning Objectives
+
+You will engage in collaborative, data science projects.  Upon successful completion of this course, you will be able to:
+
+
+* Conduct a full data analysis project. 
+* Communicate about your data work at a variety of levels and via a variety of formats including short presentations, longer presentations, and written reports.
+* Think statistically about data and research questions.
+* Collaborate on projects with a reproducible workflow.
+* Run a productive consulting meeting.
+* Undertake future projects with greater independence.
+
+
+---
+
+## Research Tools
+
+* Will vary by project!
+
+* All have access to an RStudio Server via a Posit Cloud Workspace.  Will use for some activities and demos.
+
+* We will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.
+    + Make sure to become a Watcher of the course site.
+    + I will also share a specific project site with each student.
+
+* You will need to be able to bring a laptop to class.  Please check-in with me if this will be an issue.
+
+
+---
+
+## Readings
+
+-   We will read a variety of papers and book chapters. 
+-   Main textbook is "Communicating with Data: The Art of Writing for Data Science" by Deborah Nolan and Sara Stoudt.
+    + There are extra copies in Taylor 212.  These copies should NOT leave Taylor 212.
+-   Readings will be posted to the schedule.
+    + Reading reflections are due Mondays at 10pm.
+
+---
+
+
+## Course Structure
+
+::: fragment
+
+**Seminar Days**
+
+
+:::
+
+* Discussion
+* Activities related to readings
+* Guest lectures
+* Presentations
+
+::: fragment
+
+**Lab Days**
+
+:::
+
+* Project work time
+* Check-in meetings
+
+
+---
+
+
+## Course Components
+
+* Engagement
+    + Attendance is required
+    + Three Slack posts to our workspace
+    + One office hour visit
+    + One DCDS activity
+
+* Weekly reading reflections
+
+* Project assessments
+    + Team leader duties
+    + Periodic in-class lab assignments
+    + Progress report presentations
+    + Deliverables
+
+* Peer feedback
+
+    
+---
+
+## Policies
+
+* Make sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.
+
+::: fragment
+
+**AI Policy**
+:::
+
+While A.I. tools, such as ChatGPT, are being used to generate code and analyze data, goals of this course are to develop your **own** ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings. 
+
+Students may use AI in these course activities:
+
+* Providing feedback on their writing.  The original draft should be the student's work but you can ask for feedback from AI and incorporate thate feedback into the revision.
+* Providing coding suggestions.  The student is responsible for understanding every line of code in their project, regardless of whether it was written by them, their project members, their mentor, or AI.
+* Brainstorming ideas for their project.
+
+
+------------------------------------------------------------------------
+
+## Data Science/Statistical Consulting
+
+XXX
+
+------------------------------------------------------------------------
+
+## Projects
+
+Each project charter has:
+
+* Team composition: Student researchers will be assigned later this week.
+* Project background: Short summary motivating the project.
+* Project goals: What the stakeholder mentor wants to accomplish.
+* Data: A brief description of the data for the project.
+* Desired deliverables: Vary by project but all include a well-documented repository, technical report, and a final presentation (Dec 15th 9am - 11am).
+* Roles and expectations for each person on the team.
+* Research plan
+* Communication
+
+::: fragment
+
+**Please read over the project charters and complete the Background and Interest Survey by noon tomorrow!**
+
+:::
+
+------------------------------------------------------------------------
+
+## Looking Ahead to Day 2...
+
+* Git/GitHub
+* Rules for effective data analysis:  [Kass et al (2016)](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/Kass_et_al_2016.PDF)
+    + Groups each need to be ready to explain their rule in their own words.  Can use the board.
+* Initial project check-ins
+
+
+
+
 
 ##  {.center data-menu-title="RStudio"}
 
@@ -211,3 +389,5 @@ Try to access the RStudio Server between now and next lecture.
 
 ## Reminders
 
+
+* Start tackling the items here: [burl.live/start](burl.live/start)
