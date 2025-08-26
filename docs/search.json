@@ -74,7 +74,7 @@
     "href": "data306_wk01tues.html#course-sites",
     "title": "DATA/MATH 306",
     "section": "Course Sites",
-    "text": "Course Sites\nMain site:\n\nA (private) GitHub Repository https://github.com/Bucknell-DATA306-F25/class-site\n\nI will add all of you once you provide your GitHub username.\n\nWe will NOT use Moodle.\n\nA learning objective of the course is to get comfortable with git/GitHub.\n\nMake sure to check the Schedule page often.\n\n\nGradescope:\n\n\nFor turning in work.\n\n\nSlack for course communication.\n\nMake sure to check Slack at least once a day during the work week.\n\nYou can join the course Slack via this link."
+    "text": "Course Sites\nMain site:\n\nA (private) GitHub Repository https://github.com/Bucknell-DATA306-F25/class-site\n\nI will add all of you once you provide your GitHub username.\n\nWe will NOT use Moodle.\n\nA learning objective of the course is to get comfortable with git/GitHub.\n\nMake sure to check the Schedule page often.\n\n\nGradescope:\n\n\nFor turning in work.\n\n\nSlack for course communication.\n\nMake sure to check Slack at least once a day during the work week."
   },
   {
     "objectID": "data306_wk01tues.html#learning-objectives",
@@ -102,7 +102,7 @@
     "href": "data306_wk01tues.html#story-telling-skills",
     "title": "DATA/MATH 306",
     "section": "Story Telling Skills",
-    "text": "Story Telling Skills\n\n\n\nOral presentations\nWritten technical reports\nElevator speeches\nConsulting conversations\n\n\n\n\n\nhttps://www.xkcd.com/1984/"
+    "text": "Story Telling Skills\n\n\n\nOral communication\n\nPrepared talks\nSemi-prepared elevator speeches\nConsulting conversations\n\nWritten communication\n\nReading reflections\nTechnical reports\n\n\n\n\n\n\nhttps://www.xkcd.com/1984/"
   },
   {
     "objectID": "data306_wk01tues.html#collaboration-skills",
@@ -116,7 +116,7 @@
     "href": "data306_wk01tues.html#ethics",
     "title": "DATA/MATH 306",
     "section": "Ethics",
-    "text": "Ethics\n\n\n\nReport results honestly\nAre transparent in your data wrangling, assumptions and model building choices\nFollow a reproducible workflow\nConsider data privacy issues\n\n\n\n\n\nhttps://dilbert.com"
+    "text": "Ethics\n\n\n\nReport results honestly\nTransparency in your data wrangling, assumptions, and model building choices\nFollow a reproducible workflow\nConsider data privacy issues\n\n\n\n\n\nhttps://dilbert.com"
   },
   {
     "objectID": "data306_wk01tues.html#ethics-1",
@@ -130,35 +130,35 @@
     "href": "data306_wk01tues.html#research-tools",
     "title": "DATA/MATH 306",
     "section": "Research Tools",
-    "text": "Research Tools\n\nWill vary by project!\nAll have access to an RStudio Server via a Posit Cloud Workspace. Will use for some activities and demos.\nWe will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.\n\nMake sure to become a Watcher of the course site.\nI will also share a specific project site with each student.\n\nYou will need to be able to bring a laptop to class. Please check-in with me if this will be an issue."
+    "text": "Research Tools\n\nWill vary by project!\nAll have access to an RStudio Server via a Posit Cloud Workspace. Will use for some activities and demos.\nWe will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.\n\nMake sure to become a Watcher of the course site.\nI will also share a specific project site with each student.\n\nBring a laptop to class. Please check-in with me if this will be an issue."
   },
   {
     "objectID": "data306_wk01tues.html#readings",
     "href": "data306_wk01tues.html#readings",
     "title": "DATA/MATH 306",
     "section": "Readings",
-    "text": "Readings\n\nWe will read a variety of papers and book chapters.\nMain textbook is “Communicating with Data: The Art of Writing for Data Science” by Deborah Nolan and Sara Stoudt.\n\nThere are extra copies in Taylor 212. These copies should NOT leave Taylor 212.\n\nReadings will be posted to the schedule.\n\nReading reflections are due Mondays at 10pm."
+    "text": "Readings\n\nWe will read a variety of papers and book chapters.\nMain textbook is “Communicating with Data: The Art of Writing for Data Science” by Deborah Nolan and Sara Stoudt.\n\nThere are extra copies in Taylor 212. These copies should NOT leave Taylor 212.\n\nReadings will be posted to the schedule.\n\nReading reflections are due Mondays at 10pm.\n\nFirst reflections are due Sept 1st. Will discuss in Thursday’s class."
   },
   {
     "objectID": "data306_wk01tues.html#course-structure",
     "href": "data306_wk01tues.html#course-structure",
     "title": "DATA/MATH 306",
     "section": "Course Structure",
-    "text": "Course Structure\n\nSeminar Days\n\n\nDiscussion\nActivities related to readings\nGuest lectures\nPresentations\n\n\nLab Days\n\n\nProject work time\nCheck-in meetings"
+    "text": "Course Structure\n\n\nSeminar Days\n\nDiscussion\nActivities related to readings\nGuest lectures\nPresentations\n\n\nLab Days\n\nProject work time\nCheck-in meetings"
   },
   {
     "objectID": "data306_wk01tues.html#course-components",
     "href": "data306_wk01tues.html#course-components",
     "title": "DATA/MATH 306",
     "section": "Course Components",
-    "text": "Course Components\n\nEngagement\n\nAttendance is required\nThree Slack posts to our workspace\nOne office hour visit\nOne DCDS activity\n\nWeekly reading reflections\nProject assessments\n\nTeam leader duties\nPeriodic in-class lab assignments\nProgress report presentations\nDeliverables\n\nPeer feedback"
+    "text": "Course Components\n\n\n\nEngagement\n\nAttendance is required\nThree Slack posts to our workspace\nOne office hour visit\nOne DCDS activity\n\nWeekly reading reflections\n\n\n\nProject assessments\n\nTeam leader duties\nPeriodic in-class lab assignments\nProgress report presentations\nDeliverables\n\nPeer feedback"
   },
   {
     "objectID": "data306_wk01tues.html#policies",
     "href": "data306_wk01tues.html#policies",
     "title": "DATA/MATH 306",
     "section": "Policies",
-    "text": "Policies\n\nMake sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.\n\n\nAI Policy\nWhile A.I. tools, such as ChatGPT, are being used to generate code and analyze data, goals of this course are to develop your own ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.\nStudents may use AI in these course activities:\n\n\nBrainstorming ideas for their project.\nProviding feedback on their writing. The original draft should be the student’s work but you can ask for feedback from AI and incorporate thate feedback into the revision.\nProviding coding suggestions. The student is responsible for understanding every line of code in their project, regardless of whether it was written by them, their project members, their mentor, or AI."
+    "text": "Policies\n\nMake sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.\nBut let’s talk AI…"
   },
   {
     "objectID": "data306_wk01tues.html#projects",
@@ -208,5 +208,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "data306_wk01tues.html#ai-policy",
+    "href": "data306_wk01tues.html#ai-policy",
+    "title": "DATA/MATH 306",
+    "section": "AI Policy",
+    "text": "AI Policy\nWhile A.I. tools, such as ChatGPT, are being used to generate code, analyze data, and write essays, goals of this course are to develop your own ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.\nYou may use AI in these course activities:\n\nProviding feedback on their writing. The original draft should be your work but you can ask for feedback from AI and incorporate that feedback into the revision.\nProviding coding suggestions or revisions. You are responsible for understanding every line of code in your project, regardless of whether it was written by you, your project members, your mentor, or AI.\nBrainstorming ideas for your project."
+  },
+  {
+    "objectID": "data306_wk01tues.html#ai-policy-1",
+    "href": "data306_wk01tues.html#ai-policy-1",
+    "title": "DATA/MATH 306",
+    "section": "AI Policy",
+    "text": "AI Policy\nYou may not use AI in these ways:\n\nWriting the initial draft or whole paragraphs of a writing assignment or your technical report.\nWriting large blocks of code.\n\n\nIf you do use AI in your project or on an assignment, please include an AI citation that provides: prompt, AI tool, company, date.\n\n\nIf you are in doubt as to whether you are using AI appropriately in this course, I encourage you to meet with me for a discussion. Violations of this policy will be considered academic misconduct."
   }
 ]

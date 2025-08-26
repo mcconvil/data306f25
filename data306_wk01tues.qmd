@@ -164,13 +164,6 @@ knitr::include_graphics("img/data.jpeg")
 
 
 
-------------------------------------------------------------------------
-
-## Getting Started in DATA 306
-
-Make a copy of this: [burl.live/start](burl.live/start)
-
-
 
 
 ------------------------------------------------------------------------
@@ -207,7 +200,7 @@ Main site:
 [Slack](bucknelldata306.slack.com) for course communication.  
 
 * Make sure to check Slack at least once a day during the work week.  
-* You can join the course Slack via [this link](https://join.slack.com/t/bucknelldata306/shared_invite/zt-3bhtgn1hz-4ekAAtBRXzl8jA2ZAvV5qQ).
+
 
 
 :::
@@ -280,19 +273,21 @@ You will engage in collaborative, data science projects.  Upon successful comple
 
 ::: {.column width="50%"}
 
-* Oral presentations
+* Oral communication
+  * Prepared talks
+  * Semi-prepared elevator speeches
+  * Consulting conversations
 
-* Written technical reports
+* Written communication
+  * Reading reflections
+  * Technical reports
 
-* Elevator speeches
-
-* Consulting conversations
 
 :::
 
 ::: {.column .center width="50%"}
 
-![https://www.xkcd.com/1984/](img/communication.png){width="70%"}
+![https://www.xkcd.com/1984/](img/communication.png){width="60%"}
 
 :::
 
@@ -343,7 +338,7 @@ You will engage in collaborative, data science projects.  Upon successful comple
 
 * Report results honestly
 
-* Are transparent in your data wrangling, assumptions and model building choices
+* Transparency in your data wrangling, assumptions, and model building choices
 
 * Follow a reproducible workflow
 
@@ -380,6 +375,28 @@ You will engage in collaborative, data science projects.  Upon successful comple
 
 :::::
 
+---
+
+## Reflection
+
+
+::::: columns
+::: {.column .center width="50%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="50%"}
+
+
+* Of our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.
+* Of our data science unicorn skills, list 1-2 where you feel you have the most room to grow.
+
+    
+    
+:::
+:::::
+
+
 
 ---
 
@@ -393,7 +410,7 @@ You will engage in collaborative, data science projects.  Upon successful comple
     + Make sure to become a Watcher of the course site.
     + I will also share a specific project site with each student.
 
-* You will need to be able to bring a laptop to class.  Please check-in with me if this will be an issue.
+* Bring a laptop to class.  Please check-in with me if this will be an issue.
 
 
 ---
@@ -405,38 +422,50 @@ You will engage in collaborative, data science projects.  Upon successful comple
     + There are extra copies in Taylor 212.  These copies should NOT leave Taylor 212.
 -   Readings will be posted to the schedule.
     + Reading reflections are due Mondays at 10pm.
+        + First reflections are due Sept 1st.  Will discuss in Thursday's class.
 
 ---
 
 
 ## Course Structure
 
-::: fragment
+::::: columns
+::: {.column width="50%"}
 
 **Seminar Days**
 
 
-:::
+
 
 * Discussion
 * Activities related to readings
 * Guest lectures
 * Presentations
 
-::: fragment
+:::
+
+::: {.column width="50%"}
 
 **Lab Days**
 
-:::
+
 
 * Project work time
 * Check-in meetings
+
+:::
+
+:::::
 
 
 ---
 
 
 ## Course Components
+
+
+::::: columns
+::: {.column width="50%"}
 
 * Engagement
     + Attendance is required
@@ -446,6 +475,10 @@ You will engage in collaborative, data science projects.  Upon successful comple
 
 * Weekly reading reflections
 
+:::
+
+::: {.column width="50%"}
+
 * Project assessments
     + Team leader duties
     + Periodic in-class lab assignments
@@ -454,6 +487,14 @@ You will engage in collaborative, data science projects.  Upon successful comple
 
 * Peer feedback
 
+:::
+
+:::::
+
+
+
+
+
     
 ---
 
@@ -461,23 +502,48 @@ You will engage in collaborative, data science projects.  Upon successful comple
 
 * Make sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.
 
+* But let's talk AI...
+
+---
+
+
+
+## AI Policy
+
+
+While A.I. tools, such as ChatGPT, are being used to generate code, analyze data, and write essays, goals of this course are to develop your **own** ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings. 
+
+You may use AI in these course activities:
+
+* Providing feedback on their writing.  The original draft should be your work but you can ask for feedback from AI and incorporate that feedback into the revision.
+* Providing coding suggestions or revisions.  You are responsible for understanding every line of code in your project, regardless of whether it was written by you, your project members, your mentor, or AI.
+* Brainstorming ideas for your project.
+
+
+---
+
+
+
+## AI Policy
+
+
+
+You may not use AI in these ways:
+
+* Writing the initial draft or whole paragraphs of a writing assignment or your technical report.
+* Writing large blocks of code.
+
 ::: fragment
 
-**AI Policy**
-
-
-While A.I. tools, such as ChatGPT, are being used to generate code and analyze data, goals of this course are to develop your **own** ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings. 
-
-Students may use AI in these course activities:
+If you do use AI in your project or on an assignment, please include an AI citation that provides: prompt, AI tool, company, date.
 
 :::
 
+::: fragment
 
-* Brainstorming ideas for their project.
-* Providing feedback on their writing.  The original draft should be the student's work but you can ask for feedback from AI and incorporate thate feedback into the revision.
-* Providing coding suggestions.  The student is responsible for understanding every line of code in their project, regardless of whether it was written by them, their project members, their mentor, or AI.
+If you are in doubt as to whether you are using AI appropriately in this course, I encourage you to meet with me for a discussion. Violations of this policy will be considered academic misconduct.
 
-
+:::
 
 ------------------------------------------------------------------------
 
@@ -500,26 +566,6 @@ Each project charter has:
 
 :::
 
----
-
-## Reflection
-
-
-::::: columns
-::: {.column .center width="50%"}
-![](img/Data306_Unicorn_Fall2025.png){width="90%"}
-:::
-
-::: {.column .center width="50%"}
-
-
-* Of our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.
-* Of our data science unicorn skills, list 1-2 where you feel you have the most room to grow.
-
-    
-    
-:::
-:::::
 
 
 
