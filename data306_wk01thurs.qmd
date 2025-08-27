@@ -1,0 +1,507 @@
+---
+pagetitle: "Data Work"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Workflow]{.custom-title}
+
+<br> <br> 
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 1 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Looking Ahead to Week 2
+
+* Readings
+
+* Reflections: Due Monday by XXX
+
+* Project readings for Week 3
+
+* Will start tackling the projects in earnest next Thursday.
+
+
+
+---
+
+## Goals for Today
+
+* Best practices for data work discussion
+
+* Workflow: Git/GitHub
+
+* Positron
+
+
+---
+
+## How to Get Help
+
+* Project team members
+
+* My office hours: Tuesdays 2-3pm and Wednesdays 1-2pm
+    + Sign-up for 20 minute sessions: [burl.live/meeting](burl.live/meeting)
+    
+* Data science office hours: Sundays - Thursdays
+    + Drop-in
+    + Schedule: [burl.live/help-f25](burl.live/help-f25)
+
+* Stakeholder mentor
+
+---
+
+## Discussion
+
+* Kass et al (2016): Ten Simple Rules for Effective Statitsical Practice
+
+* Discussion leaders by rule in [Schedule](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Schedule.md)
+
+---
+
+## Project Groups
+
+Can find your group assignments [here](XXX)
+
+
+
+---
+
+
+
+## Why Positron?
+
+```{r}
+#| echo: false
+#| fig-width: 20
+
+
+prior <- read_csv("data/prior_experience.csv") %>%
+  mutate(R = fct_relevel(R, "No experience", "Limited experience",
+                         "Moderate experience", "Expert"),
+         Python = fct_relevel(Python, "No experience", "Limited experience",
+                         "Moderate experience", "Expert"))
+
+r_plot <- ggplot(data = prior, mapping = aes(x = R, fill = R)) +
+  geom_bar() +
+  scale_fill_viridis_d(end = 0.75, direction = -1) +
+  #theme_minimal(base_size = 18) +
+  theme(legend.position = "bottom")  +
+  ylim(0,7) + 
+  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
+  labs(x = "R Experience", fill = "", y = "Number of Students",
+       title = "Describe your prior experience with R.")
+
+python_plot <- ggplot(data = prior, mapping = aes(x = Python, fill = Python)) +
+  geom_bar() +
+  scale_fill_viridis_d(end = 0.75, direction = -1) +
+  #theme_minimal(base_size = 18) +
+  theme(legend.position = "bottom") +
+  ylim(0, 7) + 
+  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
+  labs(x = "Python Experience", fill = "", y = "Number of Students",
+       title = "Describe your prior experience with Python.")
+
+r_plot + python_plot
+
+```
+
+
+* Positron is a new data science tool for writing code and exploring data.
+
+* You can use `R` or `Python`.
+
+---
+
+Download Positron
+
+---
+
+Interact with Positron
+
+R users
+
+Python users
+
+--- 
+
+## git and GitHub
+
+::::: columns
+
+::: {.column width="50%"}
+
+
+* **git**: Version control system
+    + Think fancier type of *Track Changes*.
+
+
+* **GitHub**: Hosting service for git projects (which are called repositories)
+    + Think fancier type of *DropBox* or *Google Drive*.
+
+
+
+* Useful resource when getting started: [https://happygitwithr.com/](https://happygitwithr.com/)
+
+:::
+
+::: {.column .center width="50%"}
+
+
+![](img/octocat.001.jpeg)
+
+:::
+
+:::::
+
+---
+
+
+## Manual Version Control
+
+::::: columns
+
+::: {.column width="50%"}
+
+* But I already do version control...
+    + draft.Rmd, draft2.Rmd, final.Rmd, realFinal.Rmd, REALLYVERYREALFinal.Rmd...
+
+* Issues with this version of version control:
+    + Hard to know how these files relate.
+    + Hard to extend this approach to working with others.
+
+:::
+
+::: {.column .center width="50%"}
+
+
+![](img/phd-final.png)
+
+
+:::
+
+:::::
+    
+---
+
+## Git Real
+
+* Git is a *decentralized* version control system.
+    + Each collaborator has a complete version of the repo.
+    + Everyone can work offline and simultaneously.
+    + GitHub holds the master copy.
+
+
+
+* git is not friendly and can be frustrating.
+    + BUT, the version control and collaborative rewards are big!
+      
+
+
+      
+* [GitHub.com](GitHub.com) is a great place to develop an online presence.
+    + In DATA 306, we will default to keeping the work private.
+    
+---
+
+## A Hot Mess is Okay
+
+* If you end up with a mess of errors, then don't worry but come see one of the instructors for help.
+    + It happens to [everyone](https://xkcd.com/1597/).
+
+
+---
+
+## Github Repo = `RStudio` Project
+
+* A **repo**, short for repository, is the folder that contains all of the files for the project on [GitHub.com](GitHub.com).
+ 
+* Under the **Bucknell-DATA306-F25** GitHub Organization you currently have 3 repos:
+    + `work-username`: Just you and I can access
+    + `class-site`: The whole class can access
+    + `project-name`: Your team, stakeholder (possibly), and I can access
+
+
+* For each repo, you should create an `RStudio` Project (with version control). XXX
+    + We will all do this together in a moment.
+    
+
+
+---
+
+## Steps to Get Started
+
+
+::::: columns
+
+::: column
+
+**Once-Per-Computer/Server:**
+
+* Install git on your computer.
+
+* Get your local git talking to GitHub.
+
+:::
+
+::: column
+
+**Once-Per-Project:**
+
+* Create a repo on GitHub. 
+    + I did this step for us.
+
+* Create a version controlled Project that is synced with the GitHub repo.
+
+:::
+
+:::::
+
+
+# Let's try to set this up!
+
+---
+
+## Git via Positron + R
+
+
+* So that the workflow is the same for everyone:
+    + Open Positron.
+    + Start an R session.
+    
+* You will be able to toggle to Python after we have synced with GitHub.
+
+
+---
+
+## Check if git is install on your computer
+
+In **Terminal**, type
+
+```{r, eval = FALSE}
+which git
+
+git --version
+```
+
+::::: columns
+
+::: column
+
+::: {.nonincremental}
+
+* If you receive an answer, then git is already install! `r emo::ji("tada")`
+
+:::
+
+:::
+
+::: column
+
+::: {.nonincremental}
+
+
+* If the reply is `git: command not found` (or similar), then
+    + Windows: Visit [https://gitforwindows.org/](https://gitforwindows.org/)
+    + Macs: In the **Terminal** type
+
+:::
+
+```{r, eval = FALSE}    
+xcode-select --install    
+```
+
+::: {.nonincremental}
+
+* Restart your session.
+
+:::
+
+:::
+
+:::::
+
+---
+
+## Introduce Yourself to Git 
+
+* Install the packages `usethis` and `gitcreds`:
+
+```{r, eval = FALSE}
+install.packages(c("usethis", "gitcreds"))
+```
+
+
+* In your R console, modify and run the following code to introduce yourself to git
+
+```{r, eval = FALSE}
+usethis::use_git_config(user.name = "mcconvil", 
+               user.email = "k.mcconville@bucknell.edu")
+```
+
+---
+
+## Personal Access Token Time
+
+* To interact with GitHub, you need to include credentials.
+    + Personal Access Token (PAT)
+
+* In your R console, run
+
+```{r, eval = FALSE}
+usethis::create_github_token()
+```
+
+* Should take you to GitHub.  
+
+* Select "repo", "user", and "workflow" for the scopes.
+
+* Click "Generate token".
+
+
+* Store it by running the following in the R Console:
+
+```{r, eval = FALSE}
+gitcreds::gitcreds_set()
+```
+
+---
+
+## Sync GitHub.com repo and a Project
+
+**In your repo on GitHub.com**:
+
+::: {.nonincremental}
+
+* Click on the green clone or download button.
+* Copy the given url for "Clone with HTTPS".
+
+:::
+
+**In Positron**:
+
+::: {.nonincremental}
+
+* In the Welcome pane, select "New from Git..."
+
+* Paste in the url.
+
+* Select "Browse..." and select a logical place on your computer for the repository folder.
+
+* Hit the "OK" button.
+
+:::
+
+---
+
+## Workflow
+
+Once your GitHub repo and RStudio project are synced, here's your workflow:
+
+* On the left menu, select "Source Control". 
+
+* Under the three dots associated with "CHANGES", select **Pull**.  
+    + This will pull the most recent version of the repo from GitHub to your local folder.
+
+* Do some work on your project and save it.
+
+* In the "Source Control", select the "+" (stage changes) button.
+
++ Include a quick note, **Commit Message** to summarize the motivation for the changes.
+
+* Select **Commit & Push** to send your work to GitHub. 
+
+
+
+# Workflow Demo
+
+
+
+
+---
+
+## Test the waters: Let's go through the workflow.
+
+* Pull. (Yes, there is nothing to pull yet but it is always good practice to start here.)
+* Click on the ReadMe.
+* Add something to the ReadMe.
+* Stage the changes to the ReadMe.
+* Put in a commit message.
+* Commit & Push.
+
+
+**Look for updates in the ReadMe on GitHub.com.**
+
+
+---
+
+## Git Collaboration: Merge conflicts
+
+* What if my collaborators and I both make changes? 
+    + Scenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.  
+    + Result: Your push will fail because there's a commit on GitHub that you don't have.  
+    + Usual Solution: Pull and *usually* git will merge their work nicely with yours.  Then push.  If that doesn't work, you have a **merge conflict**.  Let's cross that bridge when we get there.  
+    
+* How to avoid merge conflicts?
+    + Always pull when you are going to work on your project.
+    + Always commit and push when you are done even if you made small changes.
+
+
+---
+
+## Collaboration: GitHub Style
+
+* **Projects**: Can use to create to do lists and stay organized.
+
+* **Issues**: Useful method to communicate with your group members.
+
+
+

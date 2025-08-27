@@ -215,5 +215,173 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#goals-for-today",
+    "href": "data306_wk01thurs.html#goals-for-today",
+    "title": "DATA/MATH 306",
+    "section": "Goals for Today",
+    "text": "Goals for Today\n\nBest practices for data work discussion\nWorkflow: Git/GitHub\nPositron"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#why-positron",
+    "href": "data306_wk01thurs.html#why-positron",
+    "title": "DATA/MATH 306",
+    "section": "Why Positron?",
+    "text": "Why Positron?\n\n\n\n\n\n\n\n\n\n\nPositron is a new data science tool for writing code and exploring data.\nYou can use R or Python."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#how-to-get-help",
+    "href": "data306_wk01thurs.html#how-to-get-help",
+    "title": "DATA/MATH 306",
+    "section": "How to Get Help",
+    "text": "How to Get Help\n\nProject team members\nMy office hours: Tuesdays 2-3pm and Wednesdays 1-2pm\n\nSign-up for 20 minute sessions: burl.live/meeting\n\nData science office hours: Sundays - Thursdays\n\nDrop-in\nSchedule: burl.live/help-f25\n\nStakeholder mentor"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#discussion",
+    "href": "data306_wk01thurs.html#discussion",
+    "title": "DATA/MATH 306",
+    "section": "Discussion",
+    "text": "Discussion\n\nKass et al (2016): Ten Simple Rules for Effective Statitsical Practice\nDiscussion leaders by rule in Schedule"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#project-groups",
+    "href": "data306_wk01thurs.html#project-groups",
+    "title": "DATA/MATH 306",
+    "section": "Project Groups",
+    "text": "Project Groups\nCan find your group assignments here"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-and-github",
+    "href": "data306_wk01thurs.html#git-and-github",
+    "title": "DATA/MATH 306",
+    "section": "git and GitHub",
+    "text": "git and GitHub\n\n\n\ngit: Version control system\n\nThink fancier type of Track Changes.\n\nGitHub: Hosting service for git projects (which are called repositories)\n\nThink fancier type of DropBox or Google Drive.\n\nUseful resource when getting started: https://happygitwithr.com/"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#manual-version-control",
+    "href": "data306_wk01thurs.html#manual-version-control",
+    "title": "DATA/MATH 306",
+    "section": "Manual Version Control",
+    "text": "Manual Version Control\n\n\n\nBut I already do version control…\n\ndraft.Rmd, draft2.Rmd, final.Rmd, realFinal.Rmd, REALLYVERYREALFinal.Rmd…\n\nIssues with this version of version control:\n\nHard to know how these files relate.\nHard to extend this approach to working with others."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-real",
+    "href": "data306_wk01thurs.html#git-real",
+    "title": "DATA/MATH 306",
+    "section": "Git Real",
+    "text": "Git Real\n\nGit is a decentralized version control system.\n\nEach collaborator has a complete version of the repo.\nEveryone can work offline and simultaneously.\nGitHub holds the master copy.\n\ngit is not friendly and can be frustrating.\n\nBUT, the version control and collaborative rewards are big!\n\nGitHub.com is a great place to develop an online presence.\n\nIn DATA 306, we will default to keeping the work private."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#a-hot-mess-is-okay",
+    "href": "data306_wk01thurs.html#a-hot-mess-is-okay",
+    "title": "DATA/MATH 306",
+    "section": "A Hot Mess is Okay",
+    "text": "A Hot Mess is Okay\n\nIf you end up with a mess of errors, then don’t worry but come see one of the instructors for help.\n\nIt happens to everyone."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#github-repo-rstudio-project",
+    "href": "data306_wk01thurs.html#github-repo-rstudio-project",
+    "title": "DATA/MATH 306",
+    "section": "Github Repo = RStudio Project",
+    "text": "Github Repo = RStudio Project\n\nA repo, short for repository, is the folder that contains all of the files for the project on GitHub.com.\nUnder the Bucknell-DATA306-F25 GitHub Organization you currently have 3 repos:\n\nwork-username: Just you and I can access\nclass-site: The whole class can access\nproject-name: Your team, stakeholder (possibly), and I can access\n\nFor each repo, you should create an RStudio Project (with version control). XXX\n\nWe will all do this together in a moment."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#steps-to-get-started",
+    "href": "data306_wk01thurs.html#steps-to-get-started",
+    "title": "DATA/MATH 306",
+    "section": "Steps to Get Started",
+    "text": "Steps to Get Started\n\n\nOnce-Per-Computer/Server:\n\nInstall git on your computer.\nGet your local git talking to GitHub.\n\n\nOnce-Per-Project:\n\nCreate a repo on GitHub.\n\nI did this step for us.\n\nCreate a version controlled Project that is synced with the GitHub repo."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
+    "href": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
+    "title": "DATA/MATH 306",
+    "section": "Check if git is install on your computer",
+    "text": "Check if git is install on your computer\nIn Terminal, type\n\nwhich git\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#introduce-yourself-to-git",
+    "href": "data306_wk01thurs.html#introduce-yourself-to-git",
+    "title": "DATA/MATH 306",
+    "section": "Introduce Yourself to Git",
+    "text": "Introduce Yourself to Git\n\nInstall the packages usethis and gitcreds:\n\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\n\nIn your R console, modify and run the following code to introduce yourself to git\n\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#personal-access-token-time",
+    "href": "data306_wk01thurs.html#personal-access-token-time",
+    "title": "DATA/MATH 306",
+    "section": "Personal Access Token Time",
+    "text": "Personal Access Token Time\n\nTo interact with GitHub, you need to include credentials.\n\nPersonal Access Token (PAT)\n\nIn your R console, run\n\n\nusethis::create_github_token()\n\n\nShould take you to GitHub.\nSelect “repo”, “user”, and “workflow” for the scopes.\nClick “Generate token”.\nStore it by running the following in the R Console:\n\n\ngitcreds::gitcreds_set()"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#sync-github.com-repo-and-an-rstudio-project",
+    "href": "data306_wk01thurs.html#sync-github.com-repo-and-an-rstudio-project",
+    "title": "DATA/MATH 306",
+    "section": "Sync GitHub.com repo and an RStudio Project",
+    "text": "Sync GitHub.com repo and an RStudio Project\nIn your repo on GitHub.com:\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\nIn RStudio:\n\nIn the upper left, go to File &gt; New Project &gt; Version Control.\nSelect Git.\nPaste in the url. It should automatically give it a name. Select where you want the project to live in your home directory. Then click okay."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#workflow",
+    "href": "data306_wk01thurs.html#workflow",
+    "title": "DATA/MATH 306",
+    "section": "Workflow",
+    "text": "Workflow\nOnce your GitHub repo and RStudio project are synced, here’s your workflow:\n\nOn the left menu, select “Source Control”.\nUnder the three dots associated with “CHANGES”, select Pull.\n\nThis will pull the most recent version of the repo from GitHub to your local folder.\n\nDo some work on your project and save it.\nIn the “Source Control”, select the “+” (stage changes) button.\nInclude a quick note, Commit Message to summarize the motivation for the changes.\nSelect Commit & Push to send your work to GitHub."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#ignoring-files",
+    "href": "data306_wk01thurs.html#ignoring-files",
+    "title": "DATA/MATH 306",
+    "section": "Ignoring Files",
+    "text": "Ignoring Files\n\nThere are several files that we want to NOT push to GitHub.\nThese include:\n\n.gitignore\n.DS_Store\n\nAdd these files to the .gitignore."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#test-the-waters-lets-go-through-the-workflow.",
+    "href": "data306_wk01thurs.html#test-the-waters-lets-go-through-the-workflow.",
+    "title": "DATA/MATH 306",
+    "section": "Test the waters: Let’s go through the workflow.",
+    "text": "Test the waters: Let’s go through the workflow.\n\nPull. (Yes, there is nothing to pull yet but it is always good practice to start here.)\nClick on the ReadMe.\nAdd something to the ReadMe.\nStage the changes to the ReadMe.\nPut in a commit message.\nCommit & Push.\n\nLook for updates in the ReadMe on GitHub.com."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-collaboration-merge-conflicts",
+    "href": "data306_wk01thurs.html#git-collaboration-merge-conflicts",
+    "title": "DATA/MATH 306",
+    "section": "Git Collaboration: Merge conflicts",
+    "text": "Git Collaboration: Merge conflicts\n\nWhat if my collaborators and I both make changes?\n\nScenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.\n\nResult: Your push will fail because there’s a commit on GitHub that you don’t have.\n\nUsual Solution: Pull and usually git will merge their work nicely with yours. Then push. If that doesn’t work, you have a merge conflict. Let’s cross that bridge when we get there.\n\nHow to avoid merge conflicts?\n\nAlways pull when you are going to work on your project.\nAlways commit and push when you are done even if you made small changes."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#collaboration-git-style",
+    "href": "data306_wk01thurs.html#collaboration-git-style",
+    "title": "DATA/MATH 306",
+    "section": "Collaboration: Git Style",
+    "text": "Collaboration: Git Style\n\nProjects: Can use to create to do lists and stay organized.\nIssues: Useful method to communicate with your group members."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#looking-ahead-to-week-2",
+    "href": "data306_wk01thurs.html#looking-ahead-to-week-2",
+    "title": "DATA/MATH 306",
+    "section": "Looking Ahead to Week 2",
+    "text": "Looking Ahead to Week 2\n\nReadings\nReflections: Due Monday by XXX\nProject readings for Week 3\nWill start tackling the projects in earnest next Thursday."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-via-positron-r",
+    "href": "data306_wk01thurs.html#git-via-positron-r",
+    "title": "DATA/MATH 306",
+    "section": "Git via Positron + R",
+    "text": "Git via Positron + R\n\nSo that the workflow is the same for everyone:\n\nOpen Positron.\nStart an R session.\n\nYou will be able to toggle to Python after we have synced with GitHub."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
+    "href": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
+    "title": "DATA/MATH 306",
+    "section": "Sync GitHub.com repo and a Project",
+    "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\n\nIn Positron:\n\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#collaboration-github-style",
+    "href": "data306_wk01thurs.html#collaboration-github-style",
+    "title": "DATA/MATH 306",
+    "section": "Collaboration: GitHub Style",
+    "text": "Collaboration: GitHub Style\n\nProjects: Can use to create to do lists and stay organized.\nIssues: Useful method to communicate with your group members."
   }
 ]
