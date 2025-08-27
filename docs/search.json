@@ -298,7 +298,7 @@
     "href": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
     "title": "DATA/MATH 306",
     "section": "Check if git is install on your computer",
-    "text": "Check if git is install on your computer\nIn Terminal, type\n\nwhich git\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
+    "text": "Check if git is install on your computer\nIn Terminal, type\n\nwhich git\n\ngit --version\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\nxcode-select --install    \n\n\nRestart your session."
   },
   {
     "objectID": "data306_wk01thurs.html#introduce-yourself-to-git",
@@ -375,7 +375,7 @@
     "href": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
     "title": "DATA/MATH 306",
     "section": "Sync GitHub.com repo and a Project",
-    "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\n\nIn Positron:\n\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
+    "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\nIn Positron:\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
   },
   {
     "objectID": "data306_wk01thurs.html#collaboration-github-style",
