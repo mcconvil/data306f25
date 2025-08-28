@@ -228,7 +228,7 @@
     "href": "data306_wk01thurs.html#why-positron",
     "title": "DATA/MATH 306",
     "section": "Why Positron?",
-    "text": "Why Positron?\n\n\n\n\n\n\n\n\n\n\nPositron is a new data science tool for writing code and exploring data.\nYou can use R or Python."
+    "text": "Why Positron?\n\n\n\n\n\n\n\n\n\n\nggplot(data = prior, mapping = aes(x = R, fill = R)) +\n  geom_bar() +\n  scale_fill_viridis_d(end = 0.75, direction = -1) +\n  #theme_minimal(base_size = 18) +\n  theme(legend.position = \"bottom\")  +\n  ylim(0,7) + \n  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +\n  labs(x = \"R Experience\", fill = \"\", y = \"Number of Students\",\n       title = \"Describe your prior experience with R.\") +\n        facet_wrap(~Project)\n\n\n ggplot(data = prior, mapping = aes(x = Python, fill = Python)) +\n  geom_bar() +\n  scale_fill_viridis_d(end = 0.75, direction = -1) +\n  #theme_minimal(base_size = 18) +\n  theme(legend.position = \"bottom\") +\n  ylim(0, 7) + \n  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +\n  labs(x = \"Python Experience\", fill = \"\", y = \"Number of Students\",\n       title = \"Describe your prior experience with Python.\") +\n        facet_wrap(~Project)   \n\n\nPositron is a new data science tool for writing code and exploring data.\nYou can use R or Python."
   },
   {
     "objectID": "data306_wk01thurs.html#how-to-get-help",
@@ -305,7 +305,7 @@
     "href": "data306_wk01thurs.html#introduce-yourself-to-git",
     "title": "DATA/MATH 306",
     "section": "Introduce Yourself to Git",
-    "text": "Introduce Yourself to Git\n\nInstall the packages usethis and gitcreds:\n\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\n\nIn your R console, modify and run the following code to introduce yourself to git\n\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
+    "text": "Introduce Yourself to Git\nInstall the packages usethis and gitcreds:\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\nIn your R console, modify and run the following code to introduce yourself to git\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
   },
   {
     "objectID": "data306_wk01thurs.html#personal-access-token-time",
@@ -361,7 +361,7 @@
     "href": "data306_wk01thurs.html#looking-ahead-to-week-2",
     "title": "DATA/MATH 306",
     "section": "Looking Ahead to Week 2",
-    "text": "Looking Ahead to Week 2\n\nReadings\nReflections: Due Monday by XXX\nProject readings for Week 3\nWill start tackling the projects in earnest next Thursday."
+    "text": "Looking Ahead to Week 2\n\nReadings:\n\nCommunicating with Data Chs\n\nReflections: Due Monday by 10pm\nProject readings for Week 3\nWill start tackling the projects in earnest next Thursday."
   },
   {
     "objectID": "data306_wk01thurs.html#git-via-positron-r",
@@ -383,5 +383,12 @@
     "title": "DATA/MATH 306",
     "section": "Collaboration: GitHub Style",
     "text": "Collaboration: GitHub Style\n\nProjects: Can use to create to do lists and stay organized.\nIssues: Useful method to communicate with your group members."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#a-github-repo-projectfolder-on-your-computer",
+    "href": "data306_wk01thurs.html#a-github-repo-projectfolder-on-your-computer",
+    "title": "DATA/MATH 306",
+    "section": "A Github Repo = Project/Folder on Your Computer",
+    "text": "A Github Repo = Project/Folder on Your Computer\n\nA repo, short for repository, is the folder that contains all of the files for the project on GitHub.com.\nUnder the Bucknell-DATA306-F25 GitHub Organization you will have access to 3 repos:\n\nwork-username: Just you and I can access\nclass-site: The whole class can access\nprojectname: Your team, stakeholder (possibly), and I can access\n\nFor each repo, you should sync with a folder on your computer.\n\nWe will all do this together for work-username today."
   }
 ]

@@ -210,8 +210,11 @@
 <section id="looking-ahead-to-week-2" class="slide level2">
 <h2>Looking Ahead to Week 2</h2>
 <ul>
-<li class="fragment"><p>Readings</p></li>
-<li class="fragment"><p>Reflections: Due Monday by XXX</p></li>
+<li class="fragment"><p>Readings:</p>
+<ul>
+<li class="fragment">Communicating with Data Chs</li>
+</ul></li>
+<li class="fragment"><p>Reflections: Due Monday by 10pm</p></li>
 <li class="fragment"><p>Project readings for Week 3</p></li>
 <li class="fragment"><p>Will start tackling the projects in earnest next Thursday.</p></li>
 </ul>
@@ -249,7 +252,7 @@
 </section>
 <section id="project-groups" class="slide level2">
 <h2>Project Groups</h2>
-<p>Can find your group assignments <a href="XXX">here</a></p>
+<p>Can find your group assignments <a href="https://docs.google.com/spreadsheets/d/191GPg9sDV5jBkXC2VhUV7PmkGHtBCiNYdPI42UAgKrA/edit?usp=sharing">here</a></p>
 </section>
 <section id="why-positron" class="slide level2">
 <h2>Why Positron?</h2>
@@ -261,6 +264,30 @@
 </figure>
 </div>
 </div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> prior, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> R, <span class="at">fill =</span> R)) <span class="sc">+</span></span>
+<span id="cb1-2"><a></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb1-3"><a></a>  <span class="fu">scale_fill_viridis_d</span>(<span class="at">end =</span> <span class="fl">0.75</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb1-4"><a></a>  <span class="co">#theme_minimal(base_size = 18) +</span></span>
+<span id="cb1-5"><a></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)  <span class="sc">+</span></span>
+<span id="cb1-6"><a></a>  <span class="fu">ylim</span>(<span class="dv">0</span>,<span class="dv">7</span>) <span class="sc">+</span> </span>
+<span id="cb1-7"><a></a>  <span class="fu">guides</span>(<span class="at">fill=</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)) <span class="sc">+</span></span>
+<span id="cb1-8"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"R Experience"</span>, <span class="at">fill =</span> <span class="st">""</span>, <span class="at">y =</span> <span class="st">"Number of Students"</span>,</span>
+<span id="cb1-9"><a></a>       <span class="at">title =</span> <span class="st">"Describe your prior experience with R."</span>) <span class="sc">+</span></span>
+<span id="cb1-10"><a></a>        <span class="fu">facet_wrap</span>(<span class="sc">~</span>Project)</span>
+<span id="cb1-11"><a></a></span>
+<span id="cb1-12"><a></a></span>
+<span id="cb1-13"><a></a> <span class="fu">ggplot</span>(<span class="at">data =</span> prior, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> Python, <span class="at">fill =</span> Python)) <span class="sc">+</span></span>
+<span id="cb1-14"><a></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb1-15"><a></a>  <span class="fu">scale_fill_viridis_d</span>(<span class="at">end =</span> <span class="fl">0.75</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb1-16"><a></a>  <span class="co">#theme_minimal(base_size = 18) +</span></span>
+<span id="cb1-17"><a></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">+</span></span>
+<span id="cb1-18"><a></a>  <span class="fu">ylim</span>(<span class="dv">0</span>, <span class="dv">7</span>) <span class="sc">+</span> </span>
+<span id="cb1-19"><a></a>  <span class="fu">guides</span>(<span class="at">fill=</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)) <span class="sc">+</span></span>
+<span id="cb1-20"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Python Experience"</span>, <span class="at">fill =</span> <span class="st">""</span>, <span class="at">y =</span> <span class="st">"Number of Students"</span>,</span>
+<span id="cb1-21"><a></a>       <span class="at">title =</span> <span class="st">"Describe your prior experience with Python."</span>) <span class="sc">+</span></span>
+<span id="cb1-22"><a></a>        <span class="fu">facet_wrap</span>(<span class="sc">~</span>Project)   </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li class="fragment"><p>Positron is a new data science tool for writing code and exploring data.</p></li>
@@ -343,19 +370,19 @@
 </ul></li>
 </ul>
 </section>
-<section id="github-repo-rstudio-project" class="slide level2">
-<h2>Github Repo = <code>RStudio</code> Project</h2>
+<section id="a-github-repo-projectfolder-on-your-computer" class="slide level2">
+<h2>A Github Repo = Project/Folder on Your Computer</h2>
 <ul>
 <li class="fragment"><p>A <strong>repo</strong>, short for repository, is the folder that contains all of the files for the project on <a href="GitHub.com">GitHub.com</a>.</p></li>
-<li class="fragment"><p>Under the <strong>Bucknell-DATA306-F25</strong> GitHub Organization you currently have 3 repos:</p>
+<li class="fragment"><p>Under the <strong>Bucknell-DATA306-F25</strong> GitHub Organization you will have access to 3 repos:</p>
 <ul>
 <li class="fragment"><code>work-username</code>: Just you and I can access</li>
 <li class="fragment"><code>class-site</code>: The whole class can access</li>
-<li class="fragment"><code>project-name</code>: Your team, stakeholder (possibly), and I can access</li>
+<li class="fragment"><code>projectname</code>: Your team, stakeholder (possibly), and I can access</li>
 </ul></li>
-<li class="fragment"><p>For each repo, you should create an <code>RStudio</code> Project (with version control). XXX</p>
+<li class="fragment"><p>For each repo, you should sync with a folder on your computer.</p>
 <ul>
-<li class="fragment">We will all do this together in a moment.</li>
+<li class="fragment">We will all do this together for <code>work-username</code> today.</li>
 </ul></li>
 </ul>
 </section>
@@ -399,9 +426,9 @@
 <h2>Check if git is install on your computer</h2>
 <p>In <strong>Terminal</strong>, type</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>which git</span>
-<span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a>git <span class="sc">--</span>version</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>which git</span>
+<span id="cb2-2"><a></a></span>
+<span id="cb2-3"><a></a>git <span class="sc">--</span>version</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="columns">
 <div class="column">
@@ -417,7 +444,7 @@
 </ul></li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>xcode<span class="sc">-</span>select <span class="sc">--</span>install    </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>xcode<span class="sc">-</span>select <span class="sc">--</span>install    </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Restart your session.</li>
@@ -426,40 +453,36 @@
 </section>
 <section id="introduce-yourself-to-git" class="slide level2">
 <h2>Introduce Yourself to Git</h2>
-<ul>
-<li class="fragment">Install the packages <code>usethis</code> and <code>gitcreds</code>:</li>
-</ul>
+<p>Install the packages <code>usethis</code> and <code>gitcreds</code>:</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"usethis"</span>, <span class="st">"gitcreds"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"usethis"</span>, <span class="st">"gitcreds"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<ul>
-<li class="fragment">In your R console, modify and run the following code to introduce yourself to git</li>
-</ul>
+<p>In your R console, modify and run the following code to introduce yourself to git</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>usethis<span class="sc">::</span><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"mcconvil"</span>, </span>
-<span id="cb4-2"><a></a>               <span class="at">user.email =</span> <span class="st">"k.mcconville@bucknell.edu"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>usethis<span class="sc">::</span><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"mcconvil"</span>, </span>
+<span id="cb5-2"><a></a>               <span class="at">user.email =</span> <span class="st">"k.mcconville@bucknell.edu"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="personal-access-token-time" class="slide level2">
 <h2>Personal Access Token Time</h2>
 <ul>
-<li class="fragment">To interact with GitHub, you need to include credentials.
+<li>To interact with GitHub, you need to include credentials.
 <ul>
-<li class="fragment">Personal Access Token (PAT)</li>
+<li>Personal Access Token (PAT)</li>
 </ul></li>
-<li class="fragment">In your R console, run</li>
+<li>In your R console, run</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li class="fragment"><p>Should take you to GitHub.</p></li>
-<li class="fragment"><p>Select “repo”, “user”, and “workflow” for the scopes.</p></li>
-<li class="fragment"><p>Click “Generate token”.</p></li>
-<li class="fragment"><p>Store it by running the following in the R Console:</p></li>
+<li><p>Should take you to GitHub.</p></li>
+<li><p>Select “repo”, “user”, and “workflow” for the scopes.</p></li>
+<li><p>Click “Generate token”.</p></li>
+<li><p>Store it by running the following in the R Console:</p></li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="sync-github.com-repo-and-a-project" class="slide level2">
@@ -500,12 +523,12 @@
 <section id="test-the-waters-lets-go-through-the-workflow." class="slide level2">
 <h2>Test the waters: Let’s go through the workflow.</h2>
 <ul>
-<li class="fragment">Pull. (Yes, there is nothing to pull yet but it is always good practice to start here.)</li>
-<li class="fragment">Click on the ReadMe.</li>
-<li class="fragment">Add something to the ReadMe.</li>
-<li class="fragment">Stage the changes to the ReadMe.</li>
-<li class="fragment">Put in a commit message.</li>
-<li class="fragment">Commit &amp; Push.</li>
+<li>Pull. (Yes, there is nothing to pull yet but it is always good practice to start here.)</li>
+<li>Click on the ReadMe.</li>
+<li>Add something to the ReadMe.</li>
+<li>Stage the changes to the ReadMe.</li>
+<li>Put in a commit message.</li>
+<li>Commit &amp; Push.</li>
 </ul>
 <p><strong>Look for updates in the ReadMe on GitHub.com.</strong></p>
 </section>

@@ -61,9 +61,10 @@ library(patchwork)
 
 ## Looking Ahead to Week 2
 
-* Readings
+* Readings:
+    * Communicating with Data Chs
 
-* Reflections: Due Monday by XXX
+* Reflections: Due Monday by 10pm
 
 * Project readings for Week 3
 
@@ -109,7 +110,7 @@ library(patchwork)
 
 ## Project Groups
 
-Can find your group assignments [here](XXX)
+Can find your group assignments [here](https://docs.google.com/spreadsheets/d/191GPg9sDV5jBkXC2VhUV7PmkGHtBCiNYdPI42UAgKrA/edit?usp=sharing)
 
 
 
@@ -152,6 +153,35 @@ python_plot <- ggplot(data = prior, mapping = aes(x = Python, fill = Python)) +
 
 r_plot + python_plot
 
+
+
+```
+
+```{r}
+#| eval: false
+
+ggplot(data = prior, mapping = aes(x = R, fill = R)) +
+  geom_bar() +
+  scale_fill_viridis_d(end = 0.75, direction = -1) +
+  #theme_minimal(base_size = 18) +
+  theme(legend.position = "bottom")  +
+  ylim(0,7) + 
+  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
+  labs(x = "R Experience", fill = "", y = "Number of Students",
+       title = "Describe your prior experience with R.") +
+        facet_wrap(~Project)
+
+
+ ggplot(data = prior, mapping = aes(x = Python, fill = Python)) +
+  geom_bar() +
+  scale_fill_viridis_d(end = 0.75, direction = -1) +
+  #theme_minimal(base_size = 18) +
+  theme(legend.position = "bottom") +
+  ylim(0, 7) + 
+  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
+  labs(x = "Python Experience", fill = "", y = "Number of Students",
+       title = "Describe your prior experience with Python.") +
+        facet_wrap(~Project)   
 ```
 
 
@@ -260,19 +290,18 @@ Python users
 
 ---
 
-## Github Repo = `RStudio` Project
+## A Github Repo = Project/Folder on Your Computer
 
 * A **repo**, short for repository, is the folder that contains all of the files for the project on [GitHub.com](GitHub.com).
  
-* Under the **Bucknell-DATA306-F25** GitHub Organization you currently have 3 repos:
+* Under the **Bucknell-DATA306-F25** GitHub Organization you will have access to 3 repos:
     + `work-username`: Just you and I can access
     + `class-site`: The whole class can access
-    + `project-name`: Your team, stakeholder (possibly), and I can access
+    + `projectname`: Your team, stakeholder (possibly), and I can access
 
 
-* For each repo, you should create an `RStudio` Project (with version control). XXX
-    + We will all do this together in a moment.
-    
+* For each repo, you should sync with a folder on your computer.
+    + We will all do this together for `work-username` today.
 
 
 ---
@@ -373,14 +402,14 @@ xcode-select --install
 
 ## Introduce Yourself to Git 
 
-* Install the packages `usethis` and `gitcreds`:
+Install the packages `usethis` and `gitcreds`:
 
 ```{r, eval = FALSE}
 install.packages(c("usethis", "gitcreds"))
 ```
 
 
-* In your R console, modify and run the following code to introduce yourself to git
+In your R console, modify and run the following code to introduce yourself to git
 
 ```{r, eval = FALSE}
 usethis::use_git_config(user.name = "mcconvil", 
@@ -391,14 +420,20 @@ usethis::use_git_config(user.name = "mcconvil",
 
 ## Personal Access Token Time
 
+::: {.nonincremental}
+
 * To interact with GitHub, you need to include credentials.
     + Personal Access Token (PAT)
 
 * In your R console, run
 
+:::
+
 ```{r, eval = FALSE}
 usethis::create_github_token()
 ```
+
+::: {.nonincremental}
 
 * Should take you to GitHub.  
 
@@ -408,6 +443,8 @@ usethis::create_github_token()
 
 
 * Store it by running the following in the R Console:
+
+:::
 
 ```{r, eval = FALSE}
 gitcreds::gitcreds_set()
@@ -470,6 +507,8 @@ Once your GitHub repo and RStudio project are synced, here's your workflow:
 
 ## Test the waters: Let's go through the workflow.
 
+::: {.nonincremental}
+
 * Pull. (Yes, there is nothing to pull yet but it is always good practice to start here.)
 * Click on the ReadMe.
 * Add something to the ReadMe.
@@ -477,6 +516,7 @@ Once your GitHub repo and RStudio project are synced, here's your workflow:
 * Put in a commit message.
 * Commit & Push.
 
+:::
 
 **Look for updates in the ReadMe on GitHub.com.**
 
