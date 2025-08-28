@@ -110,11 +110,11 @@ Load this slide deck on your computer.
 * Slack #q-and-a channel
 
 * My office hours: Tuesdays 2-3pm and Wednesdays 1-2pm
-    + Sign-up for 20 minute sessions: [burl.live/meeting](burl.live/meeting)
+    + Sign-up for 20 minute sessions: [burl.live/meeting](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1a1FXyOkzGAbVLsNxozPGfb3gxne9ssKNFmRosw8qGPmXCywuE6XT9KKs3Zo0OKzTqQLrLNIPP)
     
 * Data science office hours: Sundays - Thursdays
     + Drop-in
-    + Schedule: [burl.live/help-f25](burl.live/help-f25)
+    + Schedule: [burl.live/help-f25](https://docs.google.com/spreadsheets/d/1uu-PBAKxMYLhSfil658qVy7GDrTlAHgmk2t5U1Q_JS8/edit?gid=0#gid=0)
 
 * Stakeholder mentor
 
@@ -239,7 +239,9 @@ ggplot(data = prior, mapping = aes(x = Git, fill = Git)) +
        title = "Describe your prior experience with Git/GitHub.")
 ```
 
+* It takes some time to get comfortable with git.  We have time.
 
+* Use office hours if you get stuck on any of the steps today!
 
 
 --- 
