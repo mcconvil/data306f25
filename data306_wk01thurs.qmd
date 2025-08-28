@@ -59,17 +59,35 @@ library(patchwork)
 
 ---
 
+Go in your email and make sure you joined:
+
+* The Bucknell-DATA-306-F25 GitHub Organization
+* These individual repositories:
+    + `work-username`
+    + `class-site`
+    + `projectname`
+    
+
+Load this slide deck on your computer.
+
+* You can access it in the Schedule page of the `class-site` repository.
+
+
+---
+
 ## Looking Ahead to Week 2
 
-* Readings:
-    * Communicating with Data Chs
+* (By Sept 1st at 10pm) Readings:
+    + Communicating with Data Chs 1.1 - 1.5
+    + [Wilson et al (2017)](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/Wilson%20et%20al%20(2017).pdf)
 
-* Reflections: Due Monday by 10pm
++ (By Sept 1st at 10pm) Reading reflections submitted to Gradescope.
+    + Reflection templates: [Quarto Document](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/reflection_template.qmd) and [PDF Document](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/reflection_template.pdf)
+    
++ (By Sept 4th 10am) CITI Training due on Gradescope.  
 
-* Project readings for Week 3
-
-* Will start tackling the projects in earnest next Thursday.
-
+* Start the week 3 readings!
+   + Will help you get acquainted with your projects.
 
 
 ---
@@ -78,9 +96,9 @@ library(patchwork)
 
 * Best practices for data work discussion
 
-* Workflow: Git/GitHub
-
-* Positron
+* Workflow: 
+    + Positon
+    + Git/GitHub
 
 
 ---
@@ -88,6 +106,8 @@ library(patchwork)
 ## How to Get Help
 
 * Project team members
+
+* Slack #q-and-a channel
 
 * My office hours: Tuesdays 2-3pm and Wednesdays 1-2pm
     + Sign-up for 20 minute sessions: [burl.live/meeting](burl.live/meeting)
@@ -113,6 +133,8 @@ library(patchwork)
 Can find your group assignments [here](https://docs.google.com/spreadsheets/d/191GPg9sDV5jBkXC2VhUV7PmkGHtBCiNYdPI42UAgKrA/edit?usp=sharing)
 
 
+# Time to learn about and install Positron
+
 
 ---
 
@@ -129,6 +151,8 @@ prior <- read_csv("data/prior_experience.csv") %>%
   mutate(R = fct_relevel(R, "No experience", "Limited experience",
                          "Moderate experience", "Expert"),
          Python = fct_relevel(Python, "No experience", "Limited experience",
+                         "Moderate experience", "Expert"),
+         Git = fct_relevel(`Git/GitHub`, "No experience", "Limited experience",
                          "Moderate experience", "Expert"))
 
 r_plot <- ggplot(data = prior, mapping = aes(x = R, fill = R)) +
@@ -136,7 +160,7 @@ r_plot <- ggplot(data = prior, mapping = aes(x = R, fill = R)) +
   scale_fill_viridis_d(end = 0.75, direction = -1) +
   #theme_minimal(base_size = 18) +
   theme(legend.position = "bottom")  +
-  ylim(0,7) + 
+  ylim(0, 8) + 
   guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
   labs(x = "R Experience", fill = "", y = "Number of Students",
        title = "Describe your prior experience with R.")
@@ -146,7 +170,7 @@ python_plot <- ggplot(data = prior, mapping = aes(x = Python, fill = Python)) +
   scale_fill_viridis_d(end = 0.75, direction = -1) +
   #theme_minimal(base_size = 18) +
   theme(legend.position = "bottom") +
-  ylim(0, 7) + 
+  ylim(0, 8) + 
   guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
   labs(x = "Python Experience", fill = "", y = "Number of Students",
        title = "Describe your prior experience with Python.")
@@ -158,6 +182,7 @@ r_plot + python_plot
 ```
 
 ```{r}
+#| echo: false
 #| eval: false
 
 ggplot(data = prior, mapping = aes(x = R, fill = R)) +
@@ -189,17 +214,33 @@ ggplot(data = prior, mapping = aes(x = R, fill = R)) +
 
 * You can use `R` or `Python`.
 
+* Go [here](https://mirror.las.iastate.edu/CRAN/) to download `R`.  (I will also show you how to interact with Python but the demos will be in `R` today.)
+
+* Go [here](https://positron.posit.co/download.html) to download Positron.
+
+# Demo of Interacting with Positron
+
 ---
 
-Download Positron
+## DATA 306 git Experience
 
----
+```{r}
+#| echo: false
+#| fig-width: 12
 
-Interact with Positron
 
-R users
+ggplot(data = prior, mapping = aes(x = Git, fill = Git)) +
+  geom_bar() +
+  scale_fill_viridis_d(end = 0.75, direction = -1) +
+  theme(legend.position = "bottom")  +
+  ylim(0, 8) + 
+  guides(fill= guide_legend(nrow = 2, byrow = TRUE)) +
+  labs(x = "Git/GitHub Experience", fill = "", y = "Number of Students",
+       title = "Describe your prior experience with Git/GitHub.")
+```
 
-Python users
+
+
 
 --- 
 
@@ -537,11 +578,18 @@ Once your GitHub repo and RStudio project are synced, here's your workflow:
 
 ---
 
-## Collaboration: GitHub Style
 
-* **Projects**: Can use to create to do lists and stay organized.
-
-* **Issues**: Useful method to communicate with your group members.
+## Reminders
 
 
+* (By Sept 1st at 10pm) Readings:
+    + Communicating with Data Chs 1.1 - 1.5
+    + [Wilson et al (2017)](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/Wilson%20et%20al%20(2017).pdf)
 
++ (By Sept 1st at 10pm) Reading reflections submitted to Gradescope.
+    + Reflection templates: [Quarto Document](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/reflection_template.qmd) and [PDF Document](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/reflection_template.pdf)
+    
++ (By Sept 4th 10am) CITI Training due on Gradescope.  
+
+* Start the week 3 readings!
+   + Will help you get acquainted with your projects.

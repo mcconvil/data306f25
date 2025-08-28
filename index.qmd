@@ -7,6 +7,6 @@ The lecture slides will be posted here.
 ::: column-screen-inset-right
 | Class Period | HTML Slides           |
 |-----------------|--------------------------|
-| Week 1, Mon  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk01tues.html) | 
-
+| Week 1, Tues  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk01tues.html) | 
+| Week 1, Thurs  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk01thurs.html) | 
 :::
