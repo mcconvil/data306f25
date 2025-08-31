@@ -507,6 +507,7 @@ Once your GitHub repo and RStudio project are synced, here's your workflow:
 
 0. Get in your research groups and try to sync your project repo with a folder on your computer.
     a. Help each other out.
+    b. I will come over to check on each group and to schedule your first meeting with your project stakeholder.
 1. Orient yourself in your project repo and determine where and how you want to store the work you do this week.
 2. Go through your project prompt more slowly and start a list of the central terms/ideas, especially ones you don't know.
 3. Discuss these ideas as a group.
