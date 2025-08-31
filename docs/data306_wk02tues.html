@@ -10,7 +10,7 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>DATA 306</title>
+  <title>Project</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,6 +28,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -333,452 +398,420 @@
 <p><img data-src="img/Data306_Unicorn_Fall2025.png" style="width:90.0%"></p>
 </div><div class="column center" style="width:40%;">
 <p><br></p>
-<p><span class="custom-title">Intro to DATA/MATH 306</span></p>
+<p><span class="custom-title">Data Science Project</span></p>
 <p><br> <br></p>
 <p><span class="custom-subtitle">Kelly McConville</span></p>
-<p><span class="custom-subtitle">DATA/MATH 306 <br> Week 1 | Fall 2025</span></p>
+<p><span class="custom-subtitle">DATA/MATH 306 <br> Week 2 | Fall 2025</span></p>
 </div>
 </div>
 </section>
-<section>
-<section id="let-me-quickly-introduce-myself" class="title-slide slide level1 center">
-<h1>Let me quickly introduce myself…</h1>
-
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-1.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-1">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-2.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-2">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-3.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-3">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-4.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-4">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-5.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-5">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-6.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-6">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-7.jpg"></p>
-</section>
-<section id="research-interests" class="slide level2 center">
-<h2>Research Interests</h2>
-<h3 id="survey-statistics-and-collaborate-with">Survey statistics and collaborate with</h3>
-<p><img data-src="img/logos.jpeg" style="width:60.0%"></p>
-</section>
-<section id="research-interests-1" class="slide level2 center">
-<h2>Research Interests</h2>
-<h3 id="where-survey-statistics-meets-data-science">Where survey statistics meets data science</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/data.jpeg" width="1060"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="advising-undergraduate-forestry-data-science-research">Advising Undergraduate Forestry Data Science Research</h3>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="img/Forest_and_IceCream_Lovers.jpeg"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="img/trees_UFDS2025.jpg"></p>
-</div>
-</div>
-</div>
-</section>
-<section class="slide level2">
-
-<div class="columns">
-<div class="column center" style="width:40%;">
-<p><img data-src="img/seedlings.jpg" style="width:80.0%"></p>
-</div><div class="column" style="width:60%;">
-<p><br>
-<br>
-</p>
+<section id="reminders" class="slide level2">
+<h2>Reminders</h2>
 <ul>
-<li class="fragment">I <strong>love</strong> teaching data science.</li>
-</ul>
-<p><br>
-</p>
+<li class="fragment"><p>(By Sept 4th 10am) CITI Training due on Gradescope.</p></li>
+<li class="fragment"><p>Start the <a href="https://drive.google.com/drive/folders/1MW1g6dPvE4FT_6MblDeYdSWh-gf59DJu?usp=sharing">week 3 readings</a>!</p>
 <ul>
-<li class="fragment">But, learning stats, coding, and data communication is <strong>hard</strong>.</li>
-</ul>
-<p><br>
-</p>
-<ul>
-<li class="fragment">With the <strong>right scaffolding</strong>, <strong>good strategies</strong>, and <strong>sustained effort</strong>, you can excel at all three!</li>
-</ul>
-<p><br>
-</p>
-<ul>
-<li class="fragment">And mistakes are part of the learning process. They don’t imply that you are bad at data science.</li>
-</ul>
-</div>
-</div>
-</section></section>
-<section>
-<section id="who-are-you" class="title-slide slide level1 center">
-<h1>Who are you?</h1>
-
-</section>
-<section id="day-1-goals" class="slide level2">
-<h2>Day 1 Goals</h2>
-<ul>
-<li class="fragment">Course overview</li>
-<li class="fragment">Introduction to the projects</li>
-</ul>
-</section>
-<section id="course-sites" class="slide level2">
-<h2>Course Sites</h2>
-<p>Main site:</p>
-<ul>
-<li class="fragment">A (private) GitHub Repository <a href="https://github.com/Bucknell-DATA306-F25/class-site">https://github.com/Bucknell-DATA306-F25/class-site</a>
-<ul>
-<li class="fragment">I will add all of you once you provide your GitHub username.</li>
-</ul></li>
-<li class="fragment">We will NOT use Moodle.
-<ul>
-<li class="fragment">A learning objective of the course is to get comfortable with git/GitHub.</li>
-</ul></li>
-<li class="fragment">Make sure to check the <a href="https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Schedule.md">Schedule page</a> often.</li>
-</ul>
-<div class="fragment">
-<p><a href="https://www.gradescope.com/courses/1100417">Gradescope</a>:</p>
-</div>
-<ul>
-<li class="fragment">For turning in work.</li>
-</ul>
-<div class="fragment">
-<p><a href="bucknelldata306.slack.com">Slack</a> for course communication.</p>
-<ul>
-<li class="fragment">Make sure to check Slack at least once a day during the work week.</li>
-</ul>
-</div>
-</section>
-<section id="learning-objectives" class="slide level2">
-<h2>Learning Objectives</h2>
-<p>You will engage in collaborative, data science projects. Upon successful completion of this course, you will be able to:</p>
-<ul>
-<li class="fragment">Conduct a full data analysis project.</li>
-<li class="fragment">Communicate about your data work at a variety of levels and via a variety of formats including short presentations, longer presentations, and written reports.</li>
-<li class="fragment">Think statistically about data and research questions.</li>
-<li class="fragment">Collaborate on projects with a reproducible workflow.</li>
-<li class="fragment">Run a productive consulting meeting.</li>
-<li class="fragment">Undertake future projects with greater independence.</li>
-</ul>
-</section>
-<section id="overarching-goal-create-data-science-unicorns" class="slide level2">
-<h2>Overarching Goal: Create Data Science Unicorns!</h2>
-<div class="columns">
-<div class="column center" style="width:100%;">
-<p><img data-src="img/Data306_Unicorn_Fall2025.png" style="width:60.0%"></p>
-</div>
-</div>
-</section>
-<section id="data-science-skills" class="slide level2">
-<h2>Data Science Skills</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment"><p>Mapping a vague question to data</p></li>
-<li class="fragment"><p>Exploratory data analysis</p></li>
-<li class="fragment"><p>Data visualization</p></li>
-<li class="fragment"><p>Modeling</p></li>
-<li class="fragment"><p>Writing clean, robust, and consistent code</p></li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/curve_fitting.png" style="width:60.0%"></p>
-<figcaption>https://xkcd.com/2048/</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="story-telling-skills" class="slide level2">
-<h2>Story Telling Skills</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Oral communication
-<ul>
-<li class="fragment">Prepared talks</li>
-<li class="fragment">Semi-prepared elevator speeches</li>
-<li class="fragment">Consulting conversations</li>
-</ul></li>
-<li class="fragment">Written communication
-<ul>
-<li class="fragment">Reading reflections</li>
-<li class="fragment">Technical reports</li>
-</ul></li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/communication.png" style="width:60.0%"></p>
-<figcaption>https://www.xkcd.com/1984/</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="collaboration-skills" class="slide level2">
-<h2>Collaboration Skills</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Reproducible workflow
-<ul>
-<li class="fragment">Git and GitHub</li>
-<li class="fragment">Quarto</li>
-<li class="fragment">Documentation</li>
-</ul></li>
-<li class="fragment">Team Science
-<ul>
-<li class="fragment">Stakeholders</li>
-<li class="fragment">Peers</li>
-<li class="fragment">Team Leaders</li>
-<li class="fragment">Data science mentor</li>
-</ul></li>
-<li class="fragment">Running a meeting</li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<p><img data-src="img/power_skills.png" style="width:90.0%"></p>
-</div>
-</div>
-</section>
-<section id="ethics" class="slide level2">
-<h2>Ethics</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<ul>
-<li class="fragment"><p>Report results honestly</p></li>
-<li class="fragment"><p>Transparency in your data wrangling, assumptions, and model building choices</p></li>
-<li class="fragment"><p>Follow a reproducible workflow</p></li>
-<li class="fragment"><p>Consider data privacy issues</p></li>
-</ul>
-</div><div class="column center" style="width:60%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ethics.png" style="width:100.0%"></p>
-<figcaption>https://dilbert.com</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="ethics-1" class="slide level2">
-<h2>Ethics</h2>
-<div class="columns">
-<div class="column center" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ethics2.png" style="width:80.0%"></p>
-<figcaption>https://xkcd.com/1390/</figcaption>
-</figure>
-</div>
-</div><div class="column center" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/significant.png" style="width:40.0%"></p>
-<figcaption>https://xkcd.com/882</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="reflection" class="slide level2">
-<h2>Reflection</h2>
-<div class="columns">
-<div class="column center" style="width:50%;">
-<p><img data-src="img/Data306_Unicorn_Fall2025.png" style="width:90.0%"></p>
-</div><div class="column center" style="width:50%;">
-<ul>
-<li class="fragment">Of our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.</li>
-<li class="fragment">Of our data science unicorn skills, list 1-2 where you feel you have the most room to grow.</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="research-tools" class="slide level2">
-<h2>Research Tools</h2>
-<ul>
-<li class="fragment"><p>Will vary by project!</p></li>
-<li class="fragment"><p>All have access to an RStudio Server via a Posit Cloud Workspace. Will use for some activities and demos.</p></li>
-<li class="fragment"><p>We will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.</p>
-<ul>
-<li class="fragment">Make sure to become a Watcher of the course site.</li>
-<li class="fragment">I will also share a specific project site with each student.</li>
-</ul></li>
-<li class="fragment"><p>Bring a laptop to class. Please check-in with me if this will be an issue.</p></li>
-</ul>
-</section>
-<section id="readings" class="slide level2">
-<h2>Readings</h2>
-<ul>
-<li class="fragment">We will read a variety of papers and book chapters.</li>
-<li class="fragment">Main textbook is “Communicating with Data: The Art of Writing for Data Science” by Deborah Nolan and Sara Stoudt.
-<ul>
-<li class="fragment">There are extra copies in Taylor 212. These copies should NOT leave Taylor 212.</li>
-</ul></li>
-<li class="fragment">Readings will be posted to the schedule.
-<ul>
-<li class="fragment">Reading reflections are due Mondays at 10pm.
-<ul>
-<li class="fragment">First reflections are due Sept 1st. Will discuss in Thursday’s class.</li>
-</ul></li>
+<li class="fragment">Read the paper(s) that has(have) your project group at the front of the file name.</li>
+<li class="fragment">Will help you get acquainted with your projects.</li>
 </ul></li>
 </ul>
 </section>
-<section id="course-structure" class="slide level2">
-<h2>Course Structure</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Seminar Days</strong></p>
+<section id="goals-for-today" class="slide level2">
+<h2>Goals for Today</h2>
 <ul>
-<li class="fragment">Discussion</li>
-<li class="fragment">Activities related to readings</li>
-<li class="fragment">Guest lectures</li>
-<li class="fragment">Presentations</li>
+<li class="fragment"><p>Project management</p></li>
+<li class="fragment"><p>Finish discussion: Workflow via Git/GitHub</p></li>
+<li class="fragment"><p>Start thinking through research question and understanding context</p></li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Lab Days</strong></p>
-<ul>
-<li class="fragment">Project work time</li>
-<li class="fragment">Check-in meetings</li>
-</ul>
-</div>
-</div>
 </section>
-<section id="course-components" class="slide level2">
-<h2>Course Components</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="plan-for-thursday-lab-day" class="slide level2">
+<h2>Plan for Thursday: Lab Day</h2>
 <ul>
-<li class="fragment">Engagement
+<li class="fragment">Get started working on your project and with your project’s data</li>
+<li class="fragment">Define and refine your research questions</li>
+</ul>
+</section>
+<section id="team-leader-duties" class="slide level2">
+<h2>Team Leader Duties</h2>
 <ul>
-<li class="fragment">Attendance is required</li>
-<li class="fragment">Three Slack posts to our workspace</li>
-<li class="fragment">One office hour visit</li>
-<li class="fragment">One DCDS activity</li>
+<li class="fragment"><p>Team leaders this week: <a href="https://docs.google.com/spreadsheets/d/10JnGhWrdgdFrpqKQzTy4LGBEm8VQKB4Lgy4d2bdbAzQ/edit?usp=sharing">team leader spreadsheet</a></p></li>
+<li class="fragment"><p>Each week we will rotate who is the Team Leader.</p>
+<ul>
+<li class="fragment">Team Leader will be in-charge of synthesizing group work, making sure everyone is on the same page, creating the week’s To Do list via Issues, scheduling meetings, organizing the group’s presentation.</li>
 </ul></li>
-<li class="fragment">Weekly reading reflections</li>
-</ul>
-</div><div class="column" style="width:50%;">
+<li class="fragment"><p>This week’s Team Leaders’ tasks:</p>
 <ul>
-<li class="fragment">Project assessments
-<ul>
-<li class="fragment">Team leader duties</li>
-<li class="fragment">Periodic in-class lab assignments</li>
-<li class="fragment">Progress report presentations</li>
-<li class="fragment">Deliverables</li>
+<li class="fragment">Schedule a time between now and 10pm on Monday to discuss the initial project reading with your group mates.</li>
+<li class="fragment">Be in-charge of the activity we run in class on Thursday.</li>
 </ul></li>
-<li class="fragment">Peer feedback</li>
 </ul>
-</div>
-</div>
-</section>
-<section id="policies" class="slide level2">
-<h2>Policies</h2>
-<ul>
-<li class="fragment"><p>Make sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.</p></li>
-<li class="fragment"><p>But let’s talk AI…</p></li>
-</ul>
-</section>
-<section id="ai-policy" class="slide level2">
-<h2>AI Policy</h2>
-<p>While A.I. tools, such as ChatGPT, are being used to generate code, analyze data, and write essays, goals of this course are to develop your <strong>own</strong> ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.</p>
-<p>You may use AI in these course activities:</p>
-<ul>
-<li class="fragment">Providing feedback on their writing. The original draft should be your work but you can ask for feedback from AI and incorporate that feedback into the revision.</li>
-<li class="fragment">Providing coding suggestions or revisions. You are responsible for understanding every line of code in your project, regardless of whether it was written by you, your project members, your mentor, or AI.</li>
-<li class="fragment">Brainstorming ideas for your project.</li>
-</ul>
-</section>
-<section id="ai-policy-1" class="slide level2">
-<h2>AI Policy</h2>
-<p>You may not use AI in these ways:</p>
-<ul>
-<li class="fragment">Writing the initial draft or whole paragraphs of a writing assignment or your technical report.</li>
-<li class="fragment">Writing large blocks of code.</li>
-</ul>
-<div class="fragment">
-<p>If you do use AI in your project or on an assignment, please include an AI citation that provides: prompt, AI tool, company, date.</p>
-</div>
-<div class="fragment">
-<p>If you are in doubt as to whether you are using AI appropriately in this course, I encourage you to meet with me for a discussion. Violations of this policy will be considered academic misconduct.</p>
-</div>
 </section>
 <section id="projects" class="slide level2">
 <h2>Projects</h2>
-<p>Each project charter has:</p>
 <ul>
-<li class="fragment">Team composition: Student researchers will be assigned later this week.</li>
-<li class="fragment">Project background: Short summary motivating the project.</li>
-<li class="fragment">Project goals: What the stakeholder mentor wants to accomplish.</li>
-<li class="fragment">Data: A brief description of the data for the project.</li>
-<li class="fragment">Desired deliverables: Vary by project but all include a well-documented repository, technical report, and a final presentation (Dec 15th 9am - 11am).</li>
-<li class="fragment">Roles and expectations for each person on the team.</li>
-<li class="fragment">Research plan</li>
-<li class="fragment">Communication</li>
+<li class="fragment"><p>Will utilize a wide variety of techniques across the different projects.</p></li>
+<li class="fragment"><p>Be prepared to do some <strong>independent learning</strong>. Each group will be using different techniques that we likely won’t cover explicitly in-class.</p></li>
+<li class="fragment"><p>But, remember that there are many avenues for help!</p></li>
+</ul>
+</section>
+<section id="project-management" class="slide level2">
+<h2>Project Management</h2>
+<p>Utilize the following from Wilson et al (2017):</p>
+<ul>
+<li class="fragment">Data management
+<ul>
+<li class="fragment">Save the raw data.</li>
+<li class="fragment">Create an tidy, analysis-friendly dataset and use a non-proprietary format.</li>
+<li class="fragment">Record all steps used to process data.</li>
+<li class="fragment">Create a data dictionary.</li>
+</ul></li>
 </ul>
 <div class="fragment">
-<p><strong>Please read over the project charters and complete the Background and Interest Survey by noon tomorrow!</strong></p>
+<p><strong>We will not be putting the project data in our GitHub repositories and will only store these files locally.</strong></p>
 </div>
 </section>
-<section id="looking-ahead-to-day-2" class="slide level2">
-<h2>Looking Ahead to Day 2…</h2>
+<section id="project-management-1" class="slide level2">
+<h2>Project Management</h2>
+<p>Utilize the following from Wilson et al (2017):</p>
 <ul>
-<li class="fragment">Git/GitHub</li>
-<li class="fragment">Rules for effective data analysis: <a href="https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/Kass_et_al_2016.PDF">Kass et al (2016)</a>
+<li class="fragment">Writing code
 <ul>
-<li class="fragment">Groups each need to be ready to explain their rule in their own words. Can use the board.</li>
+<li class="fragment">Place a brief explanatory comment at the start of every program. (See example in paper.)</li>
+<li class="fragment">Look for well-maintained packages to use.</li>
+<li class="fragment">Give functions and variables meaningful names.
+<ul>
+<li class="fragment">Ex: Replace <code>var1</code> with <code>college_name</code></li>
 </ul></li>
-<li class="fragment">Initial project check-ins</li>
+<li class="fragment">Make dependencies explicit.</li>
+</ul></li>
 </ul>
 </section>
-<section id="section" class="slide level2 center" data-menu-title="RStudio">
-<h2></h2>
-<div style="margin-top: 80px; font-size: 2em; color: #19647E;">
-<p>Demo of accessing the RStudio Server on Posit Cloud</p>
+<section id="project-management-2" class="slide level2">
+<h2>Project Management</h2>
+<p>Utilize the following from Wilson et al (2017):</p>
+<ul>
+<li class="fragment">Collaboration
+<ul>
+<li class="fragment">Create overview of project in the README</li>
+<li class="fragment">Use Project and Issues features to create to-do lists.</li>
+</ul></li>
+<li class="fragment">Project organization
+<ul>
+<li class="fragment">Let’s walk through one of the project repos.</li>
+</ul></li>
+</ul>
+</section>
+<section id="project-management-3" class="slide level2">
+<h2>Project Management</h2>
+<p>Utilize the following from Wilson et al (2017):</p>
+<ul>
+<li class="fragment">Track changes via Github
+<ul>
+<li class="fragment">Keep changes small.</li>
+<li class="fragment">Share changes frequently.</li>
+</ul></li>
+<li class="fragment">Writing
+<ul>
+<li class="fragment">Write about your work early and often.</li>
+</ul></li>
+</ul>
+</section>
+<section id="reproducibility" class="slide level2">
+<h2>Reproducibility</h2>
+<ul>
+<li class="fragment">Reproducible versus replicable</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>“Reproducibility involves being able to recalculate the exact numbers in a data analysis using the code and raw data provided by the analyst.” (Leek, 2015)</p>
+</blockquote>
 </div>
-<div style="margin-top: 80px; font-size: 1.2em; color: #19647E;">
-<p>Try to access the RStudio Server between now and next lecture.</p>
+<ul>
+<li class="fragment">Not the same as correctness!</li>
+</ul>
+</section>
+<section id="write-readable-code" class="slide level2">
+<h2>Write Readable Code</h2>
+<ul>
+<li class="fragment"><p>It is important to write readable code.</p>
+<ul>
+<li class="fragment">Follow a specific convention.</li>
+<li class="fragment">Use spaces liberally.<br>
+</li>
+<li class="fragment">Avoid . in object names.</li>
+</ul></li>
+<li class="fragment"><p>Example: Tidyverse <a href="https://style.tidyverse.org/">Style Guide</a>.</p></li>
+<li class="fragment"><p>As a group, decide on a style convention. I don’t want to see three or four different conventions for a given project.</p></li>
+</ul>
+</section>
+<section id="writing-readable-code" class="slide level2">
+<h2>Writing Readable Code</h2>
+<blockquote>
+<p>“Use common sense and BE CONSISTENT.</p>
+</blockquote>
+<blockquote>
+<p>If you are editing code, take a few minutes to look at the code around you and determine its style. If others use spaces around their if clauses, you should, too. If their comments have little boxes of stars around them, make your comments have little boxes of stars around them, too.</p>
+</blockquote>
+<blockquote>
+<p>The point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you are saying, rather than on how you are saying it.</p>
+</blockquote>
+<blockquote>
+<p>We present global style rules here so people know the vocabulary. But local style is also important. If code you add to a file looks drastically different from the existing code around it, the discontinuity will throw readers out of their rhythm when they go to read it. Try to avoid this.” –Google Style Guide</p>
+</blockquote>
+</section>
+<section id="review-git-and-github" class="slide level2">
+<h2>Review: git and GitHub</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li><strong>git</strong>: Version control system
+<ul>
+<li>Think fancier type of <em>Track Changes</em>.</li>
+</ul></li>
+<li><strong>GitHub</strong>: Hosting service for git projects (which are called repositories)
+<ul>
+<li>Think fancier type of <em>DropBox</em> or <em>Google Drive</em>.</li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column center" style="width:50%;">
+<p><img data-src="img/octocat.001.jpeg"></p>
+</div>
 </div>
 </section>
-<section id="rest-of-class" class="slide level2">
-<h2>Rest of Class</h2>
+<section id="a-github-repo-projectfolder-on-your-computer" class="slide level2">
+<h2>A Github Repo = Project/Folder on Your Computer</h2>
 <ul>
-<li class="fragment"><p>Start tackling the items here: <a href="burl.live/start">burl.live/start</a></p></li>
-<li class="fragment"><p>Read over the project descriptions.</p></li>
-<li class="fragment"><p>Add your GitHub username.</p></li>
+<li class="fragment"><p>A <strong>repo</strong>, short for repository, is the folder that contains all of the files for the project on <a href="GitHub.com">GitHub.com</a>.</p></li>
+<li class="fragment"><p>Under the <strong>Bucknell-DATA306-F25</strong> GitHub Organization you will have access to 3 repos:</p>
+<ul>
+<li class="fragment"><code>work-username</code>: Just you and I can access</li>
+<li class="fragment"><code>class-site</code>: The whole class can access</li>
+<li class="fragment"><code>projectname</code>: Your team, stakeholder (possibly), and I can access</li>
+</ul></li>
+<li class="fragment"><p>For each repo, you should sync with a folder on your computer.</p>
+<ul>
+<li class="fragment">We will all do this together for <code>work-username</code> today.</li>
+</ul></li>
+</ul>
+</section>
+<section id="steps-to-get-started" class="slide level2">
+<h2>Steps to Get Started</h2>
+<div class="columns">
+<div class="column">
+<p><strong>Once-Per-Computer/Server:</strong></p>
+<ul>
+<li class="fragment"><p>Install git on your computer.</p></li>
+<li class="fragment"><p>Get your local git talking to GitHub.</p></li>
+</ul>
+</div><div class="column">
+<p><strong>Once-Per-Project:</strong></p>
+<ul>
+<li class="fragment">Create a repo on GitHub.
+<ul>
+<li class="fragment">I did this step for us.</li>
+</ul></li>
+<li class="fragment">Create a version controlled Project that is synced with the GitHub repo.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="git-via-positron-r" class="slide level2">
+<h2>Git via Positron + R</h2>
+<ul>
+<li class="fragment">So that the workflow is the same for everyone:
+<ul>
+<li class="fragment">Open Positron.</li>
+<li class="fragment">Start an R session.</li>
+</ul></li>
+<li class="fragment">You will be able to toggle to Python after we have synced with GitHub.</li>
+</ul>
+</section>
+<section id="check-if-git-is-install-on-your-computer" class="slide level2">
+<h2>Check if git is install on your computer</h2>
+<p>In <strong>Terminal</strong>, type</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>git <span class="sc">--</span>version</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="columns">
+<div class="column">
+<div>
+<ul>
+<li>If you receive an answer, then git is already install! 🎉</li>
+</ul>
+</div>
+</div><div class="column">
+<div>
+<ul>
+<li>If the reply is <code>git: command not found</code> (or similar), then
+<ul>
+<li>Windows: Visit <a href="https://gitforwindows.org/">https://gitforwindows.org/</a></li>
+<li>Macs: In the <strong>Terminal</strong> type</li>
+</ul></li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>xcode<span class="sc">-</span>select <span class="sc">--</span>install    </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div>
+<ul>
+<li>Restart your session.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="introduce-yourself-to-git" class="slide level2">
+<h2>Introduce Yourself to Git</h2>
+<p>Install the packages <code>usethis</code> and <code>gitcreds</code>:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"usethis"</span>, <span class="st">"gitcreds"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In your R console, modify and run the following code to introduce yourself to git</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>usethis<span class="sc">::</span><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"mcconvil"</span>, </span>
+<span id="cb4-2"><a href="#cb4-2"></a>               <span class="at">user.email =</span> <span class="st">"k.mcconville@bucknell.edu"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="personal-access-token-time" class="slide level2">
+<h2>Personal Access Token Time</h2>
+<div>
+<ul>
+<li>To interact with GitHub, you need to include credentials.
+<ul>
+<li>Personal Access Token (PAT)</li>
+</ul></li>
+<li>In your R console, run</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div>
+<ul>
+<li><p>Should take you to GitHub.</p></li>
+<li><p>Select “repo”, “user”, and “workflow” for the scopes.</p></li>
+<li><p>Click “Generate token”.</p></li>
+<li><p>Store it by running the following in the R Console:</p></li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="sync-github.com-repo-and-a-project" class="slide level2">
+<h2>Sync GitHub.com repo and a Project</h2>
+<p><strong>In your repo on GitHub.com</strong>:</p>
+<div>
+<ul>
+<li>Click on the green clone or download button.</li>
+<li>Copy the given url for “Clone with HTTPS”.</li>
+</ul>
+</div>
+<p><strong>In Positron</strong>:</p>
+<div>
+<ul>
+<li><p>In the Welcome pane, select “New from Git…”</p></li>
+<li><p>Paste in the url.</p></li>
+<li><p>Select “Browse…” and select a logical place on your computer for the repository folder.</p></li>
+<li><p>Hit the “OK” button.</p></li>
+</ul>
+</div>
+</section>
+<section id="workflow" class="slide level2">
+<h2>Workflow</h2>
+<p>Once your GitHub repo and RStudio project are synced, here’s your workflow:</p>
+<ul>
+<li class="fragment"><p>On the left menu, select “Source Control”.</p></li>
+<li class="fragment"><p>Under the three dots associated with “CHANGES”, select <strong>Pull</strong>.</p>
+<ul>
+<li class="fragment">This will pull the most recent version of the repo from GitHub to your local folder.</li>
+</ul></li>
+<li class="fragment"><p>Do some work on your project and save it.</p></li>
+<li class="fragment"><p>In the “Source Control”, select the “+” (stage changes) button.</p></li>
+<li class="fragment"><p>Include a quick note, <strong>Commit Message</strong> to summarize the motivation for the changes.</p></li>
+<li class="fragment"><p>Select <strong>Commit &amp; Push</strong> to send your work to GitHub.</p></li>
+</ul>
+</section>
+<section>
+<section id="workflow-demo" class="title-slide slide level1 center">
+<h1>Workflow Demo</h1>
+
+</section>
+<section id="test-the-waters-lets-go-through-the-workflow." class="slide level2">
+<h2>Test the waters: Let’s go through the workflow.</h2>
+<div>
+<ul>
+<li>Pull. (Yes, there is nothing to pull yet but it is always good practice to start here.)</li>
+<li>Click on the ReadMe.</li>
+<li>Add something to the ReadMe.</li>
+<li>Stage the changes to the ReadMe.</li>
+<li>Put in a commit message.</li>
+<li>Commit &amp; Push.</li>
+</ul>
+</div>
+<p><strong>Look for updates in the ReadMe on GitHub.com.</strong></p>
+</section>
+<section id="git-collaboration-merge-conflicts" class="slide level2">
+<h2>Git Collaboration: Merge conflicts</h2>
+<ul>
+<li class="fragment">What if my collaborators and I both make changes?
+<ul>
+<li class="fragment">Scenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.<br>
+</li>
+<li class="fragment">Result: Your push will fail because there’s a commit on GitHub that you don’t have.<br>
+</li>
+<li class="fragment">Usual Solution: Pull and <em>usually</em> git will merge their work nicely with yours. Then push. If that doesn’t work, you have a <strong>merge conflict</strong>. Let’s cross that bridge when we get there.</li>
+</ul></li>
+<li class="fragment">How to avoid merge conflicts?
+<ul>
+<li class="fragment">Always pull when you are going to work on your project.</li>
+<li class="fragment">Always commit and push when you are done even if you made small changes.</li>
+</ul></li>
+</ul>
+</section>
+<section id="some-recommendations-as-you-are-getting-comfortable-with-git" class="slide level2">
+<h2>Some Recommendations as You are Getting Comfortable with Git</h2>
+<ul>
+<li class="fragment">Pull early and often.</li>
+<li class="fragment">Use git early and often.
+<ul>
+<li class="fragment">We get better with practice.</li>
+</ul></li>
+<li class="fragment">Don’t all work on the same document as that will increase your changes of a merge conflict.
+<ul>
+<li class="fragment">Let the team leader synthesize each person’s work into one document.</li>
+</ul></li>
+<li class="fragment">Merge conflicts will happen. Work with me and your group members to resolve them.</li>
+</ul>
+</section>
+<section id="reading-articlesresearch-prompt" class="slide level2">
+<h2>Reading Articles/Research Prompt</h2>
+<ol start="0" type="1">
+<li class="fragment">Get in your research groups and try to sync your project repo with a folder on your computer.
+<ol type="a">
+<li class="fragment">Help each other out.</li>
+</ol></li>
+<li class="fragment">Orient yourself in your project repo and determine where and how you want to store the work you do this week.</li>
+<li class="fragment">Go through your project prompt more slowly and start a list of the central terms/ideas, especially ones you don’t know.</li>
+<li class="fragment">Discuss these ideas as a group.</li>
+<li class="fragment">Start reading the initial project articles and practicing the “reading to write” concepts from CwD.
+<ol type="a">
+<li class="fragment">Note: Some of the initial articles don’t have much or any data in them.</li>
+</ol></li>
+<li class="fragment">Team leader: Schedule a time for the group members to meet and discuss the reading.</li>
+</ol>
+</section>
+<section id="reminders-1" class="slide level2">
+<h2>Reminders</h2>
+<ul>
+<li class="fragment"><p>(By Sept 4th 10am) CITI Training due on Gradescope.</p></li>
+<li class="fragment"><p>Start the <a href="https://drive.google.com/drive/folders/1MW1g6dPvE4FT_6MblDeYdSWh-gf59DJu?usp=sharing">week 3 readings</a>!</p>
+<ul>
+<li class="fragment">Read the paper(s) that has(have) your project group at the front of the file name.</li>
+</ul></li>
+<li class="fragment"><p>Come to Thursday’s class ready to start inspecting/pulling/engaging with the data!</p></li>
 </ul>
 
 <div class="footer footer-default">

@@ -1,0 +1,526 @@
+---
+pagetitle: "Project"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Data Science Project]{.custom-title}
+
+<br> <br> 
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 2 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+
+---
+
+## Reminders
+
+
+    
++ (By Sept 4th 10am) CITI Training due on Gradescope.  
+
+* Start the [week 3 readings](https://drive.google.com/drive/folders/1MW1g6dPvE4FT_6MblDeYdSWh-gf59DJu?usp=sharing)!
+   + Read the paper(s) that has(have) your project group at the front of the file name.
+   + Will help you get acquainted with your projects.
+
+
+---
+
+## Goals for Today
+
+* Project management
+
+* Finish discussion: Workflow via Git/GitHub
+
+* Start thinking through research question and understanding context
+
+
+---
+
+## Plan for Thursday: Lab Day
+
+* Get started working on your project and with your project's data
+* Define and refine your research questions
+
+---
+
+## Team Leader Duties
+
+* Team leaders this week: [team leader spreadsheet](https://docs.google.com/spreadsheets/d/10JnGhWrdgdFrpqKQzTy4LGBEm8VQKB4Lgy4d2bdbAzQ/edit?usp=sharing)
+
+* Each week we will rotate who is the Team Leader.  
+    + Team Leader will be in-charge of synthesizing group work, making sure everyone is on the same page, creating the week's To Do list via Issues, scheduling meetings, organizing the group's presentation.
+
+* This week's Team Leaders' tasks:
+    + Schedule a time between now and 10pm on Monday to discuss the initial project reading with your group mates.
+    + Be in-charge of the activity we run in class on Thursday.
+    
+---
+
+## Projects 
+
+* Will utilize a wide variety of techniques across the different projects.
+
+* Be prepared to do some **independent learning**.  Each group will be using different techniques that we likely won't cover explicitly in-class.   
+
+* But, remember that there are many avenues for help!
+
+---
+
+##  Project Management 
+
+Utilize the following from Wilson et al (2017):
+
+* Data management
+    + Save the raw data.
+    + Create an tidy, analysis-friendly dataset and use a non-proprietary format.
+    + Record all steps used to process data.
+    + Create a data dictionary.
+
+::: fragment
+    
+**We will not be putting the project data in our GitHub repositories and will only store these files locally.** 
+
+:::
+
+---
+
+##  Project Management 
+
+
+Utilize the following from Wilson et al (2017):
+    
+    
+* Writing code
+    + Place a brief explanatory comment at the start of every program. (See example in paper.)
+    + Look for well-maintained packages to use.
+    + Give functions and variables meaningful names.
+        + Ex: Replace `var1` with `college_name`
+    + Make dependencies explicit.
+
+---
+
+##  Project Management 
+
+Utilize the following from Wilson et al (2017):
+
+* Collaboration
+    + Create overview of project in the README
+    + Use Project and Issues features to create to-do lists.
+* Project organization
+    + Let's walk through one of the project repos.
+
+
+---
+
+##  Project Management 
+
+Utilize the following from Wilson et al (2017):
+
+    
+* Track changes via Github
+    + Keep changes small.
+    + Share changes frequently.
+* Writing
+    + Write about your work early and often.
+
+---
+
+## Reproducibility
+
+* Reproducible versus replicable
+
+::: fragment
+
+> "Reproducibility involves being able to recalculate the exact numbers in a data analysis using the code and raw data provided by the analyst."  (Leek, 2015)
+
+:::
+
+* Not the same as correctness!
+
+---
+
+## Write Readable Code
+
+* It is important to write readable code.
+    + Follow a specific convention.
+    + Use spaces liberally.  
+    + Avoid . in object names.
+    
+* Example: Tidyverse [Style Guide](https://style.tidyverse.org/).
+
+
+* As a group, decide on a style convention.  I don't want to see three or four different conventions for a given project.
+
+---
+
+## Writing Readable Code
+
+> "Use common sense and BE CONSISTENT.
+
+> If you are editing code, take a few minutes to look at the code around you and determine its style. If others use spaces around their if clauses, you should, too. If their comments have little boxes of stars around them, make your comments have little boxes of stars around them, too.
+
+> The point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you are saying, rather than on how you are saying it. 
+
+> We present global style rules here so people know the vocabulary. But local style is also important. If code you add to a file looks drastically different from the existing code around it, the discontinuity will throw readers out of their rhythm when they go to read it. Try to avoid this." --Google Style Guide
+
+
+
+--- 
+
+## Review: git and GitHub
+
+::::: columns
+
+::: {.column width="50%"}
+
+::: { .nonincremental}
+
+* **git**: Version control system
+    + Think fancier type of *Track Changes*.
+
+
+* **GitHub**: Hosting service for git projects (which are called repositories)
+    + Think fancier type of *DropBox* or *Google Drive*.
+
+:::
+
+:::
+
+::: {.column .center width="50%"}
+
+
+![](img/octocat.001.jpeg)
+
+:::
+
+:::::
+
+
+
+
+---
+
+## A Github Repo = Project/Folder on Your Computer
+
+* A **repo**, short for repository, is the folder that contains all of the files for the project on [GitHub.com](GitHub.com).
+ 
+* Under the **Bucknell-DATA306-F25** GitHub Organization you will have access to 3 repos:
+    + `work-username`: Just you and I can access
+    + `class-site`: The whole class can access
+    + `projectname`: Your team, stakeholder (possibly), and I can access
+
+
+* For each repo, you should sync with a folder on your computer.
+    + We will all do this together for `work-username` today.
+
+
+---
+
+## Steps to Get Started
+
+
+::::: columns
+
+::: column
+
+**Once-Per-Computer/Server:**
+
+* Install git on your computer.
+
+* Get your local git talking to GitHub.
+
+:::
+
+::: column
+
+**Once-Per-Project:**
+
+* Create a repo on GitHub. 
+    + I did this step for us.
+
+* Create a version controlled Project that is synced with the GitHub repo.
+
+:::
+
+:::::
+
+
+---
+
+## Git via Positron + R
+
+
+* So that the workflow is the same for everyone:
+    + Open Positron.
+    + Start an R session.
+    
+* You will be able to toggle to Python after we have synced with GitHub.
+
+
+---
+
+## Check if git is install on your computer
+
+In **Terminal**, type
+
+```{r, eval = FALSE}
+git --version
+```
+
+::::: columns
+
+::: column
+
+::: {.nonincremental}
+
+* If you receive an answer, then git is already install! `r emo::ji("tada")`
+
+:::
+
+:::
+
+::: column
+
+::: {.nonincremental}
+
+
+* If the reply is `git: command not found` (or similar), then
+    + Windows: Visit [https://gitforwindows.org/](https://gitforwindows.org/)
+    + Macs: In the **Terminal** type
+
+:::
+
+```{r, eval = FALSE}    
+xcode-select --install    
+```
+
+::: {.nonincremental}
+
+* Restart your session.
+
+:::
+
+:::
+
+:::::
+
+---
+
+## Introduce Yourself to Git 
+
+Install the packages `usethis` and `gitcreds`:
+
+```{r, eval = FALSE}
+install.packages(c("usethis", "gitcreds"))
+```
+
+
+In your R console, modify and run the following code to introduce yourself to git
+
+```{r, eval = FALSE}
+usethis::use_git_config(user.name = "mcconvil", 
+               user.email = "k.mcconville@bucknell.edu")
+```
+
+---
+
+## Personal Access Token Time
+
+::: {.nonincremental}
+
+* To interact with GitHub, you need to include credentials.
+    + Personal Access Token (PAT)
+
+* In your R console, run
+
+:::
+
+```{r, eval = FALSE}
+usethis::create_github_token()
+```
+
+::: {.nonincremental}
+
+* Should take you to GitHub.  
+
+* Select "repo", "user", and "workflow" for the scopes.
+
+* Click "Generate token".
+
+
+* Store it by running the following in the R Console:
+
+:::
+
+```{r, eval = FALSE}
+gitcreds::gitcreds_set()
+```
+
+---
+
+## Sync GitHub.com repo and a Project
+
+**In your repo on GitHub.com**:
+
+::: {.nonincremental}
+
+* Click on the green clone or download button.
+* Copy the given url for "Clone with HTTPS".
+
+:::
+
+**In Positron**:
+
+::: {.nonincremental}
+
+* In the Welcome pane, select "New from Git..."
+
+* Paste in the url.
+
+* Select "Browse..." and select a logical place on your computer for the repository folder.
+
+* Hit the "OK" button.
+
+:::
+
+---
+
+## Workflow
+
+Once your GitHub repo and RStudio project are synced, here's your workflow:
+
+* On the left menu, select "Source Control". 
+
+* Under the three dots associated with "CHANGES", select **Pull**.  
+    + This will pull the most recent version of the repo from GitHub to your local folder.
+
+* Do some work on your project and save it.
+
+* In the "Source Control", select the "+" (stage changes) button.
+
++ Include a quick note, **Commit Message** to summarize the motivation for the changes.
+
+* Select **Commit & Push** to send your work to GitHub. 
+
+
+
+# Workflow Demo
+
+
+
+
+---
+
+## Test the waters: Let's go through the workflow.
+
+::: {.nonincremental}
+
+* Pull. (Yes, there is nothing to pull yet but it is always good practice to start here.)
+* Click on the ReadMe.
+* Add something to the ReadMe.
+* Stage the changes to the ReadMe.
+* Put in a commit message.
+* Commit & Push.
+
+:::
+
+**Look for updates in the ReadMe on GitHub.com.**
+
+
+---
+
+## Git Collaboration: Merge conflicts
+
+* What if my collaborators and I both make changes? 
+    + Scenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.  
+    + Result: Your push will fail because there's a commit on GitHub that you don't have.  
+    + Usual Solution: Pull and *usually* git will merge their work nicely with yours.  Then push.  If that doesn't work, you have a **merge conflict**.  Let's cross that bridge when we get there.  
+    
+* How to avoid merge conflicts?
+    + Always pull when you are going to work on your project.
+    + Always commit and push when you are done even if you made small changes.
+
+
+---
+
+## Some Recommendations as You are Getting Comfortable with Git
+
+* Pull early and often.
+* Use git early and often.  
+    + We get better with practice.
+* Don't all work on the same document as that will increase your changes of a merge conflict. 
+    + Let the team leader synthesize each person's work into one document.
+* Merge conflicts will happen.  Work with me and your group members to resolve them.
+
+---
+
+##  Reading Articles/Research Prompt
+
+
+0. Get in your research groups and try to sync your project repo with a folder on your computer.
+    a. Help each other out.
+1. Orient yourself in your project repo and determine where and how you want to store the work you do this week.
+2. Go through your project prompt more slowly and start a list of the central terms/ideas, especially ones you don't know.
+3. Discuss these ideas as a group.
+4. Start reading the initial project articles and practicing the "reading to write" concepts from CwD.
+    a. Note: Some of the initial articles don't have much or any data in them.
+5. Team leader: Schedule a time for the group members to meet and discuss the reading.
+
+
+## Reminders
+
+
++ (By Sept 4th 10am) CITI Training due on Gradescope.  
+
+* Start the [week 3 readings](https://drive.google.com/drive/folders/1MW1g6dPvE4FT_6MblDeYdSWh-gf59DJu?usp=sharing)!
+   + Read the paper(s) that has(have) your project group at the front of the file name.
+   
+* Come to Thursday's class ready to start inspecting/pulling/engaging with the data!

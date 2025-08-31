@@ -42,6 +42,174 @@
     "text": "Excited to chat about the application process!"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DATA/MATH 306: Data Science & Statistical Consulting",
+    "section": "",
+    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#looking-ahead-to-week-2",
+    "href": "data306_wk01thurs.html#looking-ahead-to-week-2",
+    "title": "DATA/MATH 306",
+    "section": "Looking Ahead to Week 2",
+    "text": "Looking Ahead to Week 2\n\n(By Sept 1st at 10pm) Readings:\n\nCommunicating with Data Chs 1.1 - 1.5\nWilson et al (2017)\n\n(By Sept 1st at 10pm) Reading reflections submitted to Gradescope.\n\nReflection templates: Quarto Document and PDF Document\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nWill help you get acquainted with your projects."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#goals-for-today",
+    "href": "data306_wk01thurs.html#goals-for-today",
+    "title": "DATA/MATH 306",
+    "section": "Goals for Today",
+    "text": "Goals for Today\n\nBest practices for data work discussion\nWorkflow:\n\nPositon\nGit/GitHub"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#how-to-get-help",
+    "href": "data306_wk01thurs.html#how-to-get-help",
+    "title": "DATA/MATH 306",
+    "section": "How to Get Help",
+    "text": "How to Get Help\n\nProject team members\nSlack #q-and-a channel\nMy office hours: Tuesdays 2-3pm and Wednesdays 1-2pm\n\nSign-up for 20 minute sessions: burl.live/meeting\n\nData science office hours: Sundays - Thursdays\n\nDrop-in\nSchedule: burl.live/help-f25\n\nStakeholder mentor"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#discussion",
+    "href": "data306_wk01thurs.html#discussion",
+    "title": "DATA/MATH 306",
+    "section": "Discussion",
+    "text": "Discussion\n\nKass et al (2016): Ten Simple Rules for Effective Statitsical Practice\nDiscussion leaders by rule in Schedule"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#project-groups",
+    "href": "data306_wk01thurs.html#project-groups",
+    "title": "DATA/MATH 306",
+    "section": "Project Groups",
+    "text": "Project Groups\nCan find your group assignments here"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#why-positron",
+    "href": "data306_wk01thurs.html#why-positron",
+    "title": "DATA/MATH 306",
+    "section": "Why Positron?",
+    "text": "Why Positron?\n\n\n\n\n\n\n\n\n\n\nPositron is a new data science tool for writing code and exploring data.\nYou can use R or Python.\nGo here to download R. (I will also show you how to interact with Python but the demos will be in R today.)\nGo here to download Positron."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#data-306-git-experience",
+    "href": "data306_wk01thurs.html#data-306-git-experience",
+    "title": "DATA/MATH 306",
+    "section": "DATA 306 git Experience",
+    "text": "DATA 306 git Experience\n\n\n\n\n\n\n\n\n\n\nIt takes some time to get comfortable with git. We have time.\nUse office hours if you get stuck on any of the steps today!"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-and-github",
+    "href": "data306_wk01thurs.html#git-and-github",
+    "title": "DATA/MATH 306",
+    "section": "git and GitHub",
+    "text": "git and GitHub\n\n\n\ngit: Version control system\n\nThink fancier type of Track Changes.\n\nGitHub: Hosting service for git projects (which are called repositories)\n\nThink fancier type of DropBox or Google Drive.\n\nUseful resource when getting started: https://happygitwithr.com/"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#manual-version-control",
+    "href": "data306_wk01thurs.html#manual-version-control",
+    "title": "DATA/MATH 306",
+    "section": "Manual Version Control",
+    "text": "Manual Version Control\n\n\n\nBut I already do version control…\n\ndraft.Rmd, draft2.Rmd, final.Rmd, realFinal.Rmd, REALLYVERYREALFinal.Rmd…\n\nIssues with this version of version control:\n\nHard to know how these files relate.\nHard to extend this approach to working with others."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-real",
+    "href": "data306_wk01thurs.html#git-real",
+    "title": "DATA/MATH 306",
+    "section": "Git Real",
+    "text": "Git Real\n\nGit is a decentralized version control system.\n\nEach collaborator has a complete version of the repo.\nEveryone can work offline and simultaneously.\nGitHub holds the master copy.\n\ngit is not friendly and can be frustrating.\n\nBUT, the version control and collaborative rewards are big!\n\nGitHub.com is a great place to develop an online presence.\n\nIn DATA 306, we will default to keeping the work private."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#a-hot-mess-is-okay",
+    "href": "data306_wk01thurs.html#a-hot-mess-is-okay",
+    "title": "DATA/MATH 306",
+    "section": "A Hot Mess is Okay",
+    "text": "A Hot Mess is Okay\n\nIf you end up with a mess of errors, then don’t worry but come see one of the instructors for help.\n\nIt happens to everyone."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#a-github-repo-projectfolder-on-your-computer",
+    "href": "data306_wk01thurs.html#a-github-repo-projectfolder-on-your-computer",
+    "title": "DATA/MATH 306",
+    "section": "A Github Repo = Project/Folder on Your Computer",
+    "text": "A Github Repo = Project/Folder on Your Computer\n\nA repo, short for repository, is the folder that contains all of the files for the project on GitHub.com.\nUnder the Bucknell-DATA306-F25 GitHub Organization you will have access to 3 repos:\n\nwork-username: Just you and I can access\nclass-site: The whole class can access\nprojectname: Your team, stakeholder (possibly), and I can access\n\nFor each repo, you should sync with a folder on your computer.\n\nWe will all do this together for work-username today."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#steps-to-get-started",
+    "href": "data306_wk01thurs.html#steps-to-get-started",
+    "title": "DATA/MATH 306",
+    "section": "Steps to Get Started",
+    "text": "Steps to Get Started\n\n\nOnce-Per-Computer/Server:\n\nInstall git on your computer.\nGet your local git talking to GitHub.\n\n\nOnce-Per-Project:\n\nCreate a repo on GitHub.\n\nI did this step for us.\n\nCreate a version controlled Project that is synced with the GitHub repo."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-via-positron-r",
+    "href": "data306_wk01thurs.html#git-via-positron-r",
+    "title": "DATA/MATH 306",
+    "section": "Git via Positron + R",
+    "text": "Git via Positron + R\n\nSo that the workflow is the same for everyone:\n\nOpen Positron.\nStart an R session.\n\nYou will be able to toggle to Python after we have synced with GitHub."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
+    "href": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
+    "title": "DATA/MATH 306",
+    "section": "Check if git is install on your computer",
+    "text": "Check if git is install on your computer\nIn Terminal, type\n\nwhich git\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#introduce-yourself-to-git",
+    "href": "data306_wk01thurs.html#introduce-yourself-to-git",
+    "title": "DATA/MATH 306",
+    "section": "Introduce Yourself to Git",
+    "text": "Introduce Yourself to Git\nInstall the packages usethis and gitcreds:\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\nIn your R console, modify and run the following code to introduce yourself to git\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#personal-access-token-time",
+    "href": "data306_wk01thurs.html#personal-access-token-time",
+    "title": "DATA/MATH 306",
+    "section": "Personal Access Token Time",
+    "text": "Personal Access Token Time\n\n\nTo interact with GitHub, you need to include credentials.\n\nPersonal Access Token (PAT)\n\nIn your R console, run\n\n\n\nusethis::create_github_token()\n\n\n\nShould take you to GitHub.\nSelect “repo”, “user”, and “workflow” for the scopes.\nClick “Generate token”.\nStore it by running the following in the R Console:\n\n\n\ngitcreds::gitcreds_set()"
+  },
+  {
+    "objectID": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
+    "href": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
+    "title": "DATA/MATH 306",
+    "section": "Sync GitHub.com repo and a Project",
+    "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\n\nIn Positron:\n\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#workflow",
+    "href": "data306_wk01thurs.html#workflow",
+    "title": "DATA/MATH 306",
+    "section": "Workflow",
+    "text": "Workflow\nOnce your GitHub repo and RStudio project are synced, here’s your workflow:\n\nOn the left menu, select “Source Control”.\nUnder the three dots associated with “CHANGES”, select Pull.\n\nThis will pull the most recent version of the repo from GitHub to your local folder.\n\nDo some work on your project and save it.\nIn the “Source Control”, select the “+” (stage changes) button.\nInclude a quick note, Commit Message to summarize the motivation for the changes.\nSelect Commit & Push to send your work to GitHub."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#test-the-waters-lets-go-through-the-workflow.",
+    "href": "data306_wk01thurs.html#test-the-waters-lets-go-through-the-workflow.",
+    "title": "DATA/MATH 306",
+    "section": "Test the waters: Let’s go through the workflow.",
+    "text": "Test the waters: Let’s go through the workflow.\n\n\nPull. (Yes, there is nothing to pull yet but it is always good practice to start here.)\nClick on the ReadMe.\nAdd something to the ReadMe.\nStage the changes to the ReadMe.\nPut in a commit message.\nCommit & Push.\n\n\nLook for updates in the ReadMe on GitHub.com."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#git-collaboration-merge-conflicts",
+    "href": "data306_wk01thurs.html#git-collaboration-merge-conflicts",
+    "title": "DATA/MATH 306",
+    "section": "Git Collaboration: Merge conflicts",
+    "text": "Git Collaboration: Merge conflicts\n\nWhat if my collaborators and I both make changes?\n\nScenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.\n\nResult: Your push will fail because there’s a commit on GitHub that you don’t have.\n\nUsual Solution: Pull and usually git will merge their work nicely with yours. Then push. If that doesn’t work, you have a merge conflict. Let’s cross that bridge when we get there.\n\nHow to avoid merge conflicts?\n\nAlways pull when you are going to work on your project.\nAlways commit and push when you are done even if you made small changes."
+  },
+  {
+    "objectID": "data306_wk01thurs.html#reminders",
+    "href": "data306_wk01thurs.html#reminders",
+    "title": "DATA/MATH 306",
+    "section": "Reminders",
+    "text": "Reminders\n\n(By Sept 1st at 10pm) Readings:\n\nCommunicating with Data Chs 1.1 - 1.5\nWilson et al (2017)\n\n(By Sept 1st at 10pm) Reading reflections submitted to Gradescope.\n\nReflection templates: Quarto Document and PDF Document\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nWill help you get acquainted with your projects."
+  },
+  {
     "objectID": "data306_wk01tues.html#research-interests",
     "href": "data306_wk01tues.html#research-interests",
     "title": "DATA/MATH 306",
@@ -203,171 +371,185 @@
     "text": "Rest of Class\n\nStart tackling the items here: burl.live/start\nRead over the project descriptions.\nAdd your GitHub username."
   },
   {
-    "objectID": "data306_wk01thurs.html#looking-ahead-to-week-2",
-    "href": "data306_wk01thurs.html#looking-ahead-to-week-2",
+    "objectID": "data306_wk02tues.html#reminders",
+    "href": "data306_wk02tues.html#reminders",
     "title": "DATA/MATH 306",
-    "section": "Looking Ahead to Week 2",
-    "text": "Looking Ahead to Week 2\n\n(By Sept 1st at 10pm) Readings:\n\nCommunicating with Data Chs 1.1 - 1.5\nWilson et al (2017)\n\n(By Sept 1st at 10pm) Reading reflections submitted to Gradescope.\n\nReflection templates: Quarto Document and PDF Document\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nWill help you get acquainted with your projects."
+    "section": "Reminders",
+    "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\nWill help you get acquainted with your projects."
   },
   {
-    "objectID": "data306_wk01thurs.html#goals-for-today",
-    "href": "data306_wk01thurs.html#goals-for-today",
+    "objectID": "data306_wk02tues.html#goals-for-today",
+    "href": "data306_wk02tues.html#goals-for-today",
     "title": "DATA/MATH 306",
     "section": "Goals for Today",
-    "text": "Goals for Today\n\nBest practices for data work discussion\nWorkflow:\n\nPositon\nGit/GitHub"
+    "text": "Goals for Today\n\nProject management\nFinish discussion: Workflow via Git/GitHub\nStart thinking through research question and understanding context"
   },
   {
-    "objectID": "data306_wk01thurs.html#how-to-get-help",
-    "href": "data306_wk01thurs.html#how-to-get-help",
+    "objectID": "data306_wk02tues.html#plan-for-thursday-lab-day",
+    "href": "data306_wk02tues.html#plan-for-thursday-lab-day",
     "title": "DATA/MATH 306",
-    "section": "How to Get Help",
-    "text": "How to Get Help\n\nProject team members\nSlack #q-and-a channel\nMy office hours: Tuesdays 2-3pm and Wednesdays 1-2pm\n\nSign-up for 20 minute sessions: burl.live/meeting\n\nData science office hours: Sundays - Thursdays\n\nDrop-in\nSchedule: burl.live/help-f25\n\nStakeholder mentor"
+    "section": "Plan for Thursday: Lab Day",
+    "text": "Plan for Thursday: Lab Day\n\nGet started working on your project and with your project’s data\nDefine and refine your research questions"
   },
   {
-    "objectID": "data306_wk01thurs.html#discussion",
-    "href": "data306_wk01thurs.html#discussion",
+    "objectID": "data306_wk02tues.html#team-leader-duties",
+    "href": "data306_wk02tues.html#team-leader-duties",
     "title": "DATA/MATH 306",
-    "section": "Discussion",
-    "text": "Discussion\n\nKass et al (2016): Ten Simple Rules for Effective Statitsical Practice\nDiscussion leaders by rule in Schedule"
+    "section": "Team Leader Duties",
+    "text": "Team Leader Duties\n\nTeam leaders this week: team leader spreadsheet\nEach week we will rotate who is the Team Leader.\n\nTeam Leader will be in-charge of synthesizing group work, making sure everyone is on the same page, creating the week’s To Do list via Issues, scheduling meetings, organizing the group’s presentation.\n\nThis week’s Team Leaders’ tasks:\n\nSchedule a time between now and 10pm on Monday to discuss the initial project reading with your group mates.\nBe in-charge of the activity we run in class on Thursday."
   },
   {
-    "objectID": "data306_wk01thurs.html#project-groups",
-    "href": "data306_wk01thurs.html#project-groups",
+    "objectID": "data306_wk02tues.html#projects",
+    "href": "data306_wk02tues.html#projects",
     "title": "DATA/MATH 306",
-    "section": "Project Groups",
-    "text": "Project Groups\nCan find your group assignments here"
+    "section": "Projects",
+    "text": "Projects\n\nWill utilize a wide variety of techniques across the different projects.\nBe prepared to do some independent learning. Each group will be using different techniques that we likely won’t cover explicitly in-class.\nBut, remember that there are many avenues for help!"
   },
   {
-    "objectID": "data306_wk01thurs.html#why-positron",
-    "href": "data306_wk01thurs.html#why-positron",
+    "objectID": "data306_wk02tues.html#project-management",
+    "href": "data306_wk02tues.html#project-management",
     "title": "DATA/MATH 306",
-    "section": "Why Positron?",
-    "text": "Why Positron?\n\n\n\n\n\n\n\n\n\n\nPositron is a new data science tool for writing code and exploring data.\nYou can use R or Python.\nGo here to download R. (I will also show you how to interact with Python but the demos will be in R today.)\nGo here to download Positron."
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nData management\n\nSave the raw data.\nCreate an tidy, analysis-friendly dataset and use a non-proprietary format.\nRecord all steps used to process data.\nCreate a data dictionary.\n\n\n\nWe will not be putting the project data in our GitHub repositories and will only store these files locally."
   },
   {
-    "objectID": "data306_wk01thurs.html#data-306-git-experience",
-    "href": "data306_wk01thurs.html#data-306-git-experience",
+    "objectID": "data306_wk02tues.html#project-management-1",
+    "href": "data306_wk02tues.html#project-management-1",
     "title": "DATA/MATH 306",
-    "section": "DATA 306 git Experience",
-    "text": "DATA 306 git Experience\n\n\n\n\n\n\n\n\n\n\nIt takes some time to get comfortable with git. We have time.\nUse office hours if you get stuck on any of the steps today!"
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nWriting code\n\nPlace a brief explanatory comment at the start of every program. (See example in paper.)\nLook for well-maintained packages to use.\nGive functions and variables meaningful names.\n\nEx: Replace var1 with college_name\n\nMake dependencies explicit."
   },
   {
-    "objectID": "data306_wk01thurs.html#git-and-github",
-    "href": "data306_wk01thurs.html#git-and-github",
+    "objectID": "data306_wk02tues.html#project-management-2",
+    "href": "data306_wk02tues.html#project-management-2",
     "title": "DATA/MATH 306",
-    "section": "git and GitHub",
-    "text": "git and GitHub\n\n\n\ngit: Version control system\n\nThink fancier type of Track Changes.\n\nGitHub: Hosting service for git projects (which are called repositories)\n\nThink fancier type of DropBox or Google Drive.\n\nUseful resource when getting started: https://happygitwithr.com/"
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nCollaboration\n\nCreate overview of project in the README\nUse Project and Issues features to create to-do lists.\n\nProject organization\n\nLet’s walk through one of the project repos."
   },
   {
-    "objectID": "data306_wk01thurs.html#manual-version-control",
-    "href": "data306_wk01thurs.html#manual-version-control",
+    "objectID": "data306_wk02tues.html#project-management-3",
+    "href": "data306_wk02tues.html#project-management-3",
     "title": "DATA/MATH 306",
-    "section": "Manual Version Control",
-    "text": "Manual Version Control\n\n\n\nBut I already do version control…\n\ndraft.Rmd, draft2.Rmd, final.Rmd, realFinal.Rmd, REALLYVERYREALFinal.Rmd…\n\nIssues with this version of version control:\n\nHard to know how these files relate.\nHard to extend this approach to working with others."
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nTrack changes via Github\n\nKeep changes small.\nShare changes frequently.\n\nWriting\n\nWrite about your work early and often."
   },
   {
-    "objectID": "data306_wk01thurs.html#git-real",
-    "href": "data306_wk01thurs.html#git-real",
+    "objectID": "data306_wk02tues.html#reproducibility",
+    "href": "data306_wk02tues.html#reproducibility",
     "title": "DATA/MATH 306",
-    "section": "Git Real",
-    "text": "Git Real\n\nGit is a decentralized version control system.\n\nEach collaborator has a complete version of the repo.\nEveryone can work offline and simultaneously.\nGitHub holds the master copy.\n\ngit is not friendly and can be frustrating.\n\nBUT, the version control and collaborative rewards are big!\n\nGitHub.com is a great place to develop an online presence.\n\nIn DATA 306, we will default to keeping the work private."
+    "section": "Reproducibility",
+    "text": "Reproducibility\n\nReproducible versus replicable\n\n\n\n“Reproducibility involves being able to recalculate the exact numbers in a data analysis using the code and raw data provided by the analyst.” (Leek, 2015)\n\n\n\nNot the same as correctness!"
   },
   {
-    "objectID": "data306_wk01thurs.html#a-hot-mess-is-okay",
-    "href": "data306_wk01thurs.html#a-hot-mess-is-okay",
+    "objectID": "data306_wk02tues.html#write-readable-code",
+    "href": "data306_wk02tues.html#write-readable-code",
     "title": "DATA/MATH 306",
-    "section": "A Hot Mess is Okay",
-    "text": "A Hot Mess is Okay\n\nIf you end up with a mess of errors, then don’t worry but come see one of the instructors for help.\n\nIt happens to everyone."
+    "section": "Write Readable Code",
+    "text": "Write Readable Code\n\nIt is important to write readable code.\n\nFollow a specific convention.\nUse spaces liberally.\n\nAvoid . in object names.\n\nExample: Tidyverse Style Guide.\nAs a group, decide on a style convention. I don’t want to see three or four different conventions for a given project."
   },
   {
-    "objectID": "data306_wk01thurs.html#a-github-repo-projectfolder-on-your-computer",
-    "href": "data306_wk01thurs.html#a-github-repo-projectfolder-on-your-computer",
+    "objectID": "data306_wk02tues.html#writing-readable-code",
+    "href": "data306_wk02tues.html#writing-readable-code",
+    "title": "DATA/MATH 306",
+    "section": "Writing Readable Code",
+    "text": "Writing Readable Code\n\n“Use common sense and BE CONSISTENT.\n\n\nIf you are editing code, take a few minutes to look at the code around you and determine its style. If others use spaces around their if clauses, you should, too. If their comments have little boxes of stars around them, make your comments have little boxes of stars around them, too.\n\n\nThe point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you are saying, rather than on how you are saying it.\n\n\nWe present global style rules here so people know the vocabulary. But local style is also important. If code you add to a file looks drastically different from the existing code around it, the discontinuity will throw readers out of their rhythm when they go to read it. Try to avoid this.” –Google Style Guide"
+  },
+  {
+    "objectID": "data306_wk02tues.html#review-git-and-github",
+    "href": "data306_wk02tues.html#review-git-and-github",
+    "title": "DATA/MATH 306",
+    "section": "Review: git and GitHub",
+    "text": "Review: git and GitHub\n\n\n\n\ngit: Version control system\n\nThink fancier type of Track Changes.\n\nGitHub: Hosting service for git projects (which are called repositories)\n\nThink fancier type of DropBox or Google Drive."
+  },
+  {
+    "objectID": "data306_wk02tues.html#a-github-repo-projectfolder-on-your-computer",
+    "href": "data306_wk02tues.html#a-github-repo-projectfolder-on-your-computer",
     "title": "DATA/MATH 306",
     "section": "A Github Repo = Project/Folder on Your Computer",
     "text": "A Github Repo = Project/Folder on Your Computer\n\nA repo, short for repository, is the folder that contains all of the files for the project on GitHub.com.\nUnder the Bucknell-DATA306-F25 GitHub Organization you will have access to 3 repos:\n\nwork-username: Just you and I can access\nclass-site: The whole class can access\nprojectname: Your team, stakeholder (possibly), and I can access\n\nFor each repo, you should sync with a folder on your computer.\n\nWe will all do this together for work-username today."
   },
   {
-    "objectID": "data306_wk01thurs.html#steps-to-get-started",
-    "href": "data306_wk01thurs.html#steps-to-get-started",
+    "objectID": "data306_wk02tues.html#steps-to-get-started",
+    "href": "data306_wk02tues.html#steps-to-get-started",
     "title": "DATA/MATH 306",
     "section": "Steps to Get Started",
     "text": "Steps to Get Started\n\n\nOnce-Per-Computer/Server:\n\nInstall git on your computer.\nGet your local git talking to GitHub.\n\n\nOnce-Per-Project:\n\nCreate a repo on GitHub.\n\nI did this step for us.\n\nCreate a version controlled Project that is synced with the GitHub repo."
   },
   {
-    "objectID": "data306_wk01thurs.html#git-via-positron-r",
-    "href": "data306_wk01thurs.html#git-via-positron-r",
+    "objectID": "data306_wk02tues.html#git-via-positron-r",
+    "href": "data306_wk02tues.html#git-via-positron-r",
     "title": "DATA/MATH 306",
     "section": "Git via Positron + R",
     "text": "Git via Positron + R\n\nSo that the workflow is the same for everyone:\n\nOpen Positron.\nStart an R session.\n\nYou will be able to toggle to Python after we have synced with GitHub."
   },
   {
-    "objectID": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
-    "href": "data306_wk01thurs.html#check-if-git-is-install-on-your-computer",
+    "objectID": "data306_wk02tues.html#check-if-git-is-install-on-your-computer",
+    "href": "data306_wk02tues.html#check-if-git-is-install-on-your-computer",
     "title": "DATA/MATH 306",
     "section": "Check if git is install on your computer",
-    "text": "Check if git is install on your computer\nIn Terminal, type\n\nwhich git\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
+    "text": "Check if git is install on your computer\nIn Terminal, type\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
   },
   {
-    "objectID": "data306_wk01thurs.html#introduce-yourself-to-git",
-    "href": "data306_wk01thurs.html#introduce-yourself-to-git",
+    "objectID": "data306_wk02tues.html#introduce-yourself-to-git",
+    "href": "data306_wk02tues.html#introduce-yourself-to-git",
     "title": "DATA/MATH 306",
     "section": "Introduce Yourself to Git",
     "text": "Introduce Yourself to Git\nInstall the packages usethis and gitcreds:\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\nIn your R console, modify and run the following code to introduce yourself to git\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
   },
   {
-    "objectID": "data306_wk01thurs.html#personal-access-token-time",
-    "href": "data306_wk01thurs.html#personal-access-token-time",
+    "objectID": "data306_wk02tues.html#personal-access-token-time",
+    "href": "data306_wk02tues.html#personal-access-token-time",
     "title": "DATA/MATH 306",
     "section": "Personal Access Token Time",
     "text": "Personal Access Token Time\n\n\nTo interact with GitHub, you need to include credentials.\n\nPersonal Access Token (PAT)\n\nIn your R console, run\n\n\n\nusethis::create_github_token()\n\n\n\nShould take you to GitHub.\nSelect “repo”, “user”, and “workflow” for the scopes.\nClick “Generate token”.\nStore it by running the following in the R Console:\n\n\n\ngitcreds::gitcreds_set()"
   },
   {
-    "objectID": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
-    "href": "data306_wk01thurs.html#sync-github.com-repo-and-a-project",
+    "objectID": "data306_wk02tues.html#sync-github.com-repo-and-a-project",
+    "href": "data306_wk02tues.html#sync-github.com-repo-and-a-project",
     "title": "DATA/MATH 306",
     "section": "Sync GitHub.com repo and a Project",
     "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\n\nIn Positron:\n\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
   },
   {
-    "objectID": "data306_wk01thurs.html#workflow",
-    "href": "data306_wk01thurs.html#workflow",
+    "objectID": "data306_wk02tues.html#workflow",
+    "href": "data306_wk02tues.html#workflow",
     "title": "DATA/MATH 306",
     "section": "Workflow",
     "text": "Workflow\nOnce your GitHub repo and RStudio project are synced, here’s your workflow:\n\nOn the left menu, select “Source Control”.\nUnder the three dots associated with “CHANGES”, select Pull.\n\nThis will pull the most recent version of the repo from GitHub to your local folder.\n\nDo some work on your project and save it.\nIn the “Source Control”, select the “+” (stage changes) button.\nInclude a quick note, Commit Message to summarize the motivation for the changes.\nSelect Commit & Push to send your work to GitHub."
   },
   {
-    "objectID": "data306_wk01thurs.html#test-the-waters-lets-go-through-the-workflow.",
-    "href": "data306_wk01thurs.html#test-the-waters-lets-go-through-the-workflow.",
+    "objectID": "data306_wk02tues.html#test-the-waters-lets-go-through-the-workflow.",
+    "href": "data306_wk02tues.html#test-the-waters-lets-go-through-the-workflow.",
     "title": "DATA/MATH 306",
     "section": "Test the waters: Let’s go through the workflow.",
     "text": "Test the waters: Let’s go through the workflow.\n\n\nPull. (Yes, there is nothing to pull yet but it is always good practice to start here.)\nClick on the ReadMe.\nAdd something to the ReadMe.\nStage the changes to the ReadMe.\nPut in a commit message.\nCommit & Push.\n\n\nLook for updates in the ReadMe on GitHub.com."
   },
   {
-    "objectID": "data306_wk01thurs.html#git-collaboration-merge-conflicts",
-    "href": "data306_wk01thurs.html#git-collaboration-merge-conflicts",
+    "objectID": "data306_wk02tues.html#git-collaboration-merge-conflicts",
+    "href": "data306_wk02tues.html#git-collaboration-merge-conflicts",
     "title": "DATA/MATH 306",
     "section": "Git Collaboration: Merge conflicts",
     "text": "Git Collaboration: Merge conflicts\n\nWhat if my collaborators and I both make changes?\n\nScenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.\n\nResult: Your push will fail because there’s a commit on GitHub that you don’t have.\n\nUsual Solution: Pull and usually git will merge their work nicely with yours. Then push. If that doesn’t work, you have a merge conflict. Let’s cross that bridge when we get there.\n\nHow to avoid merge conflicts?\n\nAlways pull when you are going to work on your project.\nAlways commit and push when you are done even if you made small changes."
   },
   {
-    "objectID": "data306_wk01thurs.html#reminders",
-    "href": "data306_wk01thurs.html#reminders",
+    "objectID": "data306_wk02tues.html#some-recommendations-as-you-are-getting-comfortable-with-git",
+    "href": "data306_wk02tues.html#some-recommendations-as-you-are-getting-comfortable-with-git",
+    "title": "DATA/MATH 306",
+    "section": "Some Recommendations as You are Getting Comfortable with Git",
+    "text": "Some Recommendations as You are Getting Comfortable with Git\n\nPull early and often.\nUse git early and often.\n\nWe get better with practice.\n\nDon’t all work on the same document as that will increase your changes of a merge conflict.\n\nLet the team leader synthesize each person’s work into one document.\n\nMerge conflicts will happen. Work with me and your group members to resolve them."
+  },
+  {
+    "objectID": "data306_wk02tues.html#reading-articlesresearch-prompt",
+    "href": "data306_wk02tues.html#reading-articlesresearch-prompt",
+    "title": "DATA/MATH 306",
+    "section": "Reading Articles/Research Prompt",
+    "text": "Reading Articles/Research Prompt\n\nGet in your research groups and try to sync your project repo with a folder on your computer.\n\nHelp each other out.\n\nOrient yourself in your project repo and determine where and how you want to store the work you do this week.\nGo through your project prompt more slowly and start a list of the central terms/ideas, especially ones you don’t know.\nDiscuss these ideas as a group.\nStart reading the initial project articles and practicing the “reading to write” concepts from CwD.\n\nNote: Some of the initial articles don’t have much or any data in them.\n\nTeam leader: Schedule a time for the group members to meet and discuss the reading."
+  },
+  {
+    "objectID": "data306_wk02tues.html#reminders-1",
+    "href": "data306_wk02tues.html#reminders-1",
     "title": "DATA/MATH 306",
     "section": "Reminders",
-    "text": "Reminders\n\n(By Sept 1st at 10pm) Readings:\n\nCommunicating with Data Chs 1.1 - 1.5\nWilson et al (2017)\n\n(By Sept 1st at 10pm) Reading reflections submitted to Gradescope.\n\nReflection templates: Quarto Document and PDF Document\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nWill help you get acquainted with your projects."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DATA/MATH 306: Data Science & Statistical Consulting",
-    "section": "",
-    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\n\nCome to Thursday’s class ready to start inspecting/pulling/engaging with the data!"
   }
 ]
