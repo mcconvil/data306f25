@@ -108,15 +108,15 @@ library(tidyverse)
 
 ## Research Interests {.center}
 
-### Survey statistics and collaborate with
+### Survey statistics and collaborate with 
 
-![](img/logos.jpeg){width="60%"}
+![](img/logos.jpeg){width = "60%"}
 
 ------------------------------------------------------------------------
 
 ## Research Interests {.center}
 
-### Where survey statistics meets data science
+### Where survey statistics meets data science!
 
 ```{r, echo = FALSE}
 
