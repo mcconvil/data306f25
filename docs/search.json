@@ -551,5 +551,40 @@
     "title": "DATA/MATH 306",
     "section": "Reminders",
     "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\n\nCome to Thursday’s class ready to start inspecting/pulling/engaging with the data!"
+  },
+  {
+    "objectID": "data306_wk02thurs.html#reminders",
+    "href": "data306_wk02thurs.html#reminders",
+    "title": "DATA/MATH 306",
+    "section": "Reminders",
+    "text": "Reminders\n\n(By Sept 8th 10pm) Turn in the Week 3 Reading Reflections.\n\nRead the initial articles assigned to your group."
+  },
+  {
+    "objectID": "data306_wk02thurs.html#plan-for-today-lab-day",
+    "href": "data306_wk02thurs.html#plan-for-today-lab-day",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Today: Lab Day",
+    "text": "Plan for Today: Lab Day\n\nGet started working on your project and with your project’s data\nDefine and refine your research questions"
+  },
+  {
+    "objectID": "data306_wk02thurs.html#initial-project-meeting-with-stakeholder",
+    "href": "data306_wk02thurs.html#initial-project-meeting-with-stakeholder",
+    "title": "DATA/MATH 306",
+    "section": "Initial Project Meeting with Stakeholder",
+    "text": "Initial Project Meeting with Stakeholder\n\nMake sure you are on-time. If you will be a couple of minutes late (e.g., coming from a class across campus), make sure to inform me ahead of time.\nTeam Leader: Take notes and run the meeting.\nEveryone: Make eye contact. Create a positive environment.\nStructure of the meeting\n\nDo quick introductions.\nAsk the stakeholder to explain the project and their goals.\n\nListen carefully and ask follow-up questions.\n\nAsk questions from your initial readings (charter, article) and exploring of the data.\nSet next meeting (between Sept 22nd and Oct 1st)."
+  },
+  {
+    "objectID": "data306_wk02thurs.html#lab-work",
+    "href": "data306_wk02thurs.html#lab-work",
+    "title": "DATA/MATH 306",
+    "section": "Lab Work",
+    "text": "Lab Work\n\nAccess the “DataFirstSteps.Qmd” in the Activities folder on our class-site GitHub repository.\nWork on question formulation.\n\nGroup progress is due on Gradescope by 10am next Thursday (Sept 11th).\n\nStart engaging with the data.\n\nMeans a lot of different things for the different groups.\nI provide group specific advice in the “DataFirstSteps.Qmd” document."
+  },
+  {
+    "objectID": "data306_wk02thurs.html#gitignore",
+    "href": "data306_wk02thurs.html#gitignore",
+    "title": "DATA/MATH 306",
+    "section": ".gitignore",
+    "text": ".gitignore\nWhen you open your group project folder in Positron, make sure to pull. I have added a .gitignore file.\n\n.gitignore: Tells git what files to NOT push to GitHub.\n\nPut any data in the datafiles sub-folder so that it isn’t pushed to GitHub."
   }
 ]

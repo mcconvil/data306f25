@@ -1,0 +1,116 @@
+---
+pagetitle: "Lab: Inspecting Data"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Research Question + Inspecting Data]{.custom-title}
+
+ 
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 2 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+
+---
+
+## Reminders
+
+
+    
++ (By Sept 8th 10pm) Turn in the Week 3 Reading Reflections.  
+    + Read the initial articles assigned to your group.
+
+
+
+---
+
+## Plan for Today: Lab Day
+
+* Get started working on your project and with your project's data
+* Define and refine your research questions
+
+---
+
+## Initial Project Meeting with Stakeholder
+
+* Make sure you are on-time.  If you will be a couple of minutes late (e.g., coming from a class across campus), make sure to inform me ahead of time.
+
+* Team Leader: Take notes and run the meeting.
+
+* Everyone: Make eye contact.  Create a positive environment.
+
+* Structure of the meeting
+    + Do quick introductions.
+    + Ask the stakeholder to explain the project and their goals.
+        + Listen carefully and ask follow-up questions.
+    + Ask questions from your initial readings (charter, article) and exploring of the data.
+    + Set next meeting (between Sept 22nd and Oct 1st).
+
+---
+
+## .gitignore
+
+When you open your group project folder in Positron, make sure to pull.  I have added a .gitignore file.  
+
+* .gitignore: Tells git what files to NOT push to GitHub.
+    + Put any data in the **datafiles** sub-folder so that it isn't pushed to GitHub.
+
+
+---
+
+## Lab Work
+
+* Access the "DataFirstSteps.Qmd" in the Activities folder on our `class-site` GitHub repository.
+
+* Work on question formulation.
+  + Group progress is due on Gradescope by 10am next Thursday (Sept 11th).
+* Start engaging with the data.
+  + Means a lot of different things for the different groups.
+  + I provide group specific advice in the "DataFirstSteps.Qmd" document.
