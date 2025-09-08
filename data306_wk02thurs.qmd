@@ -2,7 +2,7 @@
 pagetitle: "Lab: Inspecting Data"
 format: 
   revealjs:
-    chalkboard: true
+#    chalkboard: true
     incremental: true
     theme: [default, custom.scss]
 #    multiplex: true

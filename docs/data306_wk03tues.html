@@ -9,7 +9,7 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
 
-  <title>DATA/MATH 306 – DATA 306</title>
+  <title>DATA/MATH 306 – EDA</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -133,442 +133,167 @@
 <p><img data-src="img/Data306_Unicorn_Fall2025.png" style="width:90.0%"></p>
 </div><div class="column center" style="width:40%;">
 <p><br></p>
-<p><span class="custom-title">Intro to DATA/MATH 306</span></p>
-<p><br> <br></p>
+<p><span class="custom-title">Exploratory Data Analysis</span></p>
 <p><span class="custom-subtitle">Kelly McConville</span></p>
-<p><span class="custom-subtitle">DATA/MATH 306 <br> Week 1 | Fall 2025</span></p>
+<p><span class="custom-subtitle">DATA/MATH 306 <br> Week 3 | Fall 2025</span></p>
 </div></div>
+</section>
+<section id="reminders" class="slide level2">
+<h2>Reminders</h2>
+<ul>
+<li class="fragment">New team leaders this week.
+<ul>
+<li class="fragment">Remember to update the To Dos list your GitHub Project.</li>
+</ul></li>
+<li class="fragment">(By Sept 11th 10am) Turn in your Question Formulation document on Gradescope.
+<ul>
+<li class="fragment">Week 2 Team Leader should turn it in for the whole team.</li>
+</ul></li>
+<li class="fragment">(By Sept 15th 10pm) Turn in the Week 4 Reading Reflections.</li>
+</ul>
+</section>
+<section id="plan-for-today" class="slide level2">
+<h2>Plan for Today</h2>
+<ul>
+<li class="fragment"><p>Topics to discuss:</p>
+<ul>
+<li class="fragment">Confirmatory studies versus exploratory studies</li>
+<li class="fragment">Exploratory data analysis</li>
+</ul></li>
+<li class="fragment"><p>Demos in Positron</p></li>
+<li class="fragment"><p>EDA activity</p></li>
+</ul>
+</section>
+<section id="types-of-data-projects" class="slide level2">
+<h2>Types of Data Projects</h2>
+<p>What is the difference between confirmatory and exploratory studies?</p>
+<div class="columns">
+<div class="column">
+<p><strong>Confirmatory Studies</strong></p>
+<ul>
+<li class="fragment"><p>Classical view of statistical process</p></li>
+<li class="fragment"><p>Start with hypotheses and then use data to assess the accuracy of the hypotheses.</p></li>
+</ul>
+</div><div class="column">
+<p><strong>Exploratory Studies</strong></p>
+<ul>
+<li class="fragment">Start with the data and use the data to generate hypotheses.</li>
+</ul>
+</div></div>
+<div class="fragment">
+<p>Questions:</p>
+</div>
+<ul>
+<li class="fragment">Pros and cons of each type?</li>
+<li class="fragment">Under which type does your project fall?</li>
+</ul>
+</section>
+<section id="avoiding-overfitting-the-datap-hacking-in-exploratory-studies" class="slide level2">
+<h2>Avoiding Overfitting the Data/P-Hacking in Exploratory Studies</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Split your data into two sets:
+<ul>
+<li>Training set: Data to mine</li>
+<li>Test set: Data to apply your final models to.</li>
+</ul></li>
+</ul>
+</div><div class="column">
+<p><img data-src="img/train_test.png"></p>
+</div></div>
+<ul>
+<li class="fragment"><p>Typically 70/30 or 80/20 split.</p></li>
+<li class="fragment"><p><strong>Question</strong>: How should you decide what data goes into the training set versus the test set?</p></li>
+</ul>
 </section>
 <section>
-<section id="let-me-quickly-introduce-myself" class="title-slide slide level1 center">
-<h1>Let me quickly introduce myself…</h1>
+<section id="exploratory-data-analysis" class="title-slide slide level1 center">
+<h1>Exploratory Data Analysis</h1>
 
 </section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-1.jpg"></p>
+<section id="exploratory-data-analysis-eda" class="slide level2">
+<h2>Exploratory Data Analysis (EDA)</h2>
+<ul>
+<li class="fragment"><p>All studies, exploratory or confirmatory, should include a robust exploration stage.</p>
+<ul>
+<li class="fragment">Might be more constrained for confirmatory studies.</li>
+</ul></li>
+<li class="fragment"><p>EDA Goals:</p>
+<ul>
+<li class="fragment">Look for data quality issues (missingness, censored data, mislabeled data, representativity, …).</li>
+<li class="fragment">Discover trends in the data (within one variable, between 2+ variables).</li>
+</ul></li>
+<li class="fragment"><p>There is no perfect checklist for EDA.</p></li>
+<li class="fragment"><p>It is a VERY iterative process.</p></li>
+</ul>
 </section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-1">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-2.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-2">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-3.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-3">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-4.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-4">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-5.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-5">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-6.jpg"></p>
-</section>
-<section class="slide level2">
-
-<h3 id="lets-start-with-my-path-to-bucknell-6">Let’s start with my path to Bucknell…</h3>
-<p><img data-src="img/my_path-7.jpg"></p>
-</section>
-<section id="research-interests" class="slide level2 center">
-<h2>Research Interests</h2>
-<h3 id="survey-statistics-and-collaborate-with">Survey statistics and collaborate with</h3>
-<p><img data-src="img/logos.jpeg">{width = “60%”}</p>
-</section>
-<section id="research-interests-1" class="slide level2 center">
-<h2>Research Interests</h2>
-<h3 id="where-survey-statistics-meets-data-science">Where survey statistics meets data science!</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
+<section id="qualities-of-an-effective-data-scientist" class="slide level2">
+<h2>Qualities of an Effective Data Scientist</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/data.jpeg" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="img/gemini_ds.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
-</div>
-</div>
+<ul>
+<li class="fragment">I think one is missing: Curiosity!</li>
+</ul>
 </section>
-<section class="slide level2">
-
-<h3 id="advising-undergraduate-forestry-data-science-research">Advising Undergraduate Forestry Data Science Research</h3>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="img/Forest_and_IceCream_Lovers.jpeg"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="img/trees_UFDS2025.jpg"></p>
-</div>
-</div>
-</div>
+<section id="general-incomplete-eda-checklist" class="slide level2">
+<h2>General (Incomplete) EDA Checklist</h2>
+<p><strong>Disclaimer:</strong> Not every item on this list will work for every project.</p>
+<ol type="1">
+<li class="fragment">Formulate a few questions you want to answer with your explorations. Typical questions:
+<ol type="a">
+<li class="fragment">What type of variation occurs within the variables?</li>
+<li class="fragment">What type of variation occurs between the variables?</li>
+</ol></li>
+<li class="fragment">Check the size of the data.
+<ol type="a">
+<li class="fragment">Do you have the correct number of observations and variable?</li>
+</ol></li>
+<li class="fragment">Spend time exploring how the data are coded.
+<ol type="a">
+<li class="fragment">Do the variables have the correct classification in <code>R</code> or <code>Python</code>?</li>
+</ol></li>
+<li class="fragment">Summarize from many angles.
+<ol type="a">
+<li class="fragment">What are typical values?</li>
+<li class="fragment">Any red flags? If so, explore different subsets of the data.</li>
+<li class="fragment">What information is gained from these summaries?</li>
+</ol></li>
+</ol>
 </section>
-<section class="slide level2">
-
-<div class="columns">
-<div class="column center" style="width:40%;">
-<p><img data-src="img/seedlings.jpg" style="width:80.0%"></p>
-</div><div class="column" style="width:60%;">
-<p><br>
-<br>
-</p>
-<ul>
-<li class="fragment">I <strong>love</strong> teaching data science.</li>
-</ul>
-<p><br>
-</p>
-<ul>
-<li class="fragment">But, learning stats, coding, and data communication is <strong>hard</strong>.</li>
-</ul>
-<p><br>
-</p>
-<ul>
-<li class="fragment">With the <strong>right scaffolding</strong>, <strong>good strategies</strong>, and <strong>sustained effort</strong>, you can excel at all three!</li>
-</ul>
-<p><br>
-</p>
-<ul>
-<li class="fragment">And mistakes are part of the learning process. They don’t imply that you are bad at data science.</li>
-</ul>
-</div></div>
+<section id="general-incomplete-eda-checklist-1" class="slide level2">
+<h2>General (Incomplete) EDA Checklist</h2>
+<ol start="5" type="1">
+<li class="fragment">Validate with at least one external data source.
+<ol type="a">
+<li class="fragment">Are my summaries reasonably similar to the external source? If not, why not?</li>
+</ol></li>
+<li class="fragment">Make many plots.
+<ol type="a">
+<li class="fragment">Are there any unusual patterns? If so, what might explain them?</li>
+<li class="fragment">What information is gained from these plots?</li>
+<li class="fragment">Go back and compute additional summary statistics based on what you learned from the plots.</li>
+</ol></li>
+<li class="fragment">Tidy
+<ol type="a">
+<li class="fragment">Determine what data wrangling steps should go into creating a tidy version of the data.</li>
+</ol></li>
+<li class="fragment">Try the easy solution.
+<ol type="a">
+<li class="fragment">Try to at least partially answer some of your research questions via your EDA output.</li>
+</ol></li>
+</ol>
 </section></section>
 <section>
-<section id="who-are-you" class="title-slide slide level1 center">
-<h1>Who are you?</h1>
+<section id="eda-activity" class="title-slide slide level1 center">
+<h1>EDA Activity</h1>
 
 </section>
-<section id="day-1-goals" class="slide level2">
-<h2>Day 1 Goals</h2>
-<ul>
-<li class="fragment">Course overview</li>
-<li class="fragment">Introduction to the projects</li>
-</ul>
-</section>
-<section id="course-sites" class="slide level2">
-<h2>Course Sites</h2>
-<p>Main site:</p>
-<ul>
-<li class="fragment">A (private) GitHub Repository <a href="https://github.com/Bucknell-DATA306-F25/class-site">https://github.com/Bucknell-DATA306-F25/class-site</a>
-<ul>
-<li class="fragment">I will add all of you once you provide your GitHub username.</li>
-</ul></li>
-<li class="fragment">We will NOT use Moodle.
-<ul>
-<li class="fragment">A learning objective of the course is to get comfortable with git/GitHub.</li>
-</ul></li>
-<li class="fragment">Make sure to check the <a href="https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Schedule.md">Schedule page</a> often.</li>
-</ul>
-<div class="fragment">
-<p><a href="https://www.gradescope.com/courses/1100417">Gradescope</a>:</p>
-</div>
-<ul>
-<li class="fragment">For turning in work.</li>
-</ul>
-<div class="fragment">
-<p><a href="bucknelldata306.slack.com">Slack</a> for course communication.</p>
-<ul>
-<li class="fragment">Make sure to check Slack at least once a day during the work week.</li>
-</ul>
-</div>
-</section>
-<section id="learning-objectives" class="slide level2">
-<h2>Learning Objectives</h2>
-<p>You will engage in collaborative, data science projects. Upon successful completion of this course, you will be able to:</p>
-<ul>
-<li class="fragment">Conduct a full data analysis project.</li>
-<li class="fragment">Communicate about your data work at a variety of levels and via a variety of formats including short presentations, longer presentations, and written reports.</li>
-<li class="fragment">Think statistically about data and research questions.</li>
-<li class="fragment">Collaborate on projects with a reproducible workflow.</li>
-<li class="fragment">Run a productive consulting meeting.</li>
-<li class="fragment">Undertake future projects with greater independence.</li>
-</ul>
-</section>
-<section id="overarching-goal-create-data-science-unicorns" class="slide level2">
-<h2>Overarching Goal: Create Data Science Unicorns!</h2>
-<div class="columns">
-<div class="column center" style="width:100%;">
-<p><img data-src="img/Data306_Unicorn_Fall2025.png" style="width:60.0%"></p>
-</div></div>
-</section>
-<section id="data-science-skills" class="slide level2">
-<h2>Data Science Skills</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment"><p>Mapping a vague question to data</p></li>
-<li class="fragment"><p>Exploratory data analysis</p></li>
-<li class="fragment"><p>Data visualization</p></li>
-<li class="fragment"><p>Modeling</p></li>
-<li class="fragment"><p>Writing clean, robust, and consistent code</p></li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/curve_fitting.png" style="width:60.0%"></p>
-<figcaption>https://xkcd.com/2048/</figcaption>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="story-telling-skills" class="slide level2">
-<h2>Story Telling Skills</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Oral communication
-<ul>
-<li class="fragment">Prepared talks</li>
-<li class="fragment">Semi-prepared elevator speeches</li>
-<li class="fragment">Consulting conversations</li>
-</ul></li>
-<li class="fragment">Written communication
-<ul>
-<li class="fragment">Reading reflections</li>
-<li class="fragment">Technical reports</li>
-</ul></li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/communication.png" style="width:60.0%"></p>
-<figcaption>https://www.xkcd.com/1984/</figcaption>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="collaboration-skills" class="slide level2">
-<h2>Collaboration Skills</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Reproducible workflow
-<ul>
-<li class="fragment">Git and GitHub</li>
-<li class="fragment">Quarto</li>
-<li class="fragment">Documentation</li>
-</ul></li>
-<li class="fragment">Team Science
-<ul>
-<li class="fragment">Stakeholders</li>
-<li class="fragment">Peers</li>
-<li class="fragment">Team Leaders</li>
-<li class="fragment">Data science mentor</li>
-</ul></li>
-<li class="fragment">Running a meeting</li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<p><img data-src="img/power_skills.png" style="width:90.0%"></p>
-</div></div>
-</section>
-<section id="ethics" class="slide level2">
-<h2>Ethics</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<ul>
-<li class="fragment"><p>Report results honestly</p></li>
-<li class="fragment"><p>Transparency in your data wrangling, assumptions, and model building choices</p></li>
-<li class="fragment"><p>Follow a reproducible workflow</p></li>
-<li class="fragment"><p>Consider data privacy issues</p></li>
-</ul>
-</div><div class="column center" style="width:60%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ethics.png" style="width:100.0%"></p>
-<figcaption>https://dilbert.com</figcaption>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="ethics-1" class="slide level2">
-<h2>Ethics</h2>
-<div class="columns">
-<div class="column center" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ethics2.png" style="width:80.0%"></p>
-<figcaption>https://xkcd.com/1390/</figcaption>
-</figure>
-</div>
-</div><div class="column center" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/significant.png" style="width:40.0%"></p>
-<figcaption>https://xkcd.com/882</figcaption>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="reflection" class="slide level2">
-<h2>Reflection</h2>
-<div class="columns">
-<div class="column center" style="width:50%;">
-<p><img data-src="img/Data306_Unicorn_Fall2025.png" style="width:90.0%"></p>
-</div><div class="column center" style="width:50%;">
-<ul>
-<li class="fragment">Of our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.</li>
-<li class="fragment">Of our data science unicorn skills, list 1-2 where you feel you have the most room to grow.</li>
-</ul>
-</div></div>
-</section>
-<section id="research-tools" class="slide level2">
-<h2>Research Tools</h2>
-<ul>
-<li class="fragment"><p>Will vary by project!</p></li>
-<li class="fragment"><p>All have access to an RStudio Server via a Posit Cloud Workspace. Will use for some activities and demos.</p></li>
-<li class="fragment"><p>We will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.</p>
-<ul>
-<li class="fragment">Make sure to become a Watcher of the course site.</li>
-<li class="fragment">I will also share a specific project site with each student.</li>
-</ul></li>
-<li class="fragment"><p>Bring a laptop to class. Please check-in with me if this will be an issue.</p></li>
-</ul>
-</section>
-<section id="readings" class="slide level2">
-<h2>Readings</h2>
-<ul>
-<li class="fragment">We will read a variety of papers and book chapters.</li>
-<li class="fragment">Main textbook is “Communicating with Data: The Art of Writing for Data Science” by Deborah Nolan and Sara Stoudt.
-<ul>
-<li class="fragment">There are extra copies in Taylor 212. These copies should NOT leave Taylor 212.</li>
-</ul></li>
-<li class="fragment">Readings will be posted to the schedule.
-<ul>
-<li class="fragment">Reading reflections are due Mondays at 10pm.
-<ul>
-<li class="fragment">First reflections are due Sept 1st. Will discuss in Thursday’s class.</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="course-structure" class="slide level2">
-<h2>Course Structure</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Seminar Days</strong></p>
-<ul>
-<li class="fragment">Discussion</li>
-<li class="fragment">Activities related to readings</li>
-<li class="fragment">Guest lectures</li>
-<li class="fragment">Presentations</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Lab Days</strong></p>
-<ul>
-<li class="fragment">Project work time</li>
-<li class="fragment">Check-in meetings</li>
-</ul>
-</div></div>
-</section>
-<section id="course-components" class="slide level2">
-<h2>Course Components</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Engagement
-<ul>
-<li class="fragment">Attendance is required</li>
-<li class="fragment">Three Slack posts to our workspace</li>
-<li class="fragment">One office hour visit</li>
-<li class="fragment">One DCDS activity</li>
-</ul></li>
-<li class="fragment">Weekly reading reflections</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Project assessments
-<ul>
-<li class="fragment">Team leader duties</li>
-<li class="fragment">Periodic in-class lab assignments</li>
-<li class="fragment">Progress report presentations</li>
-<li class="fragment">Deliverables</li>
-</ul></li>
-<li class="fragment">Peer feedback</li>
-</ul>
-</div></div>
-</section>
-<section id="policies" class="slide level2">
-<h2>Policies</h2>
-<ul>
-<li class="fragment"><p>Make sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.</p></li>
-<li class="fragment"><p>But let’s talk AI…</p></li>
-</ul>
-</section>
-<section id="ai-policy" class="slide level2">
-<h2>AI Policy</h2>
-<p>While A.I. tools, such as ChatGPT, are being used to generate code, analyze data, and write essays, goals of this course are to develop your <strong>own</strong> ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.</p>
-<p>You may use AI in these course activities:</p>
-<ul>
-<li class="fragment">Providing feedback on their writing. The original draft should be your work but you can ask for feedback from AI and incorporate that feedback into the revision.</li>
-<li class="fragment">Providing coding suggestions or revisions. You are responsible for understanding every line of code in your project, regardless of whether it was written by you, your project members, your mentor, or AI.</li>
-<li class="fragment">Brainstorming ideas for your project.</li>
-</ul>
-</section>
-<section id="ai-policy-1" class="slide level2">
-<h2>AI Policy</h2>
-<p>You may not use AI in these ways:</p>
-<ul>
-<li class="fragment">Writing the initial draft or whole paragraphs of a writing assignment or your technical report.</li>
-<li class="fragment">Writing large blocks of code.</li>
-</ul>
-<div class="fragment">
-<p>If you do use AI in your project or on an assignment, please include an AI citation that provides: prompt, AI tool, company, date.</p>
-</div>
-<div class="fragment">
-<p>If you are in doubt as to whether you are using AI appropriately in this course, I encourage you to meet with me for a discussion. Violations of this policy will be considered academic misconduct.</p>
-</div>
-</section>
-<section id="projects" class="slide level2">
-<h2>Projects</h2>
-<p>Each project charter has:</p>
-<ul>
-<li class="fragment">Team composition: Student researchers will be assigned later this week.</li>
-<li class="fragment">Project background: Short summary motivating the project.</li>
-<li class="fragment">Project goals: What the stakeholder mentor wants to accomplish.</li>
-<li class="fragment">Data: A brief description of the data for the project.</li>
-<li class="fragment">Desired deliverables: Vary by project but all include a well-documented repository, technical report, and a final presentation (Dec 15th 9am - 11am).</li>
-<li class="fragment">Roles and expectations for each person on the team.</li>
-<li class="fragment">Research plan</li>
-<li class="fragment">Communication</li>
-</ul>
-<div class="fragment">
-<p><strong>Please read over the project charters and complete the Background and Interest Survey by noon tomorrow!</strong></p>
-</div>
-</section>
-<section id="looking-ahead-to-day-2" class="slide level2">
-<h2>Looking Ahead to Day 2…</h2>
-<ul>
-<li class="fragment">Git/GitHub</li>
-<li class="fragment">Rules for effective data analysis: <a href="https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Readings/Kass_et_al_2016.PDF">Kass et al (2016)</a>
-<ul>
-<li class="fragment">Groups each need to be ready to explain their rule in their own words. Can use the board.</li>
-</ul></li>
-<li class="fragment">Initial project check-ins</li>
-</ul>
-</section>
-<section id="section" class="slide level2 center" data-menu-title="RStudio">
-<h2></h2>
-<div style="margin-top: 80px; font-size: 2em; color: #19647E;">
-<p>Demo of accessing the RStudio Server on Posit Cloud</p>
-</div>
-<div style="margin-top: 80px; font-size: 1.2em; color: #19647E;">
-<p>Try to access the RStudio Server between now and next lecture.</p>
-</div>
-</section>
-<section id="rest-of-class" class="slide level2">
-<h2>Rest of Class</h2>
-<ul>
-<li class="fragment"><p>Start tackling the items here: <a href="burl.live/start">burl.live/start</a></p></li>
-<li class="fragment"><p>Read over the project descriptions.</p></li>
-<li class="fragment"><p>Add your GitHub username.</p></li>
-</ul>
+<section id="eda-activity-1" class="slide level2">
+<h2>EDA Activity</h2>
 
 
 </section></section>

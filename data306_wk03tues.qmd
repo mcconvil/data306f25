@@ -1,0 +1,212 @@
+---
+pagetitle: "EDA"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Exploratory Data Analysis]{.custom-title}
+
+ 
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 3 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+
+---
+
+## Reminders
+
++ New team leaders this week.
+    + Remember to update the To Dos list your GitHub Project.
+
++ (By Sept 11th 10am) Turn in your Question Formulation document on Gradescope.
+    + Week 2 Team Leader should turn it in for the whole team.
+
++ (By Sept 15th 10pm) Turn in the Week 4 Reading Reflections.  
+
+
+
+
+---
+
+## Plan for Today
+
+* Topics to discuss:
+    + Confirmatory studies versus exploratory studies
+    + Exploratory data analysis    
+
+* Demos in Positron
+
+* EDA activity
+
+---
+
+## Types of Data Projects
+
+What is the difference between confirmatory and exploratory studies?
+
+::: columns
+
+::: column
+
+**Confirmatory Studies**
+
+* Classical view of statistical process
+
+* Start with hypotheses and then use data to assess the accuracy of the hypotheses.
+
+:::
+
+::: column
+
+**Exploratory Studies**
+
+* Start with the data and use the data to generate hypotheses.
+
+:::
+
+:::
+
+::: fragment
+Questions:
+:::
+
+* Pros and cons of each type?
+* Under which type does your project fall?
+
+---
+
+## Avoiding Overfitting the Data/P-Hacking in Exploratory Studies
+
+::: columns
+
+::: column
+
+::: { .nonincremental}
+
+* Split your data into two sets:
+    + Training set: Data to mine
+    + Test set: Data to apply your final models to.
+
+:::
+
+:::
+
+::: column
+
+![](img/train_test.png)
+
+:::
+
+:::
+
+* Typically 70/30 or 80/20 split.
+
+* **Question**: How should you decide what data goes into the training set versus the test set?
+
+# Exploratory Data Analysis
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+* All studies, exploratory or confirmatory, should include a robust exploration stage.
+    + Might be more constrained for confirmatory studies.
+
+* EDA Goals:
+    + Look for data quality issues (missingness, censored data, mislabeled data, representativity, ...).
+    + Discover trends in the data (within one variable, between 2+ variables).
+
+* There is no perfect checklist for EDA.  
+
+* It is a VERY iterative process.
+
+---
+
+## Qualities of an Effective Data Scientist
+
+![](img/gemini_ds.png){fig-align="center"}
+
+* I think one is missing: Curiosity!
+
+---
+
+## General (Incomplete) EDA Checklist
+
+**Disclaimer:** Not every item on this list will work for every project.
+
+1. Formulate a few questions you want to answer with your explorations.  Typical questions:
+    a. What type of variation occurs within the variables?
+    b. What type of variation occurs between the variables?
+2. Check the size of the data.  
+    a. Do you have the correct number of observations and variable?
+3. Spend time exploring how the data are coded.  
+    a. Do the variables have the correct classification in `R` or `Python`?
+4. Summarize from many angles. 
+    a. What are typical values?
+    b. Any red flags?  If so, explore different subsets of the data.
+    c. What information is gained from these summaries?
+
+## General (Incomplete) EDA Checklist
+
+5. Validate with at least one external data source.
+    a. Are my summaries reasonably similar to the external source?  If not, why not?
+6. Make many plots.
+    a. Are there any unusual patterns?  If so, what might explain them?
+    b. What information is gained from these plots?
+    c. Go back and compute additional summary statistics based on what you learned from the plots.
+7. Tidy
+    a. Determine what data wrangling steps should go into creating a tidy version of the data.
+8. Try the easy solution.
+    a. Try to at least partially answer some of your research questions via your EDA output.
+
+# EDA Activity
+
+## EDA Activity
+
