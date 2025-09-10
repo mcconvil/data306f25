@@ -1,0 +1,141 @@
+---
+pagetitle: "Project EDA"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Project EDA]{.custom-title}
+
+ 
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 3 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+
+---
+
+## Reminders
+
++ (By Sept 15th 10pm) Turn in the Week 4 Reading Reflections.  
+
+
+
+
+---
+
+## Plan for Today: Mostly a Lab Day
+
+* Visualizations
+
+* EDA on your project.  
+    * I will walk around to check-in and answer questions.
+
+---
+
+## Visualizations
+
+* There are many different purposes:
+    + Tell a story with data.
+    + Explain a concept.
+    + Organize information.
+
+* There are many different types:
+    + Graphs
+    + Diagrams
+    + Maps
+    + Infographics
+    + Flowcharts
+
+---
+
+## Plan for the next three classes
+
+**Week 4, Tuesday (Sept 16th)**: No class.  Meet with group mates to 
+
+* Continue EDA.
+* Create a visualization.
+    + Week 4 Team Leader: Upload the visualization to Gradescope (Project Activity: Visualization) for the team by 10am on Sept 19th.
+
+::: fragment
+
+**Week 4, Thursday (Sept 18th)**:  Visualization Best Practices
+
+:::
+
+* Guest lecturer: Claire Cahoon, Staff Fellow with the Dominguez Center for Data Science
+* She will take attendance. :)
+
+## First Round of Progress Report Presentations
+
+* **Week 5, Tuesday (Sept 23th)**
+
+* Five minute presentation
+    + Will be held to the time limit.
+
+* Should include an updated version of the visualization your team submitted to Gradescope.
+    + Needs to include **two improvements** based on Claire's lecture.
+
+* Goals of the talk:
+    + Explain your research project and project goal(s) to the class.
+    + Provide your plan for the project.
+
+## First Round of Progress Report Presentations
+
+* Will be recorded.
+
+* Stakeholders will either be in attendance or will watch recording.
+
+* Audience: Class mates and other project stakeholders
+    + Make sure to not assume prior knowledge.
+
+* Week 5 Team Leader: 
+    + In-charge of organizing the presentation so that your team tells a coherent story.
+    + Submit the slide deck or a URL to your slide deck to Gradescope by 10am.
+    + Add the slide deck or a URL to your group's GitHub repository.  
+        + Make clear where slides are located.
