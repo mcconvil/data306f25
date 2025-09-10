@@ -1,8 +1,8 @@
 project:
   type: website
   output-dir: docs
-#  resources: 
-#      - materials
+  resources: 
+      - examples
 
 website:
   page-navigation: true
