@@ -80,10 +80,18 @@ library(patchwork)
 
 ## Visualizations
 
+::: columns
+
+::: column
+
 * There are many different purposes:
     + Tell a story with data.
     + Explain a concept.
     + Organize information.
+
+:::
+
+::: column
 
 * There are many different types:
     + Graphs
@@ -91,6 +99,11 @@ library(patchwork)
     + Maps
     + Infographics
     + Flowcharts
+
+:::
+:::
+
+Let's look at [some examples](https://mcconvil.github.io/data306f25/examples/ResearchTalkFall2024-Oberlin.pdf) from a talk I gave last year.
 
 ---
 
