@@ -84,6 +84,15 @@ library(patchwork)
 
 ---
 
+## Presentations
+
+* Make a copy of [this feedback form](https://docs.google.com/document/d/1cd3UUOzJ4bfh158OQUrXgJZx0RRzdQ1KVBqGWuzBPHc/copy)
+    + Also in the Schedule under today.
+    + Due on Gradescope by Thursday's class at 10am.
+    + I'd suggest turning it in right after class today!
+
+---
+
 ## Data Dictionaries
 
 * Document the data sources  
