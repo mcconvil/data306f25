@@ -1,0 +1,101 @@
+---
+pagetitle: "Progress Reports #1"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Progress Reports #1]{.custom-title}
+
+ 
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 5 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Plan for Today
+
+* Five minute presentations:
+    * Goals of the talk:
+       + Explain your research project and project goal(s) to the class.
+       + Provide your plan for the project.
+    * Peer feedback
+
+* Data dictionaries
+
+---
+
+## Plan for Thursday: Mostly a Lab Day
+
+* Free work time
+
+* I will do check-ins with each group.
+    + EDA findings
+    + Training versus testing datasets
+    + Plan for next steps
+    
+* Start putting together your data dictionaries.
+
+---
+
+## Data Dictionaries
+
+* Document the data sources  
+    + Include links when possible
+* Code names
+    + Be consistent with your group's style guide
+* Brief description
+* How missing values are handled
+* Class of variable
+* Possible categories or ranges
+* Key variables
+* Derived variables
+    + Made from others, imputed, ...
+* Other relevant information
+
