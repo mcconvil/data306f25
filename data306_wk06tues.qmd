@@ -1,0 +1,148 @@
+---
+pagetitle: "Week 6: Lab Day"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Project Work]{.custom-title}
+
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 6 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Reminders/Tasks
+
+* Readings in the Schedule are updated for the next few weeks.
+
+* Data dictionaries due by Thursday at 10am in project repository.
+
+* Have shared your presentations.  Watch your own group's video and fill out ALL SIX QUESTIONS from the [feedback form](https://docs.google.com/document/d/1cd3UUOzJ4bfh158OQUrXgJZx0RRzdQ1KVBqGWuzBPHc/copy)
+    + Due by next Tuesday at 10am on Gradescope.
+
+
+---
+
+## Plan for Today
+
+* How do we know if our group is at a good place in the project?
+    + Have a solid understanding of the research problem.
+    + Have your data.
+    + Have a clear path forward.
+    + Are making good progress both in and out of class each week.
+    
+* First 10 minutes of class: In your project groups, clean up your Project To Dos on GitHub.  Come up with several **concrete** tasks for this week.
+
+* Data dictionaries should be one of those tasks: 
+    + Due in your repo by 10am on Thursday.
+    
+---
+
+## Example Tasks
+
+
++ Create 20 exploratory graphs and relate back to research question/problem.
++ Determine and complete data cleaning tasks (e.g., collapse categorical variable into coarser bins, join datasets, recode -99s to NA, ...).
++ Make sure everyone on the team (including Kelly) has the cleaned, wrangled dataset.  Make sure the script that outlines all wrangling steps is included in the repository.
++ Create a data dictionary and share in our GitHub repository.
++ Split data into training and testing splits.  Make sure everyone on the team (including Kelly) has access and the script to split the data is the repository.
++ Determine model form and variables to include in models.  (Check with Kelly before moving to modeling.)
++ Genomics: Start creating protocol for processing genes with otb.
++ AI Personas: Create more "representative" Bucknell personas.  Give personas part of the MyVoice survey.  Compare closed and open question responses to the true results.
+
+
+
+    
+    
+---
+
+## Plan for Today
+
+* Starting at 10:15am, free work time and check-in meetings with Kelly.  Be ready to discuss:
+    + Your plans for your data dictionary.
+    + Your current tasks are.
+    + Any issues.
+    + Code reviews.
+    
+* Kelly will send a note in Slack when she is ready for you to join her at the front of Taylor 212.  Order:
+    + AI Personas
+    + Podcasts
+    + Careers
+    + Genomics
+    + Entrepeneurship
+    + Mortgages
+
+---
+
+## Plan for Next Class: Lab Day
+
+* You should be working on these projects outside of class but we will also devote Thursday's class to free work and check-ins with Kelly.
+
+
+---
+
+## Reminder: Data Dictionaries
+
+* Document the data sources  
+    + Include links when possible
+* Code names
+    + Be consistent with your group's style guide
+* Brief description
+* How missing values are handled
+* Class of variable
+* Possible categories or ranges
+* Key variables
+* Derived variables
+    + Made from others, imputed, ...
+* Other relevant information
+
+
+
+

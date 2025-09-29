@@ -277,7 +277,49 @@
     "href": "index.html",
     "title": "DATA/MATH 306: Data Science & Statistical Consulting",
     "section": "",
-    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs"
+    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues"
+  },
+  {
+    "objectID": "data306_wk06tues.html#reminderstasks",
+    "href": "data306_wk06tues.html#reminderstasks",
+    "title": "DATA/MATH 306",
+    "section": "Reminders/Tasks",
+    "text": "Reminders/Tasks\n\nReadings in the Schedule are updated for the next few weeks.\nData dictionaries due by Thursday at 10am in project repository.\nHave shared your presentations. Watch your own group’s video and fill out ALL SIX QUESTIONS from the feedback form\n\nDue by next Tuesday at 10am on Gradescope."
+  },
+  {
+    "objectID": "data306_wk06tues.html#plan-for-today",
+    "href": "data306_wk06tues.html#plan-for-today",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Today",
+    "text": "Plan for Today\n\nHow do we know if our group is at a good place in the project?\n\nHave a solid understanding of the research problem.\nHave your data.\nHave a clear path forward.\nAre making good progress both in and out of class each week.\n\nFirst 10 minutes of class: In your project groups, clean up your Project To Dos on GitHub. Come up with several concrete tasks for this week.\nData dictionaries should be one of those tasks:\n\nDue in your repo by 10am on Thursday."
+  },
+  {
+    "objectID": "data306_wk06tues.html#example-tasks",
+    "href": "data306_wk06tues.html#example-tasks",
+    "title": "DATA/MATH 306",
+    "section": "Example Tasks",
+    "text": "Example Tasks\n\nCreate 20 exploratory graphs and relate back to research question/problem.\nDetermine and complete data cleaning tasks (e.g., collapse categorical variable into coarser bins, join datasets, recode -99s to NA, …).\nMake sure everyone on the team (including Kelly) has the cleaned, wrangled dataset. Make sure the script that outlines all wrangling steps is included in the repository.\nCreate a data dictionary and share in our GitHub repository.\nSplit data into training and testing splits. Make sure everyone on the team (including Kelly) has access and the script to split the data is the repository.\nDetermine model form and variables to include in models. (Check with Kelly before moving to modeling.)\nGenomics: Start creating protocol for processing genes with otb.\nAI Personas: Create more “representative” Bucknell personas. Give personas part of the MyVoice survey. Compare closed and open question responses to the true results."
+  },
+  {
+    "objectID": "data306_wk06tues.html#plan-for-today-1",
+    "href": "data306_wk06tues.html#plan-for-today-1",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Today",
+    "text": "Plan for Today\n\nStarting at 10:15am, free work time and check-in meetings with Kelly. Be ready to discuss:\n\nYour plans for your data dictionary.\nYour current tasks are.\nAny issues.\nCode reviews.\n\nKelly will send a note in Slack when she is ready for you to join her at the front of Taylor 212. Order:\n\nAI Personas\nPodcasts\nCareers\nGenomics\nEntrepeneurship\nMortgages"
+  },
+  {
+    "objectID": "data306_wk06tues.html#plan-for-next-class-lab-day",
+    "href": "data306_wk06tues.html#plan-for-next-class-lab-day",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Next Class: Lab Day",
+    "text": "Plan for Next Class: Lab Day\n\nYou should be working on these projects outside of class but we will also devote Thursday’s class to free work and check-ins with Kelly."
+  },
+  {
+    "objectID": "data306_wk06tues.html#reminder-data-dictionaries",
+    "href": "data306_wk06tues.html#reminder-data-dictionaries",
+    "title": "DATA/MATH 306",
+    "section": "Reminder: Data Dictionaries",
+    "text": "Reminder: Data Dictionaries\n\nDocument the data sources\n\nInclude links when possible\n\nCode names\n\nBe consistent with your group’s style guide\n\nBrief description\nHow missing values are handled\nClass of variable\nPossible categories or ranges\nKey variables\nDerived variables\n\nMade from others, imputed, …\n\nOther relevant information"
   },
   {
     "objectID": "data306_wk01thurs.html#looking-ahead-to-week-2",
