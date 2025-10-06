@@ -1,0 +1,392 @@
+---
+pagetitle: "Models"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+# Sit next to someone who is NOT in your project group for class today.
+
+
+
+---
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Models]{.custom-title}
+
+<br>
+<br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 7 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Reminders/Tasks
+
+* No class next Tuesday because of fall break.  
+
+* Reading reflections for next week are due on Wednesday (not Monday) at 10pm.
+
+
+---
+
+## Plan for This Week
+
+* Tuesday: Modeling Discussion
+
+* Thursday: Lab Day/Check-ins
+    
+# Let's Talk about the Typical Workflow for Data Analysis
+
+---
+
+
+![](img/DAW.png){width="57%" fig-align="center"}
+
+---
+
+## Modeling & Inference Step: Start with Modeling
+
+* Descriptive Models: Describe the data.
+
+* Inferential & Explanatory Models: Explore a specific hypothesis and explain how variables relate.
+
+* Predictive Models: Predict new data well.
+
+::: fragment
+
+**Questions:**
+
+:::
+
+* What types of models have you seen in your courses here at Bucknell?  
+
+* How could models be useful for your project?
+
+---
+
+## Inferential Models in Intro Stats
+
+**Problem Set-up**:  In a 1995 study, Hecht and LeFrance examined the effect of a smile on the leniency of disciplinary action for wrongdoers. Participants in the experiment took on the role of members of a college disciplinary panel judging students accused of cheating. For each suspect, along with a description of the offense, a picture was provided with either a smile or neutral facial expression. A leniency score was calculated based on the disciplinary decisions made by the participants. Can a simple smile have an effect on punishment assigned following an infraction?
+
+
+**Question**: What inferential model might we use to answer this question?
+
+---
+
+## Inference
+
+* Regardless of your modeling goals, you will want to draw conclusions about some group/population.
+
+* **Question:** Do you have census data for your project?
+
+
+::: columns
+
+::: column
+
+* If **yes**, then likely don't need measures of uncertainty for estimation but still need to assess model quality/accuracy.
+
+* Should still consider if there is a broader group you'd like to generalize to.
+
+:::
+
+::: column
+
+
+
+* If **no**, then you do need measures of uncertainty and to assess model quality/accuracy.
+
+* Should consider how representative the sample is of the population.
+
+:::
+
+:::
+
+
+# Modeling Activity
+
+
+---
+
+## Modeling Goal: Descriptive, Inferential/Explanatory, or Predictive?
+
+
+::: columns
+
+::: column
+
+```{r}
+#| echo: false
+
+library(Stat2Data)
+library(tidyverse)
+library(broom)
+data("Pollster08")
+Pollster08 <- Pollster08 %>%
+  mutate(Charlie_Gibson = case_match(Charlie,
+                                     0 ~ "Before Interview",
+                                     1 ~ "After Interview"),
+         Lehman_Brothers = case_match(Meltdown,
+                                      0 ~ "Before Bankruptcy",
+                                      1 ~ "After Bankruptcy") )
+
+
+mod1 <- lm(Margin ~ Days*Charlie, data = Pollster08)
+#summary(mod1)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin, 
+           color = Charlie_Gibson)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE) +
+  theme(legend.position = "bottom") +
+  labs(subtitle = "R-sqd = 0.42 & Adjusted R-sqd = 0.40",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i2]  + beta[3] * X[i1] * X[i2] + epsilon[i]))
+
+
+
+```
+
+```{r}
+#| echo: false
+
+
+mod4 <- lm(Margin ~ Days*Lehman_Brothers, data = Pollster08)
+#summary(mod4)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin, 
+           color = Lehman_Brothers)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE) +
+  theme(legend.position = "bottom") +
+  labs(subtitle = "R-sqd = 0.32 & Adjusted R-sqd = 0.30",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i2]  + beta[3] * X[i1] * X[i2] + epsilon[i]))
+
+
+
+```
+
+:::
+
+
+::: column
+
+```{r}
+#| echo: false
+
+
+mod2 <- lm(Margin ~ poly(Days, degree = 2), data = Pollster08)
+#summary(mod2)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE,
+              formula = y ~ poly(x, degree = 2)) +
+  labs(subtitle = "R-sqd = 0.35 & Adjusted R-sqd = 0.34",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i1]^2  + epsilon[i]))
+
+
+mod3 <- lm(Margin ~ poly(Days, degree = 5), data = Pollster08)
+#summary(mod3)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE,
+              formula = y ~ poly(x, degree = 5)) +
+  labs(subtitle = "R-sqd = 0.45 & Adjusted R-sqd = 0.42",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i1]^2 + beta[3] * X[i1]^3 + beta[4] * X[i1]^4 + beta[5] * X[i1]^5 + epsilon[i]))
+```
+
+:::
+
+:::
+
+
+---
+
+## Which Model is Best?  Why?
+
+
+::: columns
+
+::: column
+
+```{r}
+#| echo: false
+
+library(Stat2Data)
+library(tidyverse)
+library(broom)
+data("Pollster08")
+Pollster08 <- Pollster08 %>%
+  mutate(Charlie_Gibson = case_match(Charlie,
+                                     0 ~ "Before Interview",
+                                     1 ~ "After Interview"),
+         Lehman_Brothers = case_match(Meltdown,
+                                      0 ~ "Before Bankruptcy",
+                                      1 ~ "After Bankruptcy") )
+
+
+mod1 <- lm(Margin ~ Days*Charlie, data = Pollster08)
+#summary(mod1)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin, 
+           color = Charlie_Gibson)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE) +
+  theme(legend.position = "bottom") +
+  labs(subtitle = "R-sqd = 0.42 & Adjusted R-sqd = 0.40",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i2]  + beta[3] * X[i1] * X[i2] + epsilon[i]))
+
+
+
+```
+
+```{r}
+#| echo: false
+
+
+mod4 <- lm(Margin ~ Days*Lehman_Brothers, data = Pollster08)
+#summary(mod4)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin, 
+           color = Lehman_Brothers)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE) +
+  theme(legend.position = "bottom") +
+  labs(subtitle = "R-sqd = 0.32 & Adjusted R-sqd = 0.30",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i2]  + beta[3] * X[i1] * X[i2] + epsilon[i]))
+
+
+
+```
+
+:::
+
+
+::: column
+
+```{r}
+#| echo: false
+
+
+mod2 <- lm(Margin ~ poly(Days, degree = 2), data = Pollster08)
+#summary(mod2)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE,
+              formula = y ~ poly(x, degree = 2)) +
+  labs(subtitle = "R-sqd = 0.35 & Adjusted R-sqd = 0.34",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i1]^2  + epsilon[i]))
+
+
+mod3 <- lm(Margin ~ poly(Days, degree = 5), data = Pollster08)
+#summary(mod3)
+
+ggplot(Pollster08, 
+       aes(x = Days, 
+           y = Margin)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE,
+              formula = y ~ poly(x, degree = 5)) +
+  labs(subtitle = "R-sqd = 0.45 & Adjusted R-sqd = 0.42",
+       title = expression("Model:" ~ Y[i] == beta[0] + beta[1] * X[i1] + beta[2] * X[i1]^2 + beta[3] * X[i1]^3 + beta[4] * X[i1]^4 + beta[5] * X[i1]^5 + epsilon[i]))
+```
+
+:::
+
+:::
+
+---
+
+## Model Goals: Form and Variables
+
+**Problem Set-up:** The Massachusetts Comprehensive Assessment System (MCAS) is a standardized exam administered to students in the state of Massachusetts since 1993. Under law, students educated with public funds are required to participate in statewide testing. Students take exams according to their grade level in subjects such as Mathematics and English Language Arts; passing grades on the Grade 10 MCAS are required for high school graduation. Exam results are used to check student progress as well as measure school and district performance.
+
+a. Describe a scenario where data from the 2025 Grade 10 Mathematics MCAS could be used to explore achievement gaps.  Focus on inferential/explanatory modeling and discuss what variables and model form you might consider.
+
+
+b. Reconsider the goal of building a model to explore achievement gaps but this time from a predictive perspective.  How might the model form and variables used differ from those in (a) if your modeling goal is now predictive?
+
+---
+
+## Model Goals: Form and Variables
+
+**Problem Set-up:** The Massachusetts Comprehensive Assessment System (MCAS) is a standardized exam administered to students in the state of Massachusetts since 1993. Under law, students educated with public funds are required to participate in statewide testing. Students take exams according to their grade level in subjects such as Mathematics and English Language Arts; passing grades on the Grade 10 MCAS are required for high school graduation. Exam results are used to check student progress as well as measure school and district performance.
+
+c. Discuss the trade-offs between a simple, interpretable model and a complex, black box model for a data science consulting project.  When should you choose one over the other?
+
+---
+
+## Variable Choices
+
+**Problem Set-up:** Suppose you are a consultant and have a healthcare client who wants a model to predict patient no-show rates so that they can optimize scheduling.  During the modeling process, you discover that a patient’s zip code is a highly predictive variable.  
+
+
+a. Discuss the positive and negative consequences of including versus excluding zip code from the model.  
+
+
+b. Brainstorm what other variables zip code might be a proxy for.  Which of these variables might the healthcare client have access to and would you consider including in the model instead of zip code?
+
+
+

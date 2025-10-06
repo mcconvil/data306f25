@@ -277,49 +277,77 @@
     "href": "index.html",
     "title": "DATA/MATH 306: Data Science & Statistical Consulting",
     "section": "",
-    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues"
+    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues\n\n\n\nWeek 7, Tues"
   },
   {
-    "objectID": "data306_wk06tues.html#reminderstasks",
-    "href": "data306_wk06tues.html#reminderstasks",
+    "objectID": "data306_wk07tues.html#reminderstasks",
+    "href": "data306_wk07tues.html#reminderstasks",
     "title": "DATA/MATH 306",
     "section": "Reminders/Tasks",
-    "text": "Reminders/Tasks\n\nReadings in the Schedule are updated for the next few weeks.\nData dictionaries due by Thursday at 10am in project repository.\nHave shared your presentations. Watch your own group’s video and fill out ALL SIX QUESTIONS from the feedback form\n\nDue by next Tuesday at 10am on Gradescope."
+    "text": "Reminders/Tasks\n\nNo class next Tuesday because of fall break.\nReading reflections for next week are due on Wednesday (not Monday) at 10pm."
   },
   {
-    "objectID": "data306_wk06tues.html#plan-for-today",
-    "href": "data306_wk06tues.html#plan-for-today",
+    "objectID": "data306_wk07tues.html#plan-for-this-week",
+    "href": "data306_wk07tues.html#plan-for-this-week",
     "title": "DATA/MATH 306",
-    "section": "Plan for Today",
-    "text": "Plan for Today\n\nHow do we know if our group is at a good place in the project?\n\nHave a solid understanding of the research problem.\nHave your data.\nHave a clear path forward.\nAre making good progress both in and out of class each week.\n\nFirst 10 minutes of class: In your project groups, clean up your Project To Dos on GitHub. Come up with several concrete tasks for this week.\nData dictionaries should be one of those tasks:\n\nDue in your repo by 10am on Thursday."
+    "section": "Plan for This Week",
+    "text": "Plan for This Week\n\nTuesday: Modeling Discussion\nThursday: Lab Day/Check-ins"
   },
   {
-    "objectID": "data306_wk06tues.html#example-tasks",
-    "href": "data306_wk06tues.html#example-tasks",
+    "objectID": "data306_wk07tues.html#modeling-inference-step-start-with-modeling",
+    "href": "data306_wk07tues.html#modeling-inference-step-start-with-modeling",
     "title": "DATA/MATH 306",
-    "section": "Example Tasks",
-    "text": "Example Tasks\n\nCreate 20 exploratory graphs and relate back to research question/problem.\nDetermine and complete data cleaning tasks (e.g., collapse categorical variable into coarser bins, join datasets, recode -99s to NA, …).\nMake sure everyone on the team (including Kelly) has the cleaned, wrangled dataset. Make sure the script that outlines all wrangling steps is included in the repository.\nCreate a data dictionary and share in our GitHub repository.\nSplit data into training and testing splits. Make sure everyone on the team (including Kelly) has access and the script to split the data is the repository.\nDetermine model form and variables to include in models. (Check with Kelly before moving to modeling.)\nGenomics: Start creating protocol for processing genes with otb.\nAI Personas: Create more “representative” Bucknell personas. Give personas part of the MyVoice survey. Compare closed and open question responses to the true results."
+    "section": "Modeling & Inference Step: Start with Modeling",
+    "text": "Modeling & Inference Step: Start with Modeling\n\nDescriptive Models: Describe the data.\nInferential & Explanatory Models: Explore a specific hypothesis and explain how variables relate.\nPredictive Models: Predict new data well.\n\n\nQuestions:\n\n\nWhat types of models have you seen in your courses here at Bucknell?\nHow could models be useful for your project?"
   },
   {
-    "objectID": "data306_wk06tues.html#plan-for-today-1",
-    "href": "data306_wk06tues.html#plan-for-today-1",
+    "objectID": "data306_wk07tues.html#inferential-models-in-intro-stats",
+    "href": "data306_wk07tues.html#inferential-models-in-intro-stats",
     "title": "DATA/MATH 306",
-    "section": "Plan for Today",
-    "text": "Plan for Today\n\nStarting at 10:15am, free work time and check-in meetings with Kelly. Be ready to discuss:\n\nYour plans for your data dictionary.\nYour current tasks are.\nAny issues.\nCode reviews.\n\nKelly will send a note in Slack when she is ready for you to join her at the front of Taylor 212. Order:\n\nAI Personas\nPodcasts\nCareers\nGenomics\nEntrepeneurship\nMortgages"
+    "section": "Inferential Models in Intro Stats",
+    "text": "Inferential Models in Intro Stats\nProblem Set-up: In a 1995 study, Hecht and LeFrance examined the effect of a smile on the leniency of disciplinary action for wrongdoers. Participants in the experiment took on the role of members of a college disciplinary panel judging students accused of cheating. For each suspect, along with a description of the offense, a picture was provided with either a smile or neutral facial expression. A leniency score was calculated based on the disciplinary decisions made by the participants. Can a simple smile have an effect on punishment assigned following an infraction?\nQuestion: What inferential model might we use to answer this question?"
   },
   {
-    "objectID": "data306_wk06tues.html#plan-for-next-class-lab-day",
-    "href": "data306_wk06tues.html#plan-for-next-class-lab-day",
+    "objectID": "data306_wk07tues.html#inference",
+    "href": "data306_wk07tues.html#inference",
     "title": "DATA/MATH 306",
-    "section": "Plan for Next Class: Lab Day",
-    "text": "Plan for Next Class: Lab Day\n\nYou should be working on these projects outside of class but we will also devote Thursday’s class to free work and check-ins with Kelly."
+    "section": "Inference",
+    "text": "Inference\n\nRegardless of your modeling goals, you will want to draw conclusions about some group/population.\nQuestion: Do you have census data for your project?\n\n\n\n\nIf yes, then likely don’t need measures of uncertainty for estimation but still need to assess model quality/accuracy.\nShould still consider if there is a broader group you’d like to generalize to.\n\n\n\nIf no, then you do need measures of uncertainty and to assess model quality/accuracy.\nShould consider how representative the sample is of the population."
   },
   {
-    "objectID": "data306_wk06tues.html#reminder-data-dictionaries",
-    "href": "data306_wk06tues.html#reminder-data-dictionaries",
+    "objectID": "data306_wk07tues.html#modeling-goal-descriptive-inferentialexplanatory-or-predictive",
+    "href": "data306_wk07tues.html#modeling-goal-descriptive-inferentialexplanatory-or-predictive",
     "title": "DATA/MATH 306",
-    "section": "Reminder: Data Dictionaries",
-    "text": "Reminder: Data Dictionaries\n\nDocument the data sources\n\nInclude links when possible\n\nCode names\n\nBe consistent with your group’s style guide\n\nBrief description\nHow missing values are handled\nClass of variable\nPossible categories or ranges\nKey variables\nDerived variables\n\nMade from others, imputed, …\n\nOther relevant information"
+    "section": "Modeling Goal: Descriptive, Inferential/Explanatory, or Predictive?",
+    "text": "Modeling Goal: Descriptive, Inferential/Explanatory, or Predictive?"
+  },
+  {
+    "objectID": "data306_wk07tues.html#which-model-is-best-why",
+    "href": "data306_wk07tues.html#which-model-is-best-why",
+    "title": "DATA/MATH 306",
+    "section": "Which Model is Best? Why?",
+    "text": "Which Model is Best? Why?"
+  },
+  {
+    "objectID": "data306_wk07tues.html#model-goals-form-and-variables",
+    "href": "data306_wk07tues.html#model-goals-form-and-variables",
+    "title": "DATA/MATH 306",
+    "section": "Model Goals: Form and Variables",
+    "text": "Model Goals: Form and Variables\nProblem Set-up: The Massachusetts Comprehensive Assessment System (MCAS) is a standardized exam administered to students in the state of Massachusetts since 1993. Under law, students educated with public funds are required to participate in statewide testing. Students take exams according to their grade level in subjects such as Mathematics and English Language Arts; passing grades on the Grade 10 MCAS are required for high school graduation. Exam results are used to check student progress as well as measure school and district performance.\n\nDescribe a scenario where data from the 2025 Grade 10 Mathematics MCAS could be used to explore achievement gaps. Focus on inferential/explanatory modeling and discuss what variables and model form you might consider.\nReconsider the goal of building a model to explore achievement gaps but this time from a predictive perspective. How might the model form and variables used differ from those in (a) if your modeling goal is now predictive?"
+  },
+  {
+    "objectID": "data306_wk07tues.html#model-goals-form-and-variables-1",
+    "href": "data306_wk07tues.html#model-goals-form-and-variables-1",
+    "title": "DATA/MATH 306",
+    "section": "Model Goals: Form and Variables",
+    "text": "Model Goals: Form and Variables\nProblem Set-up: The Massachusetts Comprehensive Assessment System (MCAS) is a standardized exam administered to students in the state of Massachusetts since 1993. Under law, students educated with public funds are required to participate in statewide testing. Students take exams according to their grade level in subjects such as Mathematics and English Language Arts; passing grades on the Grade 10 MCAS are required for high school graduation. Exam results are used to check student progress as well as measure school and district performance.\n\nDiscuss the trade-offs between a simple, interpretable model and a complex, black box model for a data science consulting project. When should you choose one over the other?"
+  },
+  {
+    "objectID": "data306_wk07tues.html#variable-choices",
+    "href": "data306_wk07tues.html#variable-choices",
+    "title": "DATA/MATH 306",
+    "section": "Variable Choices",
+    "text": "Variable Choices\nProblem Set-up: Suppose you are a consultant and have a healthcare client who wants a model to predict patient no-show rates so that they can optimize scheduling. During the modeling process, you discover that a patient’s zip code is a highly predictive variable.\n\nDiscuss the positive and negative consequences of including versus excluding zip code from the model.\nBrainstorm what other variables zip code might be a proxy for. Which of these variables might the healthcare client have access to and would you consider including in the model instead of zip code?"
   },
   {
     "objectID": "data306_wk01thurs.html#looking-ahead-to-week-2",
@@ -474,6 +502,48 @@
     "title": "DATA/MATH 306",
     "section": "Reminders",
     "text": "Reminders\n\n(By Sept 1st at 10pm) Readings:\n\nCommunicating with Data Chs 1.1 - 1.5\nWilson et al (2017)\n\n(By Sept 1st at 10pm) Reading reflections submitted to Gradescope.\n\nReflection templates: Quarto Document and PDF Document\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nWill help you get acquainted with your projects."
+  },
+  {
+    "objectID": "data306_wk06tues.html#reminderstasks",
+    "href": "data306_wk06tues.html#reminderstasks",
+    "title": "DATA/MATH 306",
+    "section": "Reminders/Tasks",
+    "text": "Reminders/Tasks\n\nReadings in the Schedule are updated for the next few weeks.\nData dictionaries due by Thursday at 10am in project repository.\nHave shared your presentations. Watch your own group’s video and fill out ALL SIX QUESTIONS from the feedback form\n\nDue by next Tuesday at 10am on Gradescope."
+  },
+  {
+    "objectID": "data306_wk06tues.html#plan-for-today",
+    "href": "data306_wk06tues.html#plan-for-today",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Today",
+    "text": "Plan for Today\n\nHow do we know if our group is at a good place in the project?\n\nHave a solid understanding of the research problem.\nHave your data.\nHave a clear path forward.\nAre making good progress both in and out of class each week.\n\nFirst 10 minutes of class: In your project groups, clean up your Project To Dos on GitHub. Come up with several concrete tasks for this week.\nData dictionaries should be one of those tasks:\n\nDue in your repo by 10am on Thursday."
+  },
+  {
+    "objectID": "data306_wk06tues.html#example-tasks",
+    "href": "data306_wk06tues.html#example-tasks",
+    "title": "DATA/MATH 306",
+    "section": "Example Tasks",
+    "text": "Example Tasks\n\nCreate 20 exploratory graphs and relate back to research question/problem.\nDetermine and complete data cleaning tasks (e.g., collapse categorical variable into coarser bins, join datasets, recode -99s to NA, …).\nMake sure everyone on the team (including Kelly) has the cleaned, wrangled dataset. Make sure the script that outlines all wrangling steps is included in the repository.\nCreate a data dictionary and share in our GitHub repository.\nSplit data into training and testing splits. Make sure everyone on the team (including Kelly) has access and the script to split the data is the repository.\nDetermine model form and variables to include in models. (Check with Kelly before moving to modeling.)\nGenomics: Start creating protocol for processing genes with otb.\nAI Personas: Create more “representative” Bucknell personas. Give personas part of the MyVoice survey. Compare closed and open question responses to the true results."
+  },
+  {
+    "objectID": "data306_wk06tues.html#plan-for-today-1",
+    "href": "data306_wk06tues.html#plan-for-today-1",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Today",
+    "text": "Plan for Today\n\nStarting at 10:15am, free work time and check-in meetings with Kelly. Be ready to discuss:\n\nYour plans for your data dictionary.\nYour current tasks are.\nAny issues.\nCode reviews.\n\nKelly will send a note in Slack when she is ready for you to join her at the front of Taylor 212. Order:\n\nAI Personas\nPodcasts\nCareers\nGenomics\nEntrepeneurship\nMortgages"
+  },
+  {
+    "objectID": "data306_wk06tues.html#plan-for-next-class-lab-day",
+    "href": "data306_wk06tues.html#plan-for-next-class-lab-day",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Next Class: Lab Day",
+    "text": "Plan for Next Class: Lab Day\n\nYou should be working on these projects outside of class but we will also devote Thursday’s class to free work and check-ins with Kelly."
+  },
+  {
+    "objectID": "data306_wk06tues.html#reminder-data-dictionaries",
+    "href": "data306_wk06tues.html#reminder-data-dictionaries",
+    "title": "DATA/MATH 306",
+    "section": "Reminder: Data Dictionaries",
+    "text": "Reminder: Data Dictionaries\n\nDocument the data sources\n\nInclude links when possible\n\nCode names\n\nBe consistent with your group’s style guide\n\nBrief description\nHow missing values are handled\nClass of variable\nPossible categories or ranges\nKey variables\nDerived variables\n\nMade from others, imputed, …\n\nOther relevant information"
   },
   {
     "objectID": "data306_wk05tues.html#plan-for-today",
