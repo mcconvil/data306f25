@@ -277,7 +277,7 @@
     "href": "index.html",
     "title": "DATA/MATH 306: Data Science & Statistical Consulting",
     "section": "",
-    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues\n\n\n\nWeek 7, Tues"
+    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues\n\n\n\nWeek 7, Tues\n\n\n\nWeek 8, Thurs"
   },
   {
     "objectID": "data306_wk07tues.html#reminderstasks",
@@ -866,5 +866,173 @@
     "title": "DATA/MATH 306",
     "section": "EDA Activity",
     "text": "EDA Activity"
+  },
+  {
+    "objectID": "data306_wk08thurs.html#reminderstasks",
+    "href": "data306_wk08thurs.html#reminderstasks",
+    "title": "DATA/MATH 306",
+    "section": "Reminders/Tasks",
+    "text": "Reminders/Tasks\n\nBy Oct 21st 10am, make sure to have completed and pushed to GitHub the tasks we outlined together in class on Oct 9th.\n\nWon’t be directly assessed on these at this point.\n\nLooking for completion."
+  },
+  {
+    "objectID": "data306_wk08thurs.html#plan-for-next-three-classes",
+    "href": "data306_wk08thurs.html#plan-for-next-three-classes",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Next Three Classes",
+    "text": "Plan for Next Three Classes\n\nToday: Data Ethics Discussion\nWeek 9, Tues: Lab Day/Check-ins\nWeek 9, Thurs: Mock Consulting Sessions with DCDS Advisory Board Members"
+  },
+  {
+    "objectID": "data306_wk08thurs.html#data-ethics",
+    "href": "data306_wk08thurs.html#data-ethics",
+    "title": "DATA/MATH 306",
+    "section": "Data Ethics",
+    "text": "Data Ethics\n\nImpacts several (all?) stages of the data analysis process.\nEthics considers normative questions:\n\nWhat should a person morally value?\nWhat decision should a person make in a given context?\n\nThe readings broke data science ethics into evaluating moral problems related to:\n\nData\nAlgorithms\nCorresponding Practices"
+  },
+  {
+    "objectID": "data306_wk08thurs.html#guidelines",
+    "href": "data306_wk08thurs.html#guidelines",
+    "title": "DATA/MATH 306",
+    "section": "Guidelines",
+    "text": "Guidelines\nAmerican Statistical Association have published Ethical Guidelines for Statistical Practice\nPurpose of the Guidelines:\n\n“The ethical guidelines aim to promote accountability by informing those who rely on any aspects of statistical practice of the standards they should expect. Society benefits from informed judgments supported by ethical statistical practice. All statistical practitioners are expected to follow these guidelines and encourage others to do the same.\n\n\nIn some situations, guideline principles may require balancing competing interests. If an unexpected ethical challenge arises, the ethical practitioner seeks guidance, not exceptions, in the guidelines. To justify unethical behaviors, or to exploit gaps in the guidelines, is unprofessional and inconsistent with these guidelines.”"
+  },
+  {
+    "objectID": "data306_wk08thurs.html#cambridge-analytica",
+    "href": "data306_wk08thurs.html#cambridge-analytica",
+    "title": "DATA/MATH 306",
+    "section": "Cambridge Analytica",
+    "text": "Cambridge Analytica\nReview the American Statistical Association’s Ethical Guidelines and identify at least two guidelines that were violated by the Cambridge Analytica study."
+  },
+  {
+    "objectID": "data306_wk08thurs.html#okcupid-example",
+    "href": "data306_wk08thurs.html#okcupid-example",
+    "title": "DATA/MATH 306",
+    "section": "OkCupid Example",
+    "text": "OkCupid Example\nIn 2016, a group of researchers publicly released a dataset of nearly 70,000 users of the online dating site OkCupid. The dataset included several variables such as username, age, gender, location, relationship interests, and personality traits. When asked whether or not the researchers had tried to anonymize the data, the researchers said “No. Data is already public” and “Some may object to the ethics of gathering and releasing this data. However, all the data found in the dataset are or were already publicly available, so releasing this dataset merely presents it is a more useful form.”\n\nWhat is your reaction to the researchers’ statement?\nDo you think users of social media platforms are adequately informed as to how their data might be collected, stored, and used?\nWho benefits from this type of large-scale collection of personal data? Who is harmed? What might those harms or benefits look like?"
+  },
+  {
+    "objectID": "data306_wk08thurs.html#model-for-predicting-clicks",
+    "href": "data306_wk08thurs.html#model-for-predicting-clicks",
+    "title": "DATA/MATH 306",
+    "section": "Model for Predicting Clicks",
+    "text": "Model for Predicting Clicks\nSuppose that a job site created a machine learning model that predicts the likelihood that someone will interact with a job posting. Their model finds that people from a certain demographic group are more likely to interact with a nannying job post than a construction job post. A new person from that demographic group engages with the job site and based on the predictive model, the job site shows nannying job posts to them instead of construction job posts.\na. What is algorithmic bias? Describe how algorithmic bias relates to the given example. b. What other ethical issues are present in this example? c. For each ethical issue, address which stage of the data analysis process they align with."
+  },
+  {
+    "objectID": "data306_wk08thurs.html#publish-or-perish-replicability",
+    "href": "data306_wk08thurs.html#publish-or-perish-replicability",
+    "title": "DATA/MATH 306",
+    "section": "Publish or Perish: Replicability",
+    "text": "Publish or Perish: Replicability\nThe aphorism “publish or perish” refers to the intense pressure faced by researchers to publish academic work in order to sustain their career. At the same time, the most pres- tigious journals in a scientific field receive many more submissions than can be published, leading to a high rejection rate.\n\nDescribe two ways in which the competition to publish has contributed to the replicability crisis.\nWho benefits when results that might not replicate are published? Who is harmed? What might those harms or benefits look like?\nWhat is the best way to ensure that science produces both novel findings and replicable results?\nShould all scientists be required to engage in replication work or only a select group? What are potential advantages and disadvantages of either option?"
+  },
+  {
+    "objectID": "data306_wk08thurs.html#data-in-context",
+    "href": "data306_wk08thurs.html#data-in-context",
+    "title": "DATA/MATH 306",
+    "section": "Data in Context",
+    "text": "Data in Context\nConsider the following excerpt from the ASA Ethical Guides Section on responsibilities to research subjects, data subjects, or those directly affected by statistical practices: “The ethical statistical practitioner considers the impact of statistical practice on society, groups, and individuals. Statisticians should recognize that statistical practice could adversely affect groups or the public perception of groups, including marginalized groups. Statisticians should contemplate, and be sensitive to, the manner in which information is framed to avoid disproportionate harm to vulnerable groups.”\n\nIn the article “Racial Health Disparities and Covid-19—Caution and Context”, the authors argue that while it is important to document racial disparity data, such data need to be contextualized with adequate analysis in order to avoid perpetuating harmful stereotypes. Suppose you were tasked with creating an interactive map of COVID data. What additional context would be important to provide as an ethical data scientist?\nWho will be impacted by your project? How will they benefit? How might they be harmed? What can your team do to minimize the harms and maximize the benefits?"
+  },
+  {
+    "objectID": "data_AI_literacy.html",
+    "href": "data_AI_literacy.html",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "",
+    "text": "Data and AI Literacy\n     \nKelly McConville\nDominguez Center for Data Science"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-literacy",
+    "href": "data_AI_literacy.html#data-literacy",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Data Literacy",
+    "text": "Data Literacy\n\n\nWhat is data literacy?\n\n\n\nIt is not the same as mathematical literacy.\n\n\n\nXXX"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-in-stat-100",
+    "href": "data_AI_literacy.html#data-in-stat-100",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Data in Stat 100",
+    "text": "Data in Stat 100\nWill use a wide-range of real and relevant data examples"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-in-stat-100-1",
+    "href": "data_AI_literacy.html#data-in-stat-100-1",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Data in Stat 100",
+    "text": "Data in Stat 100\n\n\n\n\n\n\n\n\nI understand that some of these topics have likely had profound impacts on your lives.\nWe will focus class time on the key course objectives but will use these current topics to empower ourselves and to see how we can productively participate with data."
+  },
+  {
+    "objectID": "data_AI_literacy.html#statistical-thinking",
+    "href": "data_AI_literacy.html#statistical-thinking",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Statistical Thinking",
+    "text": "Statistical Thinking\n\n\n\nUnderstanding the importance of context.\n\n\n\n Context explains the Monday jumps in the COVID counts.\n\n\n\n\n\n\nHow we encode information in a graph should be driven by our research question.\n\n\n\n Design choices impact the conclusions the viewer draws.\n\n\n\n\n\n\nHow the data are collected impacts the conclusions we can draw.\n\n\n\n Voluntary COVID test results don’t likely provide good estimates of COVID prevalence.\n\n\n\n\n\n\nOften we are using a sample of data to say something about a larger group. In this case, we should measure how certain our estimates are!\n\n\n\n We will learn to compute and interpret certainty estimates (like those in the wastewater graph) later in the course!"
+  },
+  {
+    "objectID": "data_AI_literacy.html#statistical-thinking-1",
+    "href": "data_AI_literacy.html#statistical-thinking-1",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Statistical Thinking",
+    "text": "Statistical Thinking\n\nAbout developing reasoning (not just learning definitions and formulae).\nDeveloping our statistical thinking skills will allow us to soundly extract knowledge from data!\nStatistical thinking requires judgment that takes time to develop.\n\nWill see examples and practice applying statistical thinking throughout the course."
+  },
+  {
+    "objectID": "data_AI_literacy.html#what-areis-data",
+    "href": "data_AI_literacy.html#what-areis-data",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "What are/is Data?",
+    "text": "What are/is Data?\n\n\n\n“‘Raw data’ is an oxymoron.” – Lisa Gitelman\n\n\n\n“Data … is information made tractable.” – Catherine D’Ignazio and Lauren Klein"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-frames",
+    "href": "data_AI_literacy.html#data-frames",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Data Frames",
+    "text": "Data Frames\nData in spreadsheet-like format where:\n\nRows = Observations/cases\nColumns = Variables\n\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\n\nData from GPT Detectors Are Biased Against Non-Native English Writers. Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu, James Zou. CellPress Patterns and available in the R package detectors."
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-frames-1",
+    "href": "data_AI_literacy.html#data-frames-1",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Data Frames",
+    "text": "Data Frames\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nRows = Observations/cases\nWhat are the cases? What does each row represent?"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-frames-2",
+    "href": "data_AI_literacy.html#data-frames-2",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Data Frames",
+    "text": "Data Frames\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nColumns = Variables\nVariables: Describe characteristics of the observations\n\nQuantitative: Numerical in nature\nCategorical: Values are categories\nIdentification: Uniquely identify each case\n\n\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nEvery time you get a new dataset, spend time exploring the variables.\nExample questions:\n\nIs the variable capturing what I want?\nFor categorical variables, what are the categories? Do those categories adequately represent the data represented by that variable?\nFor quantitative variables, what values are possible? Were the data rounded or binned? Are those values actually encoding categories? What are the units of measurement?"
+  },
+  {
+    "objectID": "data_AI_literacy.html#hand-drawn-data-viz",
+    "href": "data_AI_literacy.html#hand-drawn-data-viz",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Hand-Drawn Data Viz",
+    "text": "Hand-Drawn Data Viz\n\nOnce we have collected data, a common next step is to visualize it.\nTwo key aspects of data visualization:\n\nDetermining how you want to display the data.\nFiguring out how to tell the computer to do that mapping.\n\nHand-drawn data visualizations allow us to focus on the first part with full control over the creative process!"
+  },
+  {
+    "objectID": "data_AI_literacy.html#hand-drawn-data-viz-examples",
+    "href": "data_AI_literacy.html#hand-drawn-data-viz-examples",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Hand-Drawn Data Viz Examples",
+    "text": "Hand-Drawn Data Viz Examples\nDear Data\n\n“Each week, and for a year, we collected and measured a particular type of data about our lives, used this data to make a drawing on a postcard-sized sheet of paper, and then dropped the postcard in an English”postbox” (Stefanie) or an American “mailbox” (Giorgia)!“\n\n\n\nDear Data Examples\n\n\n\n\n\n\n\n\nDear Data Examples\n\n\n\n\n\n\n\n\nMore Dear Data Examples\n\nBecky Cooper handed out hand-drawn maps of Manhattan to strangers and asked them to “map their Manhattan.”\n\n\n\n\nMap drawn by New Yorker staff writer Patricia Marx\n\n\n\nWhat would the data frame for this visualization look like?\n\n\n\n\nMore Dear Data Examples\n\n\n\n\n\n\nWhat would the data frame for this visualization look like?\n\n\n\n\nMore Dear Data Examples\n\n\n\n\n\n\nWhat would the data frame for this visualization look like?"
+  },
+  {
+    "objectID": "data_AI_literacy.html#goal-by-next-wed-collect-data-from-your-life-so-that-you-can-visualize-it-on-p-set-1.",
+    "href": "data_AI_literacy.html#goal-by-next-wed-collect-data-from-your-life-so-that-you-can-visualize-it-on-p-set-1.",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Goal: By next Wed, collect data from your life so that you can visualize it on P-Set 1.",
+    "text": "Goal: By next Wed, collect data from your life so that you can visualize it on P-Set 1.\n\n\n\nRecommendations\n\n\n\nStore the data in your favorite spreadsheet program (Google Sheets, Numbers, Excel).\nDetermine what your cases/observations will be.\nCollect data on more variables than you will likely visualize. It is hard to know beforehand what the interesting relationships will be.\n\n\n\nNext Week\n\nWill get a blank postcard and further guidance on the visualization with P-Set 1."
+  },
+  {
+    "objectID": "data_AI_literacy.html#section",
+    "href": "data_AI_literacy.html#section",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "",
+    "text": "Demo of accessing the RStudio Server on Posit Cloud\n\n\nTry to access the RStudio Server between now and next lecture.\nCome back to the recording if need help with the steps."
+  },
+  {
+    "objectID": "data_AI_literacy.html#reminders",
+    "href": "data_AI_literacy.html#reminders",
+    "title": "Example: Visualizing COVID Prevalence",
+    "section": "Reminders",
+    "text": "Reminders\n\nIf able, please bring a laptop or tablet to Mondays’s lecture.\nNo section, no wrap-ups, and no lecture quiz this week.\nMake sure to go through the syllabus, which can be found on Canvas.\n\nWill discuss assessments and course policies on Monday.\n\nOnly I will be running office hours this week at the following time:\n\nToday 1:30 - 3:00 pm in Science Center 316 (This week only)\n\nThe regular office hour schedule will be posted later this week and will start next week.\nBe on the look-out for the section preference form."
   }
 ]

@@ -1,0 +1,154 @@
+---
+pagetitle: "Data Ethics"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Data Ethics]{.custom-title}
+
+<br>
+<br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 7 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Reminders/Tasks
+
+* By Oct 21st 10am, make sure to have completed and pushed to GitHub the tasks we outlined together in class on Oct 9th.
+    + Won't be directly assessed on these at this point.  
+    + Looking for completion.
+
+
+
+---
+
+## Plan for Next Three Classes
+
+* Today: Data Ethics Discussion
+
+* Week 9, Tues: Lab Day/Check-ins
+
+* Week 9, Thurs: Mock Consulting Sessions with DCDS Advisory Board Members
+    
+---
+
+## Data Ethics
+
+* Impacts several (all?) stages of the data analysis process.
+
+* Ethics considers normative questions: 
+    + What should a person morally value?
+    + What decision should a person make in a given context?
+    
+* The readings broke data science ethics into evaluating moral problems related to:
+    + Data
+    + Algorithms
+    + Corresponding Practices
+
+---
+
+## Guidelines
+    
+American Statistical Association have published [Ethical Guidelines for Statistical Practice](https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice)
+
+Purpose of the Guidelines:
+
+> "The ethical guidelines aim to promote accountability by informing those who rely on any aspects of statistical practice of the standards they should expect. Society benefits from informed judgments supported by ethical statistical practice. All statistical practitioners are expected to follow these guidelines and encourage others to do the same.
+
+> In some situations, guideline principles may require balancing competing interests. If an unexpected ethical challenge arises, the ethical practitioner seeks guidance, not exceptions, in the guidelines. To justify unethical behaviors, or to exploit gaps in the guidelines, is unprofessional and inconsistent with these guidelines."
+
+# Data Ethics Activity
+
+---
+
+## Cambridge Analytica
+
+Review the American Statistical Association’s Ethical Guidelines and identify at least two guidelines that were violated by the Cambridge Analytica study.  
+
+---
+
+## OkCupid Example
+
+In 2016, a group of researchers publicly released a dataset of nearly 70,000 users of the online dating site OkCupid.  The dataset included several variables such as username, age, gender, location, relationship interests, and personality traits.  When asked whether or not the researchers had tried to anonymize the data, the researchers said “No.  Data is already public” and “Some may object to the ethics of gathering and releasing this data. However, all the data found in the dataset are or were already publicly available, so releasing this dataset merely presents it is a more useful form.”
+
+a. What is your reaction to the researchers’ statement?
+b. Do you think users of social media platforms are adequately informed as to how their data might be collected, stored, and used?
+c. Who benefits from this type of large-scale collection of personal data? Who is harmed? What might those harms or benefits look like?
+
+---
+
+## Model for Predicting Clicks
+
+Suppose that a job site created a machine learning model that predicts the likelihood that someone will interact with a job posting.  Their model finds that people from a certain demographic group are more likely to interact with a nannying job post than a construction job post.  A new person from that demographic group engages with the job site and based on the predictive model, the job site shows nannying job posts to them instead of construction job posts.  
+a. What is algorithmic bias?  Describe how algorithmic bias relates to the given example.
+b. What other ethical issues are present in this example?
+c. For each ethical issue, address which stage of the data analysis process they align with.
+
+---
+
+## Publish or Perish: Replicability
+
+The aphorism “publish or perish” refers to the intense pressure faced by researchers to publish academic work in order to sustain their career. At the same time, the most pres- tigious journals in a scientific field receive many more submissions than can be published, leading to a high rejection rate. 
+
+a. Describe two ways in which the competition to publish has contributed to the replicability crisis.
+b. Who benefits when results that might not replicate are published? Who is harmed? What might those harms or benefits look like?
+c. What is the best way to ensure that science produces both novel findings and replicable results?
+d. Should all scientists be required to engage in replication work or only a select group? What are potential advantages and disadvantages of either option?
+
+---
+
+## Data in Context
+
+Consider the following excerpt from the ASA Ethical Guides Section on responsibilities to research subjects, data subjects, or those directly affected by statistical practices: “The ethical statistical practitioner considers the impact of statistical practice on society, groups, and individuals. Statisticians should recognize that statistical practice could adversely affect groups or the public perception of groups, including marginalized groups. Statisticians should contemplate, and be sensitive to, the manner in which information is framed to avoid disproportionate harm to vulnerable groups.”
+
+a. In the article “Racial Health Disparities and Covid-19—Caution and Context”, the authors argue that while it is important to document racial disparity data, such data need to be contextualized with adequate analysis in order to avoid perpetuating harmful stereotypes.  Suppose you were tasked with creating an interactive map of COVID data.  What additional context would be important to provide as an ethical data scientist?
+b. Who will be impacted by your project? How will they benefit?  How might they be harmed?  What can your team do to minimize the harms and maximize the benefits?
+
