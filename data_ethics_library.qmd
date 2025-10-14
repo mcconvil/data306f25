@@ -41,7 +41,7 @@ library(patchwork)
 
 ::::: columns
 ::: {.column .center width="60%"}
-![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+![](img/Social_Status.webp){width="90%"}
 :::
 
 ::: {.column .center width="40%"}
