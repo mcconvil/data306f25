@@ -76,7 +76,7 @@ To showcase **trends** and make **comparisons**.
 :::
 
 ::: {.fragment .fade-up .midi}
-To tell a compelling **story**.
+To tell a **story**.
 :::
 
 ------------------------------------------------------------------------
@@ -144,3 +144,103 @@ ggplot() + geom_point(data = Challenger, mapping = aes(x = T, y = I),alpha = 0.5
   geom_rect(mapping = aes(xmin = 26, xmax = 29, ymin = 0, ymax = 11), alpha = 0.2) +  annotate(geom = "text", x = 28, y = 6, label = "Forcasted \ntemperature \nfor \nJanuary 27th")#+ geom_smooth(se = FALSE) 
 ```
 
+
+---
+
+## Data Viz: Science & Tech
+
+Let's focus on visually telling data stories related to climate change.
+
+* What are some properties of a **good** data visualization?
+
+* What are some properties of a **bad** data visualization?
+
+---
+
+## Activity
+
+* For each visualization:
+    + Determine the story.
+    + How **effective** is the data visualization at telling that story?
+    + What additional **context** is provided to help the viewer understand the story?
+    + Decide what properties it has and give it the appropriate sticker(s).
+
+* All of these graphs came from the [New York Times' "What's Going on in this Graph?" Series](https://www.nytimes.com/2024/01/31/learning/lesson-plans/teach-about-climate-change-with-30-graphs-from-the-new-york-times.html)
+
+
+# {background-image="img/SummerTempsGraphLN-superJumbo.webp" background-size="contain"}
+
+
+# {background-image="img/GlobalTempGraphLN-jumbo.webp" background-size="contain"}
+
+# {background-image="img/2023WorldTempMapLN-superJumbo.webp" background-size="contain"}
+
+# {background-image="img/us_climate_risks.png" background-size="contain"}
+
+# {background-image="img/HistoricalCarbonEmissionsLN-superJumbo.webp" background-size="contain"}
+
+# {background-image="img/MonthlyTempGraph2LN-superJumbo.webp" background-size="contain"}
+
+---
+
+## Lessons
+
+
+* Did we all see the same stories?
+* Did we all have the same opinions about the visualizations?
+* A compelling visual can help us **better understand** and **remember** a data story.
+    + Understand your audience.
+    + Think carefully about the design choices.  
+
+
+---
+
+## Careers in Data Visualization
+
+::: fragment
+
+::: columns
+
+::: {.column .center width="33%"}
+
+![](img/alberto_cairo.jpeg)
+
+Alberto Cairo, Visualization Designer and Professor
+
+:::
+
+::: {.column .center width="33%"}
+
+![](img/mona_chalabi.jpeg)
+Mona Chalabi, Writer, Illustrator, and Data Editor at The Guardian
+
+
+:::
+
+
+::: {.column .center width="33%"}
+
+![](img/amber_thomas.jpeg)
+
+Amber Thomas, Senior Journalist Engineer at The Pudding
+
+:::
+
+:::
+
+:::
+
+---
+
+## Get Involved in Data Science at Bucknell!
+
+::: {.nonincremental}
+
+* Join the Dominguez Center for Data Science List-Serv:
+
+![](img/data-list-qr-code.svg){fig-width="25%'}
+
+* Learn to tell data stories in **DATA 100: Introduction to Data Science** next semester
+        + M/W: 3 - 4:20pm lecture, F 3 - 3:50pm lab
+        
+:::
