@@ -82,8 +82,6 @@ library(patchwork)
 
 ## Data Ethics
 
-* Impacts several (all?) stages of the data analysis process.
-
 * Ethics considers normative questions: 
     + What should a person morally value?
     + What decision should a person make in a given context?
@@ -92,6 +90,9 @@ library(patchwork)
     + Data
     + Algorithms
     + Corresponding Practices
+
+* Impacts several (all?) stages of the data analysis process.
+
 
 ---
 
@@ -104,6 +105,35 @@ Purpose of the Guidelines:
 > "The ethical guidelines aim to promote accountability by informing those who rely on any aspects of statistical practice of the standards they should expect. Society benefits from informed judgments supported by ethical statistical practice. All statistical practitioners are expected to follow these guidelines and encourage others to do the same.
 
 > In some situations, guideline principles may require balancing competing interests. If an unexpected ethical challenge arises, the ethical practitioner seeks guidance, not exceptions, in the guidelines. To justify unethical behaviors, or to exploit gaps in the guidelines, is unprofessional and inconsistent with these guidelines."
+
+
+# Let's consider some morally charged decision points in the data analysis process.
+
+
+# {background-image="img/de1.jpeg" background-size="contain"}
+
+
+
+
+# {background-image="img/de2.jpeg" background-size="contain"}
+
+# {background-image="img/de3.jpeg" background-size="contain"}
+
+# {background-image="img/de4.jpeg" background-size="contain"}
+
+# {background-image="img/de5.jpeg" background-size="contain"}
+
+# {background-image="img/de6.jpeg" background-size="contain"}
+
+# {background-image="img/de7.jpeg" background-size="contain"}
+
+# {background-image="img/de8.jpeg" background-size="contain"}
+
+# {background-image="img/de9.jpeg" background-size="contain"}
+
+# {background-image="img/de10.jpeg" background-size="contain"}
+
+# {background-image="img/de11.jpeg" background-size="contain"}
 
 # Data Ethics Activity
 

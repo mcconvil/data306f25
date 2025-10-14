@@ -42,186 +42,137 @@
     "text": "Excited to chat about the application process!"
   },
   {
-    "objectID": "data306_wk02tues.html#reminders",
-    "href": "data306_wk02tues.html#reminders",
+    "objectID": "data_AI_literacy.html#data-literacy",
+    "href": "data_AI_literacy.html#data-literacy",
+    "title": "DATA/MATH 306",
+    "section": "Data Literacy",
+    "text": "Data Literacy\n\n\nWhat is data literacy?\n\n\n\nIt is not the same as mathematical literacy.\n\n\n\nXXX"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-in-stat-100",
+    "href": "data_AI_literacy.html#data-in-stat-100",
+    "title": "DATA/MATH 306",
+    "section": "Data in Stat 100",
+    "text": "Data in Stat 100\nWill use a wide-range of real and relevant data examples"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-in-stat-100-1",
+    "href": "data_AI_literacy.html#data-in-stat-100-1",
+    "title": "DATA/MATH 306",
+    "section": "Data in Stat 100",
+    "text": "Data in Stat 100\n\n\n\n\n\n\n\n\nI understand that some of these topics have likely had profound impacts on your lives.\nWe will focus class time on the key course objectives but will use these current topics to empower ourselves and to see how we can productively participate with data."
+  },
+  {
+    "objectID": "data_AI_literacy.html#statistical-thinking",
+    "href": "data_AI_literacy.html#statistical-thinking",
+    "title": "DATA/MATH 306",
+    "section": "Statistical Thinking",
+    "text": "Statistical Thinking\n\n\n\nUnderstanding the importance of context.\n\n\n\n Context explains the Monday jumps in the COVID counts.\n\n\n\n\n\n\nHow we encode information in a graph should be driven by our research question.\n\n\n\n Design choices impact the conclusions the viewer draws.\n\n\n\n\n\n\nHow the data are collected impacts the conclusions we can draw.\n\n\n\n Voluntary COVID test results don’t likely provide good estimates of COVID prevalence.\n\n\n\n\n\n\nOften we are using a sample of data to say something about a larger group. In this case, we should measure how certain our estimates are!\n\n\n\n We will learn to compute and interpret certainty estimates (like those in the wastewater graph) later in the course!"
+  },
+  {
+    "objectID": "data_AI_literacy.html#statistical-thinking-1",
+    "href": "data_AI_literacy.html#statistical-thinking-1",
+    "title": "DATA/MATH 306",
+    "section": "Statistical Thinking",
+    "text": "Statistical Thinking\n\nAbout developing reasoning (not just learning definitions and formulae).\nDeveloping our statistical thinking skills will allow us to soundly extract knowledge from data!\nStatistical thinking requires judgment that takes time to develop.\n\nWill see examples and practice applying statistical thinking throughout the course."
+  },
+  {
+    "objectID": "data_AI_literacy.html#what-areis-data",
+    "href": "data_AI_literacy.html#what-areis-data",
+    "title": "DATA/MATH 306",
+    "section": "What are/is Data?",
+    "text": "What are/is Data?\n\n\n\n“‘Raw data’ is an oxymoron.” – Lisa Gitelman\n\n\n\n“Data … is information made tractable.” – Catherine D’Ignazio and Lauren Klein"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-frames",
+    "href": "data_AI_literacy.html#data-frames",
+    "title": "DATA/MATH 306",
+    "section": "Data Frames",
+    "text": "Data Frames\nData in spreadsheet-like format where:\n\nRows = Observations/cases\nColumns = Variables\n\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\n\nData from GPT Detectors Are Biased Against Non-Native English Writers. Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu, James Zou. CellPress Patterns and available in the R package detectors."
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-frames-1",
+    "href": "data_AI_literacy.html#data-frames-1",
+    "title": "DATA/MATH 306",
+    "section": "Data Frames",
+    "text": "Data Frames\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nRows = Observations/cases\nWhat are the cases? What does each row represent?"
+  },
+  {
+    "objectID": "data_AI_literacy.html#data-frames-2",
+    "href": "data_AI_literacy.html#data-frames-2",
+    "title": "DATA/MATH 306",
+    "section": "Data Frames",
+    "text": "Data Frames\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nColumns = Variables\nVariables: Describe characteristics of the observations\n\nQuantitative: Numerical in nature\nCategorical: Values are categories\nIdentification: Uniquely identify each case"
+  },
+  {
+    "objectID": "data_AI_literacy.html#hand-drawn-data-viz",
+    "href": "data_AI_literacy.html#hand-drawn-data-viz",
+    "title": "DATA/MATH 306",
+    "section": "Hand-Drawn Data Viz",
+    "text": "Hand-Drawn Data Viz\n\nOnce we have collected data, a common next step is to visualize it.\nTwo key aspects of data visualization:\n\nDetermining how you want to display the data.\nFiguring out how to tell the computer to do that mapping.\n\nHand-drawn data visualizations allow us to focus on the first part with full control over the creative process!"
+  },
+  {
+    "objectID": "data_AI_literacy.html#hand-drawn-data-viz-examples",
+    "href": "data_AI_literacy.html#hand-drawn-data-viz-examples",
+    "title": "DATA/MATH 306",
+    "section": "Hand-Drawn Data Viz Examples",
+    "text": "Hand-Drawn Data Viz Examples\nDear Data\n\n“Each week, and for a year, we collected and measured a particular type of data about our lives, used this data to make a drawing on a postcard-sized sheet of paper, and then dropped the postcard in an English”postbox” (Stefanie) or an American “mailbox” (Giorgia)!“"
+  },
+  {
+    "objectID": "data_AI_literacy.html#goal-by-next-wed-collect-data-from-your-life-so-that-you-can-visualize-it-on-p-set-1.",
+    "href": "data_AI_literacy.html#goal-by-next-wed-collect-data-from-your-life-so-that-you-can-visualize-it-on-p-set-1.",
+    "title": "DATA/MATH 306",
+    "section": "Goal: By next Wed, collect data from your life so that you can visualize it on P-Set 1.",
+    "text": "Goal: By next Wed, collect data from your life so that you can visualize it on P-Set 1.\n\n\n\nRecommendations\n\n\nStore the data in your favorite spreadsheet program (Google Sheets, Numbers, Excel).\nDetermine what your cases/observations will be.\nCollect data on more variables than you will likely visualize. It is hard to know beforehand what the interesting relationships will be.\n\n\n\nNext Week\n\nWill get a blank postcard and further guidance on the visualization with P-Set 1."
+  },
+  {
+    "objectID": "data_AI_literacy.html#section",
+    "href": "data_AI_literacy.html#section",
+    "title": "DATA/MATH 306",
+    "section": "",
+    "text": "Demo of accessing the RStudio Server on Posit Cloud\n\n\nTry to access the RStudio Server between now and next lecture.\nCome back to the recording if need help with the steps."
+  },
+  {
+    "objectID": "data_AI_literacy.html#reminders",
+    "href": "data_AI_literacy.html#reminders",
     "title": "DATA/MATH 306",
     "section": "Reminders",
-    "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\nWill help you get acquainted with your projects."
+    "text": "Reminders\n\nIf able, please bring a laptop or tablet to Mondays’s lecture.\nNo section, no wrap-ups, and no lecture quiz this week.\nMake sure to go through the syllabus, which can be found on Canvas.\n\nWill discuss assessments and course policies on Monday.\n\nOnly I will be running office hours this week at the following time:\n\nToday 1:30 - 3:00 pm in Science Center 316 (This week only)\n\nThe regular office hour schedule will be posted later this week and will start next week.\nBe on the look-out for the section preference form."
   },
   {
-    "objectID": "data306_wk02tues.html#goals-for-today",
-    "href": "data306_wk02tues.html#goals-for-today",
+    "objectID": "data306_wk05thurs.html#plan-for-today",
+    "href": "data306_wk05thurs.html#plan-for-today",
     "title": "DATA/MATH 306",
-    "section": "Goals for Today",
-    "text": "Goals for Today\n\nProject management\nFinish discussion: Workflow via Git/GitHub\nStart thinking through research question and understanding context"
+    "section": "Plan for Today",
+    "text": "Plan for Today\n\nFive minute presentations:\n\nGoals of the talk:\n\nExplain your research project and project goal(s) to the class.\nProvide your plan for the project.\n\nPeer feedback\n\nData dictionaries"
   },
   {
-    "objectID": "data306_wk02tues.html#plan-for-thursday-lab-day",
-    "href": "data306_wk02tues.html#plan-for-thursday-lab-day",
+    "objectID": "data306_wk05thurs.html#plan-for-next-class-mostly-a-lab-day",
+    "href": "data306_wk05thurs.html#plan-for-next-class-mostly-a-lab-day",
     "title": "DATA/MATH 306",
-    "section": "Plan for Thursday: Lab Day",
-    "text": "Plan for Thursday: Lab Day\n\nGet started working on your project and with your project’s data\nDefine and refine your research questions"
+    "section": "Plan for Next Class: Mostly a Lab Day",
+    "text": "Plan for Next Class: Mostly a Lab Day\n\nFree work time\nI will do check-ins with each group.\n\nEDA findings\nTraining versus testing datasets\nPlan for next steps\n\nWork on your data dictionaries."
   },
   {
-    "objectID": "data306_wk02tues.html#team-leader-duties",
-    "href": "data306_wk02tues.html#team-leader-duties",
+    "objectID": "data306_wk05thurs.html#presentations",
+    "href": "data306_wk05thurs.html#presentations",
     "title": "DATA/MATH 306",
-    "section": "Team Leader Duties",
-    "text": "Team Leader Duties\n\nTeam leaders this week: team leader spreadsheet\nEach week we will rotate who is the Team Leader.\n\nTeam Leader will be in-charge of synthesizing group work, making sure everyone is on the same page, creating the week’s To Do list via Issues, scheduling meetings, organizing the group’s presentation.\n\nThis week’s Team Leaders’ tasks:\n\nSchedule a time between now and 10pm on Monday to discuss the initial project reading with your group mates.\nBe in-charge of the activity we run in class on Thursday."
+    "section": "Presentations",
+    "text": "Presentations\n\nMake a copy of this feedback form\n\nAlso in the Schedule under today.\nDue on Gradescope by Tuesday’s class at 10am.\nI’d suggest turning it in right after class today!"
   },
   {
-    "objectID": "data306_wk02tues.html#projects",
-    "href": "data306_wk02tues.html#projects",
+    "objectID": "data306_wk05thurs.html#data-dictionaries",
+    "href": "data306_wk05thurs.html#data-dictionaries",
     "title": "DATA/MATH 306",
-    "section": "Projects",
-    "text": "Projects\n\nWill utilize a wide variety of techniques across the different projects.\nBe prepared to do some independent learning. Each group will be using different techniques that we likely won’t cover explicitly in-class.\nBut, remember that there are many avenues for help!"
+    "section": "Data Dictionaries",
+    "text": "Data Dictionaries\n\nDocument the data sources\n\nInclude links when possible\n\nCode names\n\nBe consistent with your group’s style guide\n\nBrief description\nHow missing values are handled\nClass of variable\nPossible categories or ranges\nKey variables\nDerived variables\n\nMade from others, imputed, …\n\nOther relevant information"
   },
   {
-    "objectID": "data306_wk02tues.html#project-management",
-    "href": "data306_wk02tues.html#project-management",
-    "title": "DATA/MATH 306",
-    "section": "Project Management",
-    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nData management\n\nSave the raw data.\nCreate an tidy, analysis-friendly dataset and use a non-proprietary format.\nRecord all steps used to process data.\nCreate a data dictionary.\n\n\n\nWe will not be putting the project data in our GitHub repositories and will only store these files locally."
-  },
-  {
-    "objectID": "data306_wk02tues.html#project-management-1",
-    "href": "data306_wk02tues.html#project-management-1",
-    "title": "DATA/MATH 306",
-    "section": "Project Management",
-    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nWriting code\n\nPlace a brief explanatory comment at the start of every program. (See example in paper.)\nLook for well-maintained packages to use.\nGive functions and variables meaningful names.\n\nEx: Replace var1 with college_name\n\nMake dependencies explicit."
-  },
-  {
-    "objectID": "data306_wk02tues.html#project-management-2",
-    "href": "data306_wk02tues.html#project-management-2",
-    "title": "DATA/MATH 306",
-    "section": "Project Management",
-    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nCollaboration\n\nCreate overview of project in the README\nUse Project and Issues features to create to-do lists.\n\nProject organization\n\nLet’s walk through one of the project repos."
-  },
-  {
-    "objectID": "data306_wk02tues.html#project-management-3",
-    "href": "data306_wk02tues.html#project-management-3",
-    "title": "DATA/MATH 306",
-    "section": "Project Management",
-    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nTrack changes via Github\n\nKeep changes small.\nShare changes frequently.\n\nWriting\n\nWrite about your work early and often."
-  },
-  {
-    "objectID": "data306_wk02tues.html#reproducibility",
-    "href": "data306_wk02tues.html#reproducibility",
-    "title": "DATA/MATH 306",
-    "section": "Reproducibility",
-    "text": "Reproducibility\n\nReproducible versus replicable\n\n\n\n“Reproducibility involves being able to recalculate the exact numbers in a data analysis using the code and raw data provided by the analyst.” (Leek, 2015)\n\n\n\nNot the same as correctness!"
-  },
-  {
-    "objectID": "data306_wk02tues.html#write-readable-code",
-    "href": "data306_wk02tues.html#write-readable-code",
-    "title": "DATA/MATH 306",
-    "section": "Write Readable Code",
-    "text": "Write Readable Code\n\nIt is important to write readable code.\n\nFollow a specific convention.\nUse spaces liberally.\n\nAvoid . in object names.\n\nExample: Tidyverse Style Guide.\nAs a group, decide on a style convention. I don’t want to see three or four different conventions for a given project."
-  },
-  {
-    "objectID": "data306_wk02tues.html#writing-readable-code",
-    "href": "data306_wk02tues.html#writing-readable-code",
-    "title": "DATA/MATH 306",
-    "section": "Writing Readable Code",
-    "text": "Writing Readable Code\n\n“Use common sense and BE CONSISTENT.\n\n\nIf you are editing code, take a few minutes to look at the code around you and determine its style. If others use spaces around their if clauses, you should, too. If their comments have little boxes of stars around them, make your comments have little boxes of stars around them, too.\n\n\nThe point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you are saying, rather than on how you are saying it.\n\n\nWe present global style rules here so people know the vocabulary. But local style is also important. If code you add to a file looks drastically different from the existing code around it, the discontinuity will throw readers out of their rhythm when they go to read it. Try to avoid this.” –Google Style Guide"
-  },
-  {
-    "objectID": "data306_wk02tues.html#review-git-and-github",
-    "href": "data306_wk02tues.html#review-git-and-github",
-    "title": "DATA/MATH 306",
-    "section": "Review: git and GitHub",
-    "text": "Review: git and GitHub\n\n\n\n\ngit: Version control system\n\nThink fancier type of Track Changes.\n\nGitHub: Hosting service for git projects (which are called repositories)\n\nThink fancier type of DropBox or Google Drive."
-  },
-  {
-    "objectID": "data306_wk02tues.html#a-github-repo-projectfolder-on-your-computer",
-    "href": "data306_wk02tues.html#a-github-repo-projectfolder-on-your-computer",
-    "title": "DATA/MATH 306",
-    "section": "A Github Repo = Project/Folder on Your Computer",
-    "text": "A Github Repo = Project/Folder on Your Computer\n\nA repo, short for repository, is the folder that contains all of the files for the project on GitHub.com.\nUnder the Bucknell-DATA306-F25 GitHub Organization you will have access to 3 repos:\n\nwork-username: Just you and I can access\nclass-site: The whole class can access\nprojectname: Your team, stakeholder (possibly), and I can access\n\nFor each repo, you should sync with a folder on your computer.\n\nWe will all do this together for work-username today."
-  },
-  {
-    "objectID": "data306_wk02tues.html#steps-to-get-started",
-    "href": "data306_wk02tues.html#steps-to-get-started",
-    "title": "DATA/MATH 306",
-    "section": "Steps to Get Started",
-    "text": "Steps to Get Started\n\n\nOnce-Per-Computer/Server:\n\nInstall git on your computer.\nGet your local git talking to GitHub.\n\n\nOnce-Per-Project:\n\nCreate a repo on GitHub.\n\nI did this step for us.\n\nCreate a version controlled Project that is synced with the GitHub repo."
-  },
-  {
-    "objectID": "data306_wk02tues.html#git-via-positron-r",
-    "href": "data306_wk02tues.html#git-via-positron-r",
-    "title": "DATA/MATH 306",
-    "section": "Git via Positron + R",
-    "text": "Git via Positron + R\n\nSo that the workflow is the same for everyone:\n\nOpen Positron.\nStart an R session.\n\nYou will be able to toggle to Python after we have synced with GitHub."
-  },
-  {
-    "objectID": "data306_wk02tues.html#check-if-git-is-install-on-your-computer",
-    "href": "data306_wk02tues.html#check-if-git-is-install-on-your-computer",
-    "title": "DATA/MATH 306",
-    "section": "Check if git is install on your computer",
-    "text": "Check if git is install on your computer\nIn Terminal, type\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
-  },
-  {
-    "objectID": "data306_wk02tues.html#introduce-yourself-to-git",
-    "href": "data306_wk02tues.html#introduce-yourself-to-git",
-    "title": "DATA/MATH 306",
-    "section": "Introduce Yourself to Git",
-    "text": "Introduce Yourself to Git\nInstall the packages usethis and gitcreds:\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\nIn your R console, modify and run the following code to introduce yourself to git\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
-  },
-  {
-    "objectID": "data306_wk02tues.html#personal-access-token-time",
-    "href": "data306_wk02tues.html#personal-access-token-time",
-    "title": "DATA/MATH 306",
-    "section": "Personal Access Token Time",
-    "text": "Personal Access Token Time\n\n\nTo interact with GitHub, you need to include credentials.\n\nPersonal Access Token (PAT)\n\nIn your R console, run\n\n\n\nusethis::create_github_token()\n\n\n\nShould take you to GitHub.\nSelect “repo”, “user”, and “workflow” for the scopes.\nClick “Generate token”.\nStore it by running the following in the R Console:\n\n\n\ngitcreds::gitcreds_set()"
-  },
-  {
-    "objectID": "data306_wk02tues.html#sync-github.com-repo-and-a-project",
-    "href": "data306_wk02tues.html#sync-github.com-repo-and-a-project",
-    "title": "DATA/MATH 306",
-    "section": "Sync GitHub.com repo and a Project",
-    "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\n\nIn Positron:\n\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
-  },
-  {
-    "objectID": "data306_wk02tues.html#workflow",
-    "href": "data306_wk02tues.html#workflow",
-    "title": "DATA/MATH 306",
-    "section": "Workflow",
-    "text": "Workflow\nOnce your GitHub repo and RStudio project are synced, here’s your workflow:\n\nOn the left menu, select “Source Control”.\nUnder the three dots associated with “CHANGES”, select Pull.\n\nThis will pull the most recent version of the repo from GitHub to your local folder.\n\nDo some work on your project and save it.\nIn the “Source Control”, select the “+” (stage changes) button.\nInclude a quick note, Commit Message to summarize the motivation for the changes.\nSelect Commit & Push to send your work to GitHub."
-  },
-  {
-    "objectID": "data306_wk02tues.html#test-the-waters-lets-go-through-the-workflow.",
-    "href": "data306_wk02tues.html#test-the-waters-lets-go-through-the-workflow.",
-    "title": "DATA/MATH 306",
-    "section": "Test the waters: Let’s go through the workflow.",
-    "text": "Test the waters: Let’s go through the workflow.\n\n\nPull. (Yes, there is nothing to pull yet but it is always good practice to start here.)\nClick on the ReadMe.\nAdd something to the ReadMe.\nStage the changes to the ReadMe.\nPut in a commit message.\nCommit & Push.\n\n\nLook for updates in the ReadMe on GitHub.com."
-  },
-  {
-    "objectID": "data306_wk02tues.html#git-collaboration-merge-conflicts",
-    "href": "data306_wk02tues.html#git-collaboration-merge-conflicts",
-    "title": "DATA/MATH 306",
-    "section": "Git Collaboration: Merge conflicts",
-    "text": "Git Collaboration: Merge conflicts\n\nWhat if my collaborators and I both make changes?\n\nScenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.\n\nResult: Your push will fail because there’s a commit on GitHub that you don’t have.\n\nUsual Solution: Pull and usually git will merge their work nicely with yours. Then push. If that doesn’t work, you have a merge conflict. Let’s cross that bridge when we get there.\n\nHow to avoid merge conflicts?\n\nAlways pull when you are going to work on your project.\nAlways commit and push when you are done even if you made small changes."
-  },
-  {
-    "objectID": "data306_wk02tues.html#some-recommendations-as-you-are-getting-comfortable-with-git",
-    "href": "data306_wk02tues.html#some-recommendations-as-you-are-getting-comfortable-with-git",
-    "title": "DATA/MATH 306",
-    "section": "Some Recommendations as You are Getting Comfortable with Git",
-    "text": "Some Recommendations as You are Getting Comfortable with Git\n\nPull early and often.\nUse git early and often.\n\nWe get better with practice.\n\nDon’t all work on the same document as that will increase your changes of a merge conflict.\n\nLet the team leader synthesize each person’s work into one document.\n\nMerge conflicts will happen. Work with me and your group members to resolve them."
-  },
-  {
-    "objectID": "data306_wk02tues.html#reading-articlesresearch-prompt",
-    "href": "data306_wk02tues.html#reading-articlesresearch-prompt",
-    "title": "DATA/MATH 306",
-    "section": "Reading Articles/Research Prompt",
-    "text": "Reading Articles/Research Prompt\n\nGet in your research groups and try to sync your project repo with a folder on your computer.\n\nHelp each other out.\nI will come over to check on each group and to schedule your first meeting with your project stakeholder.\n\nOrient yourself in your project repo and determine where and how you want to store the work you do this week.\nGo through your project prompt more slowly and start a list of the central terms/ideas, especially ones you don’t know.\nDiscuss these ideas as a group.\nStart reading the initial project articles and practicing the “reading to write” concepts from CwD.\n\nNote: Some of the initial articles don’t have much or any data in them.\n\nTeam leader: Schedule a time for the group members to meet and discuss the reading."
-  },
-  {
-    "objectID": "data306_wk02tues.html#reminders-1",
-    "href": "data306_wk02tues.html#reminders-1",
+    "objectID": "data306_wk05thurs.html#reminders",
+    "href": "data306_wk05thurs.html#reminders",
     "title": "DATA/MATH 306",
     "section": "Reminders",
-    "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\n\nCome to Thursday’s class ready to start inspecting/pulling/engaging with the data!"
+    "text": "Reminders\n\nData science activity: Attend or participate in at least one DCDS activity over the course of the semester. Fill out a short reflection using this form to receive credit.\nOffice hours requirement: Deleting this requirement as we are connecting plenty via check-in meetings and Slack. Keep it up!"
   },
   {
     "objectID": "data306_wk03thurs.html#reminders",
@@ -242,7 +193,7 @@
     "href": "data306_wk03thurs.html#visualizations",
     "title": "DATA/MATH 306",
     "section": "Visualizations",
-    "text": "Visualizations\n\n\n\nThere are many different purposes:\n\nTell a story with data.\nExplain a concept.\nOrganize information.\n\n\n\n\nThere are many different types:\n\nGraphs\nDiagrams\nMaps\nInfographics\nFlowcharts\n\n\n\nLet’s look at some examples from a talk I gave last year."
+    "text": "Visualizations\n\n\n\nThere are many different purposes:\n\nTell a story with data.\nExplain a concept.\nOrganize information.\n\n\n\n\nThere are many different types:\n\nGraphs\nDiagrams\nMaps\nInfographics\nFlowcharts\n\n\n\n\nLet’s look at some examples from a talk I gave last year."
   },
   {
     "objectID": "data306_wk03thurs.html#plan-for-the-next-three-classes",
@@ -266,18 +217,242 @@
     "text": "First Round of Progress Report Presentations\n\nWill be recorded.\nStakeholders will either be in attendance or will watch recording.\nAudience: Class mates and other project stakeholders\n\nMake sure to not assume prior knowledge.\n\nWeek 5 Team Leader:\n\nIn-charge of organizing the presentation so that your team tells a coherent story.\nSubmit the slide deck or a URL to your slide deck to Gradescope by 10am.\nAdd the slide deck or a URL to your group’s GitHub repository.\n\nMake clear where slides are located."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "data_viz_sci_tech_res_college.html#why-create-a-data-visualization",
+    "href": "data_viz_sci_tech_res_college.html#why-create-a-data-visualization",
+    "title": "DATA/MATH 306",
+    "section": "Why create a data visualization?",
+    "text": "Why create a data visualization?\n\n\nTo explore the data.\n\n\nTo summarize the data.\n\n\nTo showcase trends and make comparisons.\n\n\nTo tell a compelling story."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DATA/MATH 306: Data Science & Statistical Consulting",
+    "objectID": "data_viz_sci_tech_res_college.html#challenger",
+    "href": "data_viz_sci_tech_res_college.html#challenger",
+    "title": "DATA/MATH 306",
+    "section": "Challenger",
+    "text": "Challenger\n\nOn January 27th, 1986, engineers from Morton Thiokol recommended NASA delay launch of space shuttle Challenger due to cold weather.\n\nBelieved cold weather impacted the o-rings that held the rockets together.\nUsed 13 charts in their argument.\n\nAfter a two hour conference call, the engineer’s recommendation was overruled due to lack of persuasive evidence and the launch proceeded.\nThe Challenger exploded 73 seconds into launch."
+  },
+  {
+    "objectID": "data_viz_sci_tech_res_college.html#challenger-1",
+    "href": "data_viz_sci_tech_res_college.html#challenger-1",
+    "title": "DATA/MATH 306",
+    "section": "Challenger",
+    "text": "Challenger\nHere’s one of those charts."
+  },
+  {
+    "objectID": "data_viz_sci_tech_res_college.html#challenger-2",
+    "href": "data_viz_sci_tech_res_college.html#challenger-2",
+    "title": "DATA/MATH 306",
+    "section": "Challenger",
+    "text": "Challenger\nHere’s another one of those charts."
+  },
+  {
+    "objectID": "data_viz_sci_tech_res_college.html#challenger-3",
+    "href": "data_viz_sci_tech_res_college.html#challenger-3",
+    "title": "DATA/MATH 306",
+    "section": "Challenger",
+    "text": "Challenger\nHere’s a graphic I created from Edward Tufte’s data."
+  },
+  {
+    "objectID": "data_viz_sci_tech_res_college.html#challenger-4",
+    "href": "data_viz_sci_tech_res_college.html#challenger-4",
+    "title": "DATA/MATH 306",
+    "section": "Challenger",
+    "text": "Challenger\nThis adaptation is a recreation of Edward Tufte’s graphic.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor more information on this example and other examples, check out Tufte’s book."
+  },
+  {
+    "objectID": "data306_wk01tues.html#research-interests",
+    "href": "data306_wk01tues.html#research-interests",
+    "title": "DATA/MATH 306",
+    "section": "Research Interests",
+    "text": "Research Interests\nSurvey statistics and collaborate with\n{width = “60%”}"
+  },
+  {
+    "objectID": "data306_wk01tues.html#research-interests-1",
+    "href": "data306_wk01tues.html#research-interests-1",
+    "title": "DATA/MATH 306",
+    "section": "Research Interests",
+    "text": "Research Interests\nWhere survey statistics meets data science!"
+  },
+  {
+    "objectID": "data306_wk01tues.html#day-1-goals",
+    "href": "data306_wk01tues.html#day-1-goals",
+    "title": "DATA/MATH 306",
+    "section": "Day 1 Goals",
+    "text": "Day 1 Goals\n\nCourse overview\nIntroduction to the projects"
+  },
+  {
+    "objectID": "data306_wk01tues.html#course-sites",
+    "href": "data306_wk01tues.html#course-sites",
+    "title": "DATA/MATH 306",
+    "section": "Course Sites",
+    "text": "Course Sites\nMain site:\n\nA (private) GitHub Repository https://github.com/Bucknell-DATA306-F25/class-site\n\nI will add all of you once you provide your GitHub username.\n\nWe will NOT use Moodle.\n\nA learning objective of the course is to get comfortable with git/GitHub.\n\nMake sure to check the Schedule page often.\n\n\nGradescope:\n\n\nFor turning in work.\n\n\nSlack for course communication.\n\nMake sure to check Slack at least once a day during the work week."
+  },
+  {
+    "objectID": "data306_wk01tues.html#learning-objectives",
+    "href": "data306_wk01tues.html#learning-objectives",
+    "title": "DATA/MATH 306",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nYou will engage in collaborative, data science projects. Upon successful completion of this course, you will be able to:\n\nConduct a full data analysis project.\nCommunicate about your data work at a variety of levels and via a variety of formats including short presentations, longer presentations, and written reports.\nThink statistically about data and research questions.\nCollaborate on projects with a reproducible workflow.\nRun a productive consulting meeting.\nUndertake future projects with greater independence."
+  },
+  {
+    "objectID": "data306_wk01tues.html#overarching-goal-create-data-science-unicorns",
+    "href": "data306_wk01tues.html#overarching-goal-create-data-science-unicorns",
+    "title": "DATA/MATH 306",
+    "section": "Overarching Goal: Create Data Science Unicorns!",
+    "text": "Overarching Goal: Create Data Science Unicorns!"
+  },
+  {
+    "objectID": "data306_wk01tues.html#data-science-skills",
+    "href": "data306_wk01tues.html#data-science-skills",
+    "title": "DATA/MATH 306",
+    "section": "Data Science Skills",
+    "text": "Data Science Skills\n\n\n\nMapping a vague question to data\nExploratory data analysis\nData visualization\nModeling\nWriting clean, robust, and consistent code\n\n\n\n\n\nhttps://xkcd.com/2048/"
+  },
+  {
+    "objectID": "data306_wk01tues.html#story-telling-skills",
+    "href": "data306_wk01tues.html#story-telling-skills",
+    "title": "DATA/MATH 306",
+    "section": "Story Telling Skills",
+    "text": "Story Telling Skills\n\n\n\nOral communication\n\nPrepared talks\nSemi-prepared elevator speeches\nConsulting conversations\n\nWritten communication\n\nReading reflections\nTechnical reports\n\n\n\n\n\n\nhttps://www.xkcd.com/1984/"
+  },
+  {
+    "objectID": "data306_wk01tues.html#collaboration-skills",
+    "href": "data306_wk01tues.html#collaboration-skills",
+    "title": "DATA/MATH 306",
+    "section": "Collaboration Skills",
+    "text": "Collaboration Skills\n\n\n\nReproducible workflow\n\nGit and GitHub\nQuarto\nDocumentation\n\nTeam Science\n\nStakeholders\nPeers\nTeam Leaders\nData science mentor\n\nRunning a meeting"
+  },
+  {
+    "objectID": "data306_wk01tues.html#ethics",
+    "href": "data306_wk01tues.html#ethics",
+    "title": "DATA/MATH 306",
+    "section": "Ethics",
+    "text": "Ethics\n\n\n\nReport results honestly\nTransparency in your data wrangling, assumptions, and model building choices\nFollow a reproducible workflow\nConsider data privacy issues\n\n\n\n\n\nhttps://dilbert.com"
+  },
+  {
+    "objectID": "data306_wk01tues.html#ethics-1",
+    "href": "data306_wk01tues.html#ethics-1",
+    "title": "DATA/MATH 306",
+    "section": "Ethics",
+    "text": "Ethics\n\n\n\n\n\nhttps://xkcd.com/1390/\n\n\n\n\n\n\nhttps://xkcd.com/882"
+  },
+  {
+    "objectID": "data306_wk01tues.html#reflection",
+    "href": "data306_wk01tues.html#reflection",
+    "title": "DATA/MATH 306",
+    "section": "Reflection",
+    "text": "Reflection\n\n\n\n\n\nOf our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.\nOf our data science unicorn skills, list 1-2 where you feel you have the most room to grow."
+  },
+  {
+    "objectID": "data306_wk01tues.html#research-tools",
+    "href": "data306_wk01tues.html#research-tools",
+    "title": "DATA/MATH 306",
+    "section": "Research Tools",
+    "text": "Research Tools\n\nWill vary by project!\nAll have access to an RStudio Server via a Posit Cloud Workspace. Will use for some activities and demos.\nWe will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.\n\nMake sure to become a Watcher of the course site.\nI will also share a specific project site with each student.\n\nBring a laptop to class. Please check-in with me if this will be an issue."
+  },
+  {
+    "objectID": "data306_wk01tues.html#readings",
+    "href": "data306_wk01tues.html#readings",
+    "title": "DATA/MATH 306",
+    "section": "Readings",
+    "text": "Readings\n\nWe will read a variety of papers and book chapters.\nMain textbook is “Communicating with Data: The Art of Writing for Data Science” by Deborah Nolan and Sara Stoudt.\n\nThere are extra copies in Taylor 212. These copies should NOT leave Taylor 212.\n\nReadings will be posted to the schedule.\n\nReading reflections are due Mondays at 10pm.\n\nFirst reflections are due Sept 1st. Will discuss in Thursday’s class."
+  },
+  {
+    "objectID": "data306_wk01tues.html#course-structure",
+    "href": "data306_wk01tues.html#course-structure",
+    "title": "DATA/MATH 306",
+    "section": "Course Structure",
+    "text": "Course Structure\n\n\nSeminar Days\n\nDiscussion\nActivities related to readings\nGuest lectures\nPresentations\n\n\nLab Days\n\nProject work time\nCheck-in meetings"
+  },
+  {
+    "objectID": "data306_wk01tues.html#course-components",
+    "href": "data306_wk01tues.html#course-components",
+    "title": "DATA/MATH 306",
+    "section": "Course Components",
+    "text": "Course Components\n\n\n\nEngagement\n\nAttendance is required\nThree Slack posts to our workspace\nOne office hour visit\nOne DCDS activity\n\nWeekly reading reflections\n\n\n\nProject assessments\n\nTeam leader duties\nPeriodic in-class lab assignments\nProgress report presentations\nDeliverables\n\nPeer feedback"
+  },
+  {
+    "objectID": "data306_wk01tues.html#policies",
+    "href": "data306_wk01tues.html#policies",
+    "title": "DATA/MATH 306",
+    "section": "Policies",
+    "text": "Policies\n\nMake sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.\nBut let’s talk AI…"
+  },
+  {
+    "objectID": "data306_wk01tues.html#ai-policy",
+    "href": "data306_wk01tues.html#ai-policy",
+    "title": "DATA/MATH 306",
+    "section": "AI Policy",
+    "text": "AI Policy\nWhile A.I. tools, such as ChatGPT, are being used to generate code, analyze data, and write essays, goals of this course are to develop your own ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.\nYou may use AI in these course activities:\n\nProviding feedback on their writing. The original draft should be your work but you can ask for feedback from AI and incorporate that feedback into the revision.\nProviding coding suggestions or revisions. You are responsible for understanding every line of code in your project, regardless of whether it was written by you, your project members, your mentor, or AI.\nBrainstorming ideas for your project."
+  },
+  {
+    "objectID": "data306_wk01tues.html#ai-policy-1",
+    "href": "data306_wk01tues.html#ai-policy-1",
+    "title": "DATA/MATH 306",
+    "section": "AI Policy",
+    "text": "AI Policy\nYou may not use AI in these ways:\n\nWriting the initial draft or whole paragraphs of a writing assignment or your technical report.\nWriting large blocks of code.\n\n\nIf you do use AI in your project or on an assignment, please include an AI citation that provides: prompt, AI tool, company, date.\n\n\nIf you are in doubt as to whether you are using AI appropriately in this course, I encourage you to meet with me for a discussion. Violations of this policy will be considered academic misconduct."
+  },
+  {
+    "objectID": "data306_wk01tues.html#projects",
+    "href": "data306_wk01tues.html#projects",
+    "title": "DATA/MATH 306",
+    "section": "Projects",
+    "text": "Projects\nEach project charter has:\n\nTeam composition: Student researchers will be assigned later this week.\nProject background: Short summary motivating the project.\nProject goals: What the stakeholder mentor wants to accomplish.\nData: A brief description of the data for the project.\nDesired deliverables: Vary by project but all include a well-documented repository, technical report, and a final presentation (Dec 15th 9am - 11am).\nRoles and expectations for each person on the team.\nResearch plan\nCommunication\n\n\nPlease read over the project charters and complete the Background and Interest Survey by noon tomorrow!"
+  },
+  {
+    "objectID": "data306_wk01tues.html#looking-ahead-to-day-2",
+    "href": "data306_wk01tues.html#looking-ahead-to-day-2",
+    "title": "DATA/MATH 306",
+    "section": "Looking Ahead to Day 2…",
+    "text": "Looking Ahead to Day 2…\n\nGit/GitHub\nRules for effective data analysis: Kass et al (2016)\n\nGroups each need to be ready to explain their rule in their own words. Can use the board.\n\nInitial project check-ins"
+  },
+  {
+    "objectID": "data306_wk01tues.html#section",
+    "href": "data306_wk01tues.html#section",
+    "title": "DATA/MATH 306",
     "section": "",
-    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues\n\n\n\nWeek 7, Tues\n\n\n\nWeek 8, Thurs"
+    "text": "Demo of accessing the RStudio Server on Posit Cloud\n\n\nTry to access the RStudio Server between now and next lecture."
+  },
+  {
+    "objectID": "data306_wk01tues.html#rest-of-class",
+    "href": "data306_wk01tues.html#rest-of-class",
+    "title": "DATA/MATH 306",
+    "section": "Rest of Class",
+    "text": "Rest of Class\n\nStart tackling the items here: burl.live/start\nRead over the project descriptions.\nAdd your GitHub username."
+  },
+  {
+    "objectID": "data_ethics_library.html#data-ethics",
+    "href": "data_ethics_library.html#data-ethics",
+    "title": "DATA/MATH 306",
+    "section": "Data Ethics",
+    "text": "Data Ethics\n\nConsidered a subfield of applied ethics.\nData ethics studies and evaluates moral problems related to:\n\nData\nAlgorithms\nCorresponding Practices"
+  },
+  {
+    "objectID": "data_ethics_library.html#ethical-guidelines",
+    "href": "data_ethics_library.html#ethical-guidelines",
+    "title": "DATA/MATH 306",
+    "section": "Ethical Guidelines",
+    "text": "Ethical Guidelines\nAmerican Statistical Association have published Ethical Guidelines for Statistical Practice\nPurpose of the Guidelines:\n\n“The ethical guidelines aim to promote accountability by informing those who rely on any aspects of statistical practice of the standards they should expect. Society benefits from informed judgments supported by ethical statistical practice. All statistical practitioners are expected to follow these guidelines and encourage others to do the same.\n\n\nIn some situations, guideline principles may require balancing competing interests. If an unexpected ethical challenge arises, the ethical practitioner seeks guidance, not exceptions, in the guidelines. To justify unethical behaviors, or to exploit gaps in the guidelines, is unprofessional and inconsistent with these guidelines.”"
+  },
+  {
+    "objectID": "data_ethics_library.html#okcupid-example",
+    "href": "data_ethics_library.html#okcupid-example",
+    "title": "DATA/MATH 306",
+    "section": "OkCupid Example",
+    "text": "OkCupid Example\nIn 2016, a group of researchers publicly released a dataset of nearly 70,000 users of the online dating site OkCupid. The dataset included several variables such as username, age, gender, location, relationship interests, and personality traits. When asked whether or not the researchers had tried to anonymize the data, the researchers said “No. Data is already public” and “Some may object to the ethics of gathering and releasing this data. However, all the data found in the dataset are or were already publicly available, so releasing this dataset merely presents it is a more useful form.”\n\nWhat is your reaction to the researchers’ statement?\nDo you think users of social media platforms are adequately informed as to how their data might be collected, stored, and used?\nWho benefits from this type of large-scale collection of personal data? Who is harmed? What might those harms or benefits look like?"
+  },
+  {
+    "objectID": "data_ethics_library.html#model-for-predicting-clicks",
+    "href": "data_ethics_library.html#model-for-predicting-clicks",
+    "title": "DATA/MATH 306",
+    "section": "Model for Predicting Clicks",
+    "text": "Model for Predicting Clicks\nSuppose that a job site created a machine learning model that predicts the likelihood that someone will interact with a job posting. Their model finds that people from a certain demographic group are more likely to interact with a nannying job post than a construction job post. A new person from that demographic group engages with the job site and based on the predictive model, the job site shows nannying job posts to them instead of construction job posts.\n\nWhat is algorithmic bias? Describe how algorithmic bias relates to the given example.\nWhat other ethical issues are present in this example?"
+  },
+  {
+    "objectID": "data_ethics_library.html#publish-or-perish-replicability",
+    "href": "data_ethics_library.html#publish-or-perish-replicability",
+    "title": "DATA/MATH 306",
+    "section": "Publish or Perish: Replicability",
+    "text": "Publish or Perish: Replicability\nThe aphorism “publish or perish” refers to the intense pressure faced by researchers to publish academic work in order to sustain their career. At the same time, the most pres- tigious journals in a scientific field receive many more submissions than can be published, leading to a high rejection rate.\n\nDescribe two ways in which the competition to publish has contributed to the replicability crisis.\nWho benefits when results that might not replicate are published? Who is harmed? What might those harms or benefits look like?\nWhat is the best way to ensure that science produces both novel findings and replicable results?\nShould all scientists be required to engage in replication work or only a select group? What are potential advantages and disadvantages of either option?"
   },
   {
     "objectID": "data306_wk07tues.html#reminderstasks",
@@ -574,165 +749,18 @@
     "text": "Data Dictionaries\n\nDocument the data sources\n\nInclude links when possible\n\nCode names\n\nBe consistent with your group’s style guide\n\nBrief description\nHow missing values are handled\nClass of variable\nPossible categories or ranges\nKey variables\nDerived variables\n\nMade from others, imputed, …\n\nOther relevant information"
   },
   {
-    "objectID": "data306_wk01tues.html#research-interests",
-    "href": "data306_wk01tues.html#research-interests",
-    "title": "DATA/MATH 306",
-    "section": "Research Interests",
-    "text": "Research Interests\nSurvey statistics and collaborate with\n{width = “60%”}"
-  },
-  {
-    "objectID": "data306_wk01tues.html#research-interests-1",
-    "href": "data306_wk01tues.html#research-interests-1",
-    "title": "DATA/MATH 306",
-    "section": "Research Interests",
-    "text": "Research Interests\nWhere survey statistics meets data science!"
-  },
-  {
-    "objectID": "data306_wk01tues.html#day-1-goals",
-    "href": "data306_wk01tues.html#day-1-goals",
-    "title": "DATA/MATH 306",
-    "section": "Day 1 Goals",
-    "text": "Day 1 Goals\n\nCourse overview\nIntroduction to the projects"
-  },
-  {
-    "objectID": "data306_wk01tues.html#course-sites",
-    "href": "data306_wk01tues.html#course-sites",
-    "title": "DATA/MATH 306",
-    "section": "Course Sites",
-    "text": "Course Sites\nMain site:\n\nA (private) GitHub Repository https://github.com/Bucknell-DATA306-F25/class-site\n\nI will add all of you once you provide your GitHub username.\n\nWe will NOT use Moodle.\n\nA learning objective of the course is to get comfortable with git/GitHub.\n\nMake sure to check the Schedule page often.\n\n\nGradescope:\n\n\nFor turning in work.\n\n\nSlack for course communication.\n\nMake sure to check Slack at least once a day during the work week."
-  },
-  {
-    "objectID": "data306_wk01tues.html#learning-objectives",
-    "href": "data306_wk01tues.html#learning-objectives",
-    "title": "DATA/MATH 306",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nYou will engage in collaborative, data science projects. Upon successful completion of this course, you will be able to:\n\nConduct a full data analysis project.\nCommunicate about your data work at a variety of levels and via a variety of formats including short presentations, longer presentations, and written reports.\nThink statistically about data and research questions.\nCollaborate on projects with a reproducible workflow.\nRun a productive consulting meeting.\nUndertake future projects with greater independence."
-  },
-  {
-    "objectID": "data306_wk01tues.html#overarching-goal-create-data-science-unicorns",
-    "href": "data306_wk01tues.html#overarching-goal-create-data-science-unicorns",
-    "title": "DATA/MATH 306",
-    "section": "Overarching Goal: Create Data Science Unicorns!",
-    "text": "Overarching Goal: Create Data Science Unicorns!"
-  },
-  {
-    "objectID": "data306_wk01tues.html#data-science-skills",
-    "href": "data306_wk01tues.html#data-science-skills",
-    "title": "DATA/MATH 306",
-    "section": "Data Science Skills",
-    "text": "Data Science Skills\n\n\n\nMapping a vague question to data\nExploratory data analysis\nData visualization\nModeling\nWriting clean, robust, and consistent code\n\n\n\n\n\nhttps://xkcd.com/2048/"
-  },
-  {
-    "objectID": "data306_wk01tues.html#story-telling-skills",
-    "href": "data306_wk01tues.html#story-telling-skills",
-    "title": "DATA/MATH 306",
-    "section": "Story Telling Skills",
-    "text": "Story Telling Skills\n\n\n\nOral communication\n\nPrepared talks\nSemi-prepared elevator speeches\nConsulting conversations\n\nWritten communication\n\nReading reflections\nTechnical reports\n\n\n\n\n\n\nhttps://www.xkcd.com/1984/"
-  },
-  {
-    "objectID": "data306_wk01tues.html#collaboration-skills",
-    "href": "data306_wk01tues.html#collaboration-skills",
-    "title": "DATA/MATH 306",
-    "section": "Collaboration Skills",
-    "text": "Collaboration Skills\n\n\n\nReproducible workflow\n\nGit and GitHub\nQuarto\nDocumentation\n\nTeam Science\n\nStakeholders\nPeers\nTeam Leaders\nData science mentor\n\nRunning a meeting"
-  },
-  {
-    "objectID": "data306_wk01tues.html#ethics",
-    "href": "data306_wk01tues.html#ethics",
-    "title": "DATA/MATH 306",
-    "section": "Ethics",
-    "text": "Ethics\n\n\n\nReport results honestly\nTransparency in your data wrangling, assumptions, and model building choices\nFollow a reproducible workflow\nConsider data privacy issues\n\n\n\n\n\nhttps://dilbert.com"
-  },
-  {
-    "objectID": "data306_wk01tues.html#ethics-1",
-    "href": "data306_wk01tues.html#ethics-1",
-    "title": "DATA/MATH 306",
-    "section": "Ethics",
-    "text": "Ethics\n\n\n\n\n\nhttps://xkcd.com/1390/\n\n\n\n\n\n\nhttps://xkcd.com/882"
-  },
-  {
-    "objectID": "data306_wk01tues.html#reflection",
-    "href": "data306_wk01tues.html#reflection",
-    "title": "DATA/MATH 306",
-    "section": "Reflection",
-    "text": "Reflection\n\n\n\n\n\nOf our data science unicorn skills, list 1-2 where you feel the most confident in your current skill level.\nOf our data science unicorn skills, list 1-2 where you feel you have the most room to grow."
-  },
-  {
-    "objectID": "data306_wk01tues.html#research-tools",
-    "href": "data306_wk01tues.html#research-tools",
-    "title": "DATA/MATH 306",
-    "section": "Research Tools",
-    "text": "Research Tools\n\nWill vary by project!\nAll have access to an RStudio Server via a Posit Cloud Workspace. Will use for some activities and demos.\nWe will use a GitHub Organization for collaborating and to ensure we have a version controlled workflow.\n\nMake sure to become a Watcher of the course site.\nI will also share a specific project site with each student.\n\nBring a laptop to class. Please check-in with me if this will be an issue."
-  },
-  {
-    "objectID": "data306_wk01tues.html#readings",
-    "href": "data306_wk01tues.html#readings",
-    "title": "DATA/MATH 306",
-    "section": "Readings",
-    "text": "Readings\n\nWe will read a variety of papers and book chapters.\nMain textbook is “Communicating with Data: The Art of Writing for Data Science” by Deborah Nolan and Sara Stoudt.\n\nThere are extra copies in Taylor 212. These copies should NOT leave Taylor 212.\n\nReadings will be posted to the schedule.\n\nReading reflections are due Mondays at 10pm.\n\nFirst reflections are due Sept 1st. Will discuss in Thursday’s class."
-  },
-  {
-    "objectID": "data306_wk01tues.html#course-structure",
-    "href": "data306_wk01tues.html#course-structure",
-    "title": "DATA/MATH 306",
-    "section": "Course Structure",
-    "text": "Course Structure\n\n\nSeminar Days\n\nDiscussion\nActivities related to readings\nGuest lectures\nPresentations\n\n\nLab Days\n\nProject work time\nCheck-in meetings"
-  },
-  {
-    "objectID": "data306_wk01tues.html#course-components",
-    "href": "data306_wk01tues.html#course-components",
-    "title": "DATA/MATH 306",
-    "section": "Course Components",
-    "text": "Course Components\n\n\n\nEngagement\n\nAttendance is required\nThree Slack posts to our workspace\nOne office hour visit\nOne DCDS activity\n\nWeekly reading reflections\n\n\n\nProject assessments\n\nTeam leader duties\nPeriodic in-class lab assignments\nProgress report presentations\nDeliverables\n\nPeer feedback"
-  },
-  {
-    "objectID": "data306_wk01tues.html#policies",
-    "href": "data306_wk01tues.html#policies",
-    "title": "DATA/MATH 306",
-    "section": "Policies",
-    "text": "Policies\n\nMake sure to check the course site for policies related to regrades, late work, attendance, technology, accommodations.\nBut let’s talk AI…"
-  },
-  {
-    "objectID": "data306_wk01tues.html#ai-policy",
-    "href": "data306_wk01tues.html#ai-policy",
-    "title": "DATA/MATH 306",
-    "section": "AI Policy",
-    "text": "AI Policy\nWhile A.I. tools, such as ChatGPT, are being used to generate code, analyze data, and write essays, goals of this course are to develop your own ability to write code, to thoughtfully extract knowledge from data, and to communicate your findings.\nYou may use AI in these course activities:\n\nProviding feedback on their writing. The original draft should be your work but you can ask for feedback from AI and incorporate that feedback into the revision.\nProviding coding suggestions or revisions. You are responsible for understanding every line of code in your project, regardless of whether it was written by you, your project members, your mentor, or AI.\nBrainstorming ideas for your project."
-  },
-  {
-    "objectID": "data306_wk01tues.html#ai-policy-1",
-    "href": "data306_wk01tues.html#ai-policy-1",
-    "title": "DATA/MATH 306",
-    "section": "AI Policy",
-    "text": "AI Policy\nYou may not use AI in these ways:\n\nWriting the initial draft or whole paragraphs of a writing assignment or your technical report.\nWriting large blocks of code.\n\n\nIf you do use AI in your project or on an assignment, please include an AI citation that provides: prompt, AI tool, company, date.\n\n\nIf you are in doubt as to whether you are using AI appropriately in this course, I encourage you to meet with me for a discussion. Violations of this policy will be considered academic misconduct."
-  },
-  {
-    "objectID": "data306_wk01tues.html#projects",
-    "href": "data306_wk01tues.html#projects",
-    "title": "DATA/MATH 306",
-    "section": "Projects",
-    "text": "Projects\nEach project charter has:\n\nTeam composition: Student researchers will be assigned later this week.\nProject background: Short summary motivating the project.\nProject goals: What the stakeholder mentor wants to accomplish.\nData: A brief description of the data for the project.\nDesired deliverables: Vary by project but all include a well-documented repository, technical report, and a final presentation (Dec 15th 9am - 11am).\nRoles and expectations for each person on the team.\nResearch plan\nCommunication\n\n\nPlease read over the project charters and complete the Background and Interest Survey by noon tomorrow!"
-  },
-  {
-    "objectID": "data306_wk01tues.html#looking-ahead-to-day-2",
-    "href": "data306_wk01tues.html#looking-ahead-to-day-2",
-    "title": "DATA/MATH 306",
-    "section": "Looking Ahead to Day 2…",
-    "text": "Looking Ahead to Day 2…\n\nGit/GitHub\nRules for effective data analysis: Kass et al (2016)\n\nGroups each need to be ready to explain their rule in their own words. Can use the board.\n\nInitial project check-ins"
-  },
-  {
-    "objectID": "data306_wk01tues.html#section",
-    "href": "data306_wk01tues.html#section",
-    "title": "DATA/MATH 306",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DATA/MATH 306: Data Science & Statistical Consulting",
     "section": "",
-    "text": "Demo of accessing the RStudio Server on Posit Cloud\n\n\nTry to access the RStudio Server between now and next lecture."
+    "text": "The lecture slides will be posted here.\n\n\n\n\nClass Period\nHTML Slides\n\n\n\n\nWeek 1, Tues\n\n\n\nWeek 1, Thurs\n\n\n\nWeek 2, Tues\n\n\n\nWeek 2, Thurs\n\n\n\nWeek 3, Tues\n\n\n\nWeek 3, Thurs\n\n\n\nWeek 5, Thurs\n\n\n\nWeek 6, Tues\n\n\n\nWeek 7, Tues\n\n\n\nWeek 8, Thurs"
   },
   {
-    "objectID": "data306_wk01tues.html#rest-of-class",
-    "href": "data306_wk01tues.html#rest-of-class",
-    "title": "DATA/MATH 306",
-    "section": "Rest of Class",
-    "text": "Rest of Class\n\nStart tackling the items here: burl.live/start\nRead over the project descriptions.\nAdd your GitHub username."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "data306_wk02thurs.html#reminders",
@@ -770,104 +798,6 @@
     "text": "Lab Work\n\nAccess the “DataFirstSteps.Qmd” in the Activities folder on our class-site GitHub repository.\nWork on question formulation.\n\nGroup progress is due on Gradescope by 10am next Thursday (Sept 11th).\n\nStart engaging with the data.\n\nMeans a lot of different things for the different groups.\nI provide group specific advice in the “DataFirstSteps.Qmd” document."
   },
   {
-    "objectID": "data306_wk05thurs.html#plan-for-today",
-    "href": "data306_wk05thurs.html#plan-for-today",
-    "title": "DATA/MATH 306",
-    "section": "Plan for Today",
-    "text": "Plan for Today\n\nFive minute presentations:\n\nGoals of the talk:\n\nExplain your research project and project goal(s) to the class.\nProvide your plan for the project.\n\nPeer feedback\n\nData dictionaries"
-  },
-  {
-    "objectID": "data306_wk05thurs.html#plan-for-next-class-mostly-a-lab-day",
-    "href": "data306_wk05thurs.html#plan-for-next-class-mostly-a-lab-day",
-    "title": "DATA/MATH 306",
-    "section": "Plan for Next Class: Mostly a Lab Day",
-    "text": "Plan for Next Class: Mostly a Lab Day\n\nFree work time\nI will do check-ins with each group.\n\nEDA findings\nTraining versus testing datasets\nPlan for next steps\n\nWork on your data dictionaries."
-  },
-  {
-    "objectID": "data306_wk05thurs.html#presentations",
-    "href": "data306_wk05thurs.html#presentations",
-    "title": "DATA/MATH 306",
-    "section": "Presentations",
-    "text": "Presentations\n\nMake a copy of this feedback form\n\nAlso in the Schedule under today.\nDue on Gradescope by Tuesday’s class at 10am.\nI’d suggest turning it in right after class today!"
-  },
-  {
-    "objectID": "data306_wk05thurs.html#data-dictionaries",
-    "href": "data306_wk05thurs.html#data-dictionaries",
-    "title": "DATA/MATH 306",
-    "section": "Data Dictionaries",
-    "text": "Data Dictionaries\n\nDocument the data sources\n\nInclude links when possible\n\nCode names\n\nBe consistent with your group’s style guide\n\nBrief description\nHow missing values are handled\nClass of variable\nPossible categories or ranges\nKey variables\nDerived variables\n\nMade from others, imputed, …\n\nOther relevant information"
-  },
-  {
-    "objectID": "data306_wk05thurs.html#reminders",
-    "href": "data306_wk05thurs.html#reminders",
-    "title": "DATA/MATH 306",
-    "section": "Reminders",
-    "text": "Reminders\n\nData science activity: Attend or participate in at least one DCDS activity over the course of the semester. Fill out a short reflection using this form to receive credit.\nOffice hours requirement: Deleting this requirement as we are connecting plenty via check-in meetings and Slack. Keep it up!"
-  },
-  {
-    "objectID": "data306_wk03tues.html#reminders",
-    "href": "data306_wk03tues.html#reminders",
-    "title": "DATA/MATH 306",
-    "section": "Reminders",
-    "text": "Reminders\n\nNew team leaders this week.\n\nRemember to update the To Dos list your GitHub Project.\n\n(By Sept 11th 10am) Turn in your Question Formulation document on Gradescope.\n\nWeek 2 Team Leader should turn it in for the whole team.\n\n(By Sept 15th 10pm) Turn in the Week 4 Reading Reflections."
-  },
-  {
-    "objectID": "data306_wk03tues.html#plan-for-today",
-    "href": "data306_wk03tues.html#plan-for-today",
-    "title": "DATA/MATH 306",
-    "section": "Plan for Today",
-    "text": "Plan for Today\n\nTopics to discuss:\n\nConfirmatory studies versus exploratory studies\nExploratory data analysis\n\nDemos in Positron\nEDA activity"
-  },
-  {
-    "objectID": "data306_wk03tues.html#types-of-data-projects",
-    "href": "data306_wk03tues.html#types-of-data-projects",
-    "title": "DATA/MATH 306",
-    "section": "Types of Data Projects",
-    "text": "Types of Data Projects\nWhat is the difference between confirmatory and exploratory studies?\n\n\nConfirmatory Studies\n\nClassical view of statistical process\nStart with hypotheses and then use data to assess the accuracy of the hypotheses.\n\n\nExploratory Studies\n\nStart with the data and use the data to generate hypotheses.\n\n\n\nQuestions:\n\n\nPros and cons of each type?\nUnder which type does your project fall?"
-  },
-  {
-    "objectID": "data306_wk03tues.html#avoiding-overfitting-the-datap-hacking-in-exploratory-studies",
-    "href": "data306_wk03tues.html#avoiding-overfitting-the-datap-hacking-in-exploratory-studies",
-    "title": "DATA/MATH 306",
-    "section": "Avoiding Overfitting the Data/P-Hacking in Exploratory Studies",
-    "text": "Avoiding Overfitting the Data/P-Hacking in Exploratory Studies\n\n\n\n\nSplit your data into two sets:\n\nTraining set: Data to mine\nTest set: Data to apply your final models to.\n\n\n\n\n\n\n\nTypically 70/30 or 80/20 split.\nQuestion: How should you decide what data goes into the training set versus the test set?"
-  },
-  {
-    "objectID": "data306_wk03tues.html#exploratory-data-analysis-eda",
-    "href": "data306_wk03tues.html#exploratory-data-analysis-eda",
-    "title": "DATA/MATH 306",
-    "section": "Exploratory Data Analysis (EDA)",
-    "text": "Exploratory Data Analysis (EDA)\n\nAll studies, exploratory or confirmatory, should include a robust exploration stage.\n\nMight be more constrained for confirmatory studies.\n\nEDA Goals:\n\nLook for data quality issues (missingness, censored data, mislabeled data, representativity, …).\nDiscover trends in the data (within one variable, between 2+ variables).\n\nThere is no perfect checklist for EDA.\nIt is a VERY iterative process."
-  },
-  {
-    "objectID": "data306_wk03tues.html#qualities-of-an-effective-data-scientist",
-    "href": "data306_wk03tues.html#qualities-of-an-effective-data-scientist",
-    "title": "DATA/MATH 306",
-    "section": "Qualities of an Effective Data Scientist",
-    "text": "Qualities of an Effective Data Scientist\n\n\n\n\n\n\nI think one is missing: Curiosity!"
-  },
-  {
-    "objectID": "data306_wk03tues.html#general-incomplete-eda-checklist",
-    "href": "data306_wk03tues.html#general-incomplete-eda-checklist",
-    "title": "DATA/MATH 306",
-    "section": "General (Incomplete) EDA Checklist",
-    "text": "General (Incomplete) EDA Checklist\nDisclaimer: Not every item on this list will work for every project.\n\nFormulate a few questions you want to answer with your explorations. Typical questions:\n\nWhat type of variation occurs within the variables?\nWhat type of variation occurs between the variables?\n\nCheck the size of the data.\n\nDo you have the correct number of observations and variable?\n\nSpend time exploring how the data are coded.\n\nDo the variables have the correct classification in R or Python?\n\nSummarize from many angles.\n\nWhat are typical values?\nAny red flags? If so, explore different subsets of the data.\nWhat information is gained from these summaries?"
-  },
-  {
-    "objectID": "data306_wk03tues.html#general-incomplete-eda-checklist-1",
-    "href": "data306_wk03tues.html#general-incomplete-eda-checklist-1",
-    "title": "DATA/MATH 306",
-    "section": "General (Incomplete) EDA Checklist",
-    "text": "General (Incomplete) EDA Checklist\n\nValidate with at least one external data source.\n\nAre my summaries reasonably similar to the external source? If not, why not?\n\nMake many plots.\n\nAre there any unusual patterns? If so, what might explain them?\nWhat information is gained from these plots?\nGo back and compute additional summary statistics based on what you learned from the plots.\n\nTidy\n\nDetermine what data wrangling steps should go into creating a tidy version of the data.\n\nTry the easy solution.\n\nTry to at least partially answer some of your research questions via your EDA output."
-  },
-  {
-    "objectID": "data306_wk03tues.html#eda-activity-1",
-    "href": "data306_wk03tues.html#eda-activity-1",
-    "title": "DATA/MATH 306",
-    "section": "EDA Activity",
-    "text": "EDA Activity"
-  },
-  {
     "objectID": "data306_wk08thurs.html#reminderstasks",
     "href": "data306_wk08thurs.html#reminderstasks",
     "title": "DATA/MATH 306",
@@ -886,7 +816,7 @@
     "href": "data306_wk08thurs.html#data-ethics",
     "title": "DATA/MATH 306",
     "section": "Data Ethics",
-    "text": "Data Ethics\n\nImpacts several (all?) stages of the data analysis process.\nEthics considers normative questions:\n\nWhat should a person morally value?\nWhat decision should a person make in a given context?\n\nThe readings broke data science ethics into evaluating moral problems related to:\n\nData\nAlgorithms\nCorresponding Practices"
+    "text": "Data Ethics\n\nEthics considers normative questions:\n\nWhat should a person morally value?\nWhat decision should a person make in a given context?\n\nThe readings broke data science ethics into evaluating moral problems related to:\n\nData\nAlgorithms\nCorresponding Practices\n\nImpacts several (all?) stages of the data analysis process."
   },
   {
     "objectID": "data306_wk08thurs.html#guidelines",
@@ -931,108 +861,248 @@
     "text": "Data in Context\nConsider the following excerpt from the ASA Ethical Guides Section on responsibilities to research subjects, data subjects, or those directly affected by statistical practices: “The ethical statistical practitioner considers the impact of statistical practice on society, groups, and individuals. Statisticians should recognize that statistical practice could adversely affect groups or the public perception of groups, including marginalized groups. Statisticians should contemplate, and be sensitive to, the manner in which information is framed to avoid disproportionate harm to vulnerable groups.”\n\nIn the article “Racial Health Disparities and Covid-19—Caution and Context”, the authors argue that while it is important to document racial disparity data, such data need to be contextualized with adequate analysis in order to avoid perpetuating harmful stereotypes. Suppose you were tasked with creating an interactive map of COVID data. What additional context would be important to provide as an ethical data scientist?\nWho will be impacted by your project? How will they benefit? How might they be harmed? What can your team do to minimize the harms and maximize the benefits?"
   },
   {
-    "objectID": "data_AI_literacy.html",
-    "href": "data_AI_literacy.html",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "",
-    "text": "Data and AI Literacy\n     \nKelly McConville\nDominguez Center for Data Science"
-  },
-  {
-    "objectID": "data_AI_literacy.html#data-literacy",
-    "href": "data_AI_literacy.html#data-literacy",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Data Literacy",
-    "text": "Data Literacy\n\n\nWhat is data literacy?\n\n\n\nIt is not the same as mathematical literacy.\n\n\n\nXXX"
-  },
-  {
-    "objectID": "data_AI_literacy.html#data-in-stat-100",
-    "href": "data_AI_literacy.html#data-in-stat-100",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Data in Stat 100",
-    "text": "Data in Stat 100\nWill use a wide-range of real and relevant data examples"
-  },
-  {
-    "objectID": "data_AI_literacy.html#data-in-stat-100-1",
-    "href": "data_AI_literacy.html#data-in-stat-100-1",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Data in Stat 100",
-    "text": "Data in Stat 100\n\n\n\n\n\n\n\n\nI understand that some of these topics have likely had profound impacts on your lives.\nWe will focus class time on the key course objectives but will use these current topics to empower ourselves and to see how we can productively participate with data."
-  },
-  {
-    "objectID": "data_AI_literacy.html#statistical-thinking",
-    "href": "data_AI_literacy.html#statistical-thinking",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Statistical Thinking",
-    "text": "Statistical Thinking\n\n\n\nUnderstanding the importance of context.\n\n\n\n Context explains the Monday jumps in the COVID counts.\n\n\n\n\n\n\nHow we encode information in a graph should be driven by our research question.\n\n\n\n Design choices impact the conclusions the viewer draws.\n\n\n\n\n\n\nHow the data are collected impacts the conclusions we can draw.\n\n\n\n Voluntary COVID test results don’t likely provide good estimates of COVID prevalence.\n\n\n\n\n\n\nOften we are using a sample of data to say something about a larger group. In this case, we should measure how certain our estimates are!\n\n\n\n We will learn to compute and interpret certainty estimates (like those in the wastewater graph) later in the course!"
-  },
-  {
-    "objectID": "data_AI_literacy.html#statistical-thinking-1",
-    "href": "data_AI_literacy.html#statistical-thinking-1",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Statistical Thinking",
-    "text": "Statistical Thinking\n\nAbout developing reasoning (not just learning definitions and formulae).\nDeveloping our statistical thinking skills will allow us to soundly extract knowledge from data!\nStatistical thinking requires judgment that takes time to develop.\n\nWill see examples and practice applying statistical thinking throughout the course."
-  },
-  {
-    "objectID": "data_AI_literacy.html#what-areis-data",
-    "href": "data_AI_literacy.html#what-areis-data",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "What are/is Data?",
-    "text": "What are/is Data?\n\n\n\n“‘Raw data’ is an oxymoron.” – Lisa Gitelman\n\n\n\n“Data … is information made tractable.” – Catherine D’Ignazio and Lauren Klein"
-  },
-  {
-    "objectID": "data_AI_literacy.html#data-frames",
-    "href": "data_AI_literacy.html#data-frames",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Data Frames",
-    "text": "Data Frames\nData in spreadsheet-like format where:\n\nRows = Observations/cases\nColumns = Variables\n\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\n\nData from GPT Detectors Are Biased Against Non-Native English Writers. Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu, James Zou. CellPress Patterns and available in the R package detectors."
-  },
-  {
-    "objectID": "data_AI_literacy.html#data-frames-1",
-    "href": "data_AI_literacy.html#data-frames-1",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Data Frames",
-    "text": "Data Frames\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nRows = Observations/cases\nWhat are the cases? What does each row represent?"
-  },
-  {
-    "objectID": "data_AI_literacy.html#data-frames-2",
-    "href": "data_AI_literacy.html#data-frames-2",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Data Frames",
-    "text": "Data Frames\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nColumns = Variables\nVariables: Describe characteristics of the observations\n\nQuantitative: Numerical in nature\nCategorical: Values are categories\nIdentification: Uniquely identify each case\n\n\n\n\n\n\n\n\nID\nkind\n.pred_AI\n.pred_class\ndetector\nnative\nname\nmodel\n\n\n\n\n1\nHuman\n0.9999942\nAI\nSapling\nNo\nReal TOEFL\nHuman\n\n\n2\nHuman\n0.8281448\nAI\nCrossplag\nNo\nReal TOEFL\nHuman\n\n\n3\nHuman\n0.0002137\nHuman\nCrossplag\nYes\nReal College Essays\nHuman\n\n\n4\nAI\n0.0000000\nHuman\nZeroGPT\nNA\nFake CS224N - GPT3\nGPT3\n\n\n5\nAI\n0.0017841\nHuman\nOriginalityAI\nNA\nFake CS224N - GPT3, PE\nGPT4\n\n\n6\nHuman\n0.0001783\nHuman\nHFOpenAI\nYes\nReal CS224N\nHuman\n\n\n\n\n\n\n\n\nEvery time you get a new dataset, spend time exploring the variables.\nExample questions:\n\nIs the variable capturing what I want?\nFor categorical variables, what are the categories? Do those categories adequately represent the data represented by that variable?\nFor quantitative variables, what values are possible? Were the data rounded or binned? Are those values actually encoding categories? What are the units of measurement?"
-  },
-  {
-    "objectID": "data_AI_literacy.html#hand-drawn-data-viz",
-    "href": "data_AI_literacy.html#hand-drawn-data-viz",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Hand-Drawn Data Viz",
-    "text": "Hand-Drawn Data Viz\n\nOnce we have collected data, a common next step is to visualize it.\nTwo key aspects of data visualization:\n\nDetermining how you want to display the data.\nFiguring out how to tell the computer to do that mapping.\n\nHand-drawn data visualizations allow us to focus on the first part with full control over the creative process!"
-  },
-  {
-    "objectID": "data_AI_literacy.html#hand-drawn-data-viz-examples",
-    "href": "data_AI_literacy.html#hand-drawn-data-viz-examples",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Hand-Drawn Data Viz Examples",
-    "text": "Hand-Drawn Data Viz Examples\nDear Data\n\n“Each week, and for a year, we collected and measured a particular type of data about our lives, used this data to make a drawing on a postcard-sized sheet of paper, and then dropped the postcard in an English”postbox” (Stefanie) or an American “mailbox” (Giorgia)!“\n\n\n\nDear Data Examples\n\n\n\n\n\n\n\n\nDear Data Examples\n\n\n\n\n\n\n\n\nMore Dear Data Examples\n\nBecky Cooper handed out hand-drawn maps of Manhattan to strangers and asked them to “map their Manhattan.”\n\n\n\n\nMap drawn by New Yorker staff writer Patricia Marx\n\n\n\nWhat would the data frame for this visualization look like?\n\n\n\n\nMore Dear Data Examples\n\n\n\n\n\n\nWhat would the data frame for this visualization look like?\n\n\n\n\nMore Dear Data Examples\n\n\n\n\n\n\nWhat would the data frame for this visualization look like?"
-  },
-  {
-    "objectID": "data_AI_literacy.html#goal-by-next-wed-collect-data-from-your-life-so-that-you-can-visualize-it-on-p-set-1.",
-    "href": "data_AI_literacy.html#goal-by-next-wed-collect-data-from-your-life-so-that-you-can-visualize-it-on-p-set-1.",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "Goal: By next Wed, collect data from your life so that you can visualize it on P-Set 1.",
-    "text": "Goal: By next Wed, collect data from your life so that you can visualize it on P-Set 1.\n\n\n\nRecommendations\n\n\n\nStore the data in your favorite spreadsheet program (Google Sheets, Numbers, Excel).\nDetermine what your cases/observations will be.\nCollect data on more variables than you will likely visualize. It is hard to know beforehand what the interesting relationships will be.\n\n\n\nNext Week\n\nWill get a blank postcard and further guidance on the visualization with P-Set 1."
-  },
-  {
-    "objectID": "data_AI_literacy.html#section",
-    "href": "data_AI_literacy.html#section",
-    "title": "Example: Visualizing COVID Prevalence",
-    "section": "",
-    "text": "Demo of accessing the RStudio Server on Posit Cloud\n\n\nTry to access the RStudio Server between now and next lecture.\nCome back to the recording if need help with the steps."
-  },
-  {
-    "objectID": "data_AI_literacy.html#reminders",
-    "href": "data_AI_literacy.html#reminders",
-    "title": "Example: Visualizing COVID Prevalence",
+    "objectID": "data306_wk02tues.html#reminders",
+    "href": "data306_wk02tues.html#reminders",
+    "title": "DATA/MATH 306",
     "section": "Reminders",
-    "text": "Reminders\n\nIf able, please bring a laptop or tablet to Mondays’s lecture.\nNo section, no wrap-ups, and no lecture quiz this week.\nMake sure to go through the syllabus, which can be found on Canvas.\n\nWill discuss assessments and course policies on Monday.\n\nOnly I will be running office hours this week at the following time:\n\nToday 1:30 - 3:00 pm in Science Center 316 (This week only)\n\nThe regular office hour schedule will be posted later this week and will start next week.\nBe on the look-out for the section preference form."
+    "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\nWill help you get acquainted with your projects."
+  },
+  {
+    "objectID": "data306_wk02tues.html#goals-for-today",
+    "href": "data306_wk02tues.html#goals-for-today",
+    "title": "DATA/MATH 306",
+    "section": "Goals for Today",
+    "text": "Goals for Today\n\nProject management\nFinish discussion: Workflow via Git/GitHub\nStart thinking through research question and understanding context"
+  },
+  {
+    "objectID": "data306_wk02tues.html#plan-for-thursday-lab-day",
+    "href": "data306_wk02tues.html#plan-for-thursday-lab-day",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Thursday: Lab Day",
+    "text": "Plan for Thursday: Lab Day\n\nGet started working on your project and with your project’s data\nDefine and refine your research questions"
+  },
+  {
+    "objectID": "data306_wk02tues.html#team-leader-duties",
+    "href": "data306_wk02tues.html#team-leader-duties",
+    "title": "DATA/MATH 306",
+    "section": "Team Leader Duties",
+    "text": "Team Leader Duties\n\nTeam leaders this week: team leader spreadsheet\nEach week we will rotate who is the Team Leader.\n\nTeam Leader will be in-charge of synthesizing group work, making sure everyone is on the same page, creating the week’s To Do list via Issues, scheduling meetings, organizing the group’s presentation.\n\nThis week’s Team Leaders’ tasks:\n\nSchedule a time between now and 10pm on Monday to discuss the initial project reading with your group mates.\nBe in-charge of the activity we run in class on Thursday."
+  },
+  {
+    "objectID": "data306_wk02tues.html#projects",
+    "href": "data306_wk02tues.html#projects",
+    "title": "DATA/MATH 306",
+    "section": "Projects",
+    "text": "Projects\n\nWill utilize a wide variety of techniques across the different projects.\nBe prepared to do some independent learning. Each group will be using different techniques that we likely won’t cover explicitly in-class.\nBut, remember that there are many avenues for help!"
+  },
+  {
+    "objectID": "data306_wk02tues.html#project-management",
+    "href": "data306_wk02tues.html#project-management",
+    "title": "DATA/MATH 306",
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nData management\n\nSave the raw data.\nCreate an tidy, analysis-friendly dataset and use a non-proprietary format.\nRecord all steps used to process data.\nCreate a data dictionary.\n\n\n\nWe will not be putting the project data in our GitHub repositories and will only store these files locally."
+  },
+  {
+    "objectID": "data306_wk02tues.html#project-management-1",
+    "href": "data306_wk02tues.html#project-management-1",
+    "title": "DATA/MATH 306",
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nWriting code\n\nPlace a brief explanatory comment at the start of every program. (See example in paper.)\nLook for well-maintained packages to use.\nGive functions and variables meaningful names.\n\nEx: Replace var1 with college_name\n\nMake dependencies explicit."
+  },
+  {
+    "objectID": "data306_wk02tues.html#project-management-2",
+    "href": "data306_wk02tues.html#project-management-2",
+    "title": "DATA/MATH 306",
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nCollaboration\n\nCreate overview of project in the README\nUse Project and Issues features to create to-do lists.\n\nProject organization\n\nLet’s walk through one of the project repos."
+  },
+  {
+    "objectID": "data306_wk02tues.html#project-management-3",
+    "href": "data306_wk02tues.html#project-management-3",
+    "title": "DATA/MATH 306",
+    "section": "Project Management",
+    "text": "Project Management\nUtilize the following from Wilson et al (2017):\n\nTrack changes via Github\n\nKeep changes small.\nShare changes frequently.\n\nWriting\n\nWrite about your work early and often."
+  },
+  {
+    "objectID": "data306_wk02tues.html#reproducibility",
+    "href": "data306_wk02tues.html#reproducibility",
+    "title": "DATA/MATH 306",
+    "section": "Reproducibility",
+    "text": "Reproducibility\n\nReproducible versus replicable\n\n\n\n“Reproducibility involves being able to recalculate the exact numbers in a data analysis using the code and raw data provided by the analyst.” (Leek, 2015)\n\n\n\nNot the same as correctness!"
+  },
+  {
+    "objectID": "data306_wk02tues.html#write-readable-code",
+    "href": "data306_wk02tues.html#write-readable-code",
+    "title": "DATA/MATH 306",
+    "section": "Write Readable Code",
+    "text": "Write Readable Code\n\nIt is important to write readable code.\n\nFollow a specific convention.\nUse spaces liberally.\n\nAvoid . in object names.\n\nExample: Tidyverse Style Guide.\nAs a group, decide on a style convention. I don’t want to see three or four different conventions for a given project."
+  },
+  {
+    "objectID": "data306_wk02tues.html#writing-readable-code",
+    "href": "data306_wk02tues.html#writing-readable-code",
+    "title": "DATA/MATH 306",
+    "section": "Writing Readable Code",
+    "text": "Writing Readable Code\n\n“Use common sense and BE CONSISTENT.\n\n\nIf you are editing code, take a few minutes to look at the code around you and determine its style. If others use spaces around their if clauses, you should, too. If their comments have little boxes of stars around them, make your comments have little boxes of stars around them, too.\n\n\nThe point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you are saying, rather than on how you are saying it.\n\n\nWe present global style rules here so people know the vocabulary. But local style is also important. If code you add to a file looks drastically different from the existing code around it, the discontinuity will throw readers out of their rhythm when they go to read it. Try to avoid this.” –Google Style Guide"
+  },
+  {
+    "objectID": "data306_wk02tues.html#review-git-and-github",
+    "href": "data306_wk02tues.html#review-git-and-github",
+    "title": "DATA/MATH 306",
+    "section": "Review: git and GitHub",
+    "text": "Review: git and GitHub\n\n\n\n\ngit: Version control system\n\nThink fancier type of Track Changes.\n\nGitHub: Hosting service for git projects (which are called repositories)\n\nThink fancier type of DropBox or Google Drive."
+  },
+  {
+    "objectID": "data306_wk02tues.html#a-github-repo-projectfolder-on-your-computer",
+    "href": "data306_wk02tues.html#a-github-repo-projectfolder-on-your-computer",
+    "title": "DATA/MATH 306",
+    "section": "A Github Repo = Project/Folder on Your Computer",
+    "text": "A Github Repo = Project/Folder on Your Computer\n\nA repo, short for repository, is the folder that contains all of the files for the project on GitHub.com.\nUnder the Bucknell-DATA306-F25 GitHub Organization you will have access to 3 repos:\n\nwork-username: Just you and I can access\nclass-site: The whole class can access\nprojectname: Your team, stakeholder (possibly), and I can access\n\nFor each repo, you should sync with a folder on your computer.\n\nWe will all do this together for work-username today."
+  },
+  {
+    "objectID": "data306_wk02tues.html#steps-to-get-started",
+    "href": "data306_wk02tues.html#steps-to-get-started",
+    "title": "DATA/MATH 306",
+    "section": "Steps to Get Started",
+    "text": "Steps to Get Started\n\n\nOnce-Per-Computer/Server:\n\nInstall git on your computer.\nGet your local git talking to GitHub.\n\n\nOnce-Per-Project:\n\nCreate a repo on GitHub.\n\nI did this step for us.\n\nCreate a version controlled Project that is synced with the GitHub repo."
+  },
+  {
+    "objectID": "data306_wk02tues.html#git-via-positron-r",
+    "href": "data306_wk02tues.html#git-via-positron-r",
+    "title": "DATA/MATH 306",
+    "section": "Git via Positron + R",
+    "text": "Git via Positron + R\n\nSo that the workflow is the same for everyone:\n\nOpen Positron.\nStart an R session.\n\nYou will be able to toggle to Python after we have synced with GitHub."
+  },
+  {
+    "objectID": "data306_wk02tues.html#check-if-git-is-install-on-your-computer",
+    "href": "data306_wk02tues.html#check-if-git-is-install-on-your-computer",
+    "title": "DATA/MATH 306",
+    "section": "Check if git is install on your computer",
+    "text": "Check if git is install on your computer\nIn Terminal, type\n\ngit --version\n\n\n\n\n\nIf you receive an answer, then git is already install! 🎉\n\n\n\n\n\nIf the reply is git: command not found (or similar), then\n\nWindows: Visit https://gitforwindows.org/\nMacs: In the Terminal type\n\n\n\n\nxcode-select --install    \n\n\n\nRestart your session."
+  },
+  {
+    "objectID": "data306_wk02tues.html#introduce-yourself-to-git",
+    "href": "data306_wk02tues.html#introduce-yourself-to-git",
+    "title": "DATA/MATH 306",
+    "section": "Introduce Yourself to Git",
+    "text": "Introduce Yourself to Git\nInstall the packages usethis and gitcreds:\n\ninstall.packages(c(\"usethis\", \"gitcreds\"))\n\nIn your R console, modify and run the following code to introduce yourself to git\n\nusethis::use_git_config(user.name = \"mcconvil\", \n               user.email = \"k.mcconville@bucknell.edu\")"
+  },
+  {
+    "objectID": "data306_wk02tues.html#personal-access-token-time",
+    "href": "data306_wk02tues.html#personal-access-token-time",
+    "title": "DATA/MATH 306",
+    "section": "Personal Access Token Time",
+    "text": "Personal Access Token Time\n\n\nTo interact with GitHub, you need to include credentials.\n\nPersonal Access Token (PAT)\n\nIn your R console, run\n\n\n\nusethis::create_github_token()\n\n\n\nShould take you to GitHub.\nSelect “repo”, “user”, and “workflow” for the scopes.\nClick “Generate token”.\nStore it by running the following in the R Console:\n\n\n\ngitcreds::gitcreds_set()"
+  },
+  {
+    "objectID": "data306_wk02tues.html#sync-github.com-repo-and-a-project",
+    "href": "data306_wk02tues.html#sync-github.com-repo-and-a-project",
+    "title": "DATA/MATH 306",
+    "section": "Sync GitHub.com repo and a Project",
+    "text": "Sync GitHub.com repo and a Project\nIn your repo on GitHub.com:\n\n\nClick on the green clone or download button.\nCopy the given url for “Clone with HTTPS”.\n\n\nIn Positron:\n\n\nIn the Welcome pane, select “New from Git…”\nPaste in the url.\nSelect “Browse…” and select a logical place on your computer for the repository folder.\nHit the “OK” button."
+  },
+  {
+    "objectID": "data306_wk02tues.html#workflow",
+    "href": "data306_wk02tues.html#workflow",
+    "title": "DATA/MATH 306",
+    "section": "Workflow",
+    "text": "Workflow\nOnce your GitHub repo and RStudio project are synced, here’s your workflow:\n\nOn the left menu, select “Source Control”.\nUnder the three dots associated with “CHANGES”, select Pull.\n\nThis will pull the most recent version of the repo from GitHub to your local folder.\n\nDo some work on your project and save it.\nIn the “Source Control”, select the “+” (stage changes) button.\nInclude a quick note, Commit Message to summarize the motivation for the changes.\nSelect Commit & Push to send your work to GitHub."
+  },
+  {
+    "objectID": "data306_wk02tues.html#test-the-waters-lets-go-through-the-workflow.",
+    "href": "data306_wk02tues.html#test-the-waters-lets-go-through-the-workflow.",
+    "title": "DATA/MATH 306",
+    "section": "Test the waters: Let’s go through the workflow.",
+    "text": "Test the waters: Let’s go through the workflow.\n\n\nPull. (Yes, there is nothing to pull yet but it is always good practice to start here.)\nClick on the ReadMe.\nAdd something to the ReadMe.\nStage the changes to the ReadMe.\nPut in a commit message.\nCommit & Push.\n\n\nLook for updates in the ReadMe on GitHub.com."
+  },
+  {
+    "objectID": "data306_wk02tues.html#git-collaboration-merge-conflicts",
+    "href": "data306_wk02tues.html#git-collaboration-merge-conflicts",
+    "title": "DATA/MATH 306",
+    "section": "Git Collaboration: Merge conflicts",
+    "text": "Git Collaboration: Merge conflicts\n\nWhat if my collaborators and I both make changes?\n\nScenario: Your collaborator makes changes to a file, commits, and pushes to GitHub. You also modify that file, commit and push.\n\nResult: Your push will fail because there’s a commit on GitHub that you don’t have.\n\nUsual Solution: Pull and usually git will merge their work nicely with yours. Then push. If that doesn’t work, you have a merge conflict. Let’s cross that bridge when we get there.\n\nHow to avoid merge conflicts?\n\nAlways pull when you are going to work on your project.\nAlways commit and push when you are done even if you made small changes."
+  },
+  {
+    "objectID": "data306_wk02tues.html#some-recommendations-as-you-are-getting-comfortable-with-git",
+    "href": "data306_wk02tues.html#some-recommendations-as-you-are-getting-comfortable-with-git",
+    "title": "DATA/MATH 306",
+    "section": "Some Recommendations as You are Getting Comfortable with Git",
+    "text": "Some Recommendations as You are Getting Comfortable with Git\n\nPull early and often.\nUse git early and often.\n\nWe get better with practice.\n\nDon’t all work on the same document as that will increase your changes of a merge conflict.\n\nLet the team leader synthesize each person’s work into one document.\n\nMerge conflicts will happen. Work with me and your group members to resolve them."
+  },
+  {
+    "objectID": "data306_wk02tues.html#reading-articlesresearch-prompt",
+    "href": "data306_wk02tues.html#reading-articlesresearch-prompt",
+    "title": "DATA/MATH 306",
+    "section": "Reading Articles/Research Prompt",
+    "text": "Reading Articles/Research Prompt\n\nGet in your research groups and try to sync your project repo with a folder on your computer.\n\nHelp each other out.\nI will come over to check on each group and to schedule your first meeting with your project stakeholder.\n\nOrient yourself in your project repo and determine where and how you want to store the work you do this week.\nGo through your project prompt more slowly and start a list of the central terms/ideas, especially ones you don’t know.\nDiscuss these ideas as a group.\nStart reading the initial project articles and practicing the “reading to write” concepts from CwD.\n\nNote: Some of the initial articles don’t have much or any data in them.\n\nTeam leader: Schedule a time for the group members to meet and discuss the reading."
+  },
+  {
+    "objectID": "data306_wk02tues.html#reminders-1",
+    "href": "data306_wk02tues.html#reminders-1",
+    "title": "DATA/MATH 306",
+    "section": "Reminders",
+    "text": "Reminders\n\n(By Sept 4th 10am) CITI Training due on Gradescope.\nStart the week 3 readings!\n\nRead the paper(s) that has(have) your project group at the front of the file name.\n\nCome to Thursday’s class ready to start inspecting/pulling/engaging with the data!"
+  },
+  {
+    "objectID": "data306_wk03tues.html#reminders",
+    "href": "data306_wk03tues.html#reminders",
+    "title": "DATA/MATH 306",
+    "section": "Reminders",
+    "text": "Reminders\n\nNew team leaders this week.\n\nRemember to update the To Dos list your GitHub Project.\n\n(By Sept 11th 10am) Turn in your Question Formulation document on Gradescope.\n\nWeek 2 Team Leader should turn it in for the whole team.\n\n(By Sept 15th 10pm) Turn in the Week 4 Reading Reflections."
+  },
+  {
+    "objectID": "data306_wk03tues.html#plan-for-today",
+    "href": "data306_wk03tues.html#plan-for-today",
+    "title": "DATA/MATH 306",
+    "section": "Plan for Today",
+    "text": "Plan for Today\n\nTopics to discuss:\n\nConfirmatory studies versus exploratory studies\nExploratory data analysis\n\nDemos in Positron\nEDA activity"
+  },
+  {
+    "objectID": "data306_wk03tues.html#types-of-data-projects",
+    "href": "data306_wk03tues.html#types-of-data-projects",
+    "title": "DATA/MATH 306",
+    "section": "Types of Data Projects",
+    "text": "Types of Data Projects\nWhat is the difference between confirmatory and exploratory studies?\n\n\nConfirmatory Studies\n\nClassical view of statistical process\nStart with hypotheses and then use data to assess the accuracy of the hypotheses.\n\n\nExploratory Studies\n\nStart with the data and use the data to generate hypotheses.\n\n\n\n\nQuestions:\n\n\nPros and cons of each type?\nUnder which type does your project fall?"
+  },
+  {
+    "objectID": "data306_wk03tues.html#avoiding-overfitting-the-datap-hacking-in-exploratory-studies",
+    "href": "data306_wk03tues.html#avoiding-overfitting-the-datap-hacking-in-exploratory-studies",
+    "title": "DATA/MATH 306",
+    "section": "Avoiding Overfitting the Data/P-Hacking in Exploratory Studies",
+    "text": "Avoiding Overfitting the Data/P-Hacking in Exploratory Studies\n\n\n\n\nSplit your data into two sets:\n\nTraining set: Data to mine\nTest set: Data to apply your final models to.\n\n\n\n\n\n\n\n\nTypically 70/30 or 80/20 split.\nQuestion: How should you decide what data goes into the training set versus the test set?"
+  },
+  {
+    "objectID": "data306_wk03tues.html#exploratory-data-analysis-eda",
+    "href": "data306_wk03tues.html#exploratory-data-analysis-eda",
+    "title": "DATA/MATH 306",
+    "section": "Exploratory Data Analysis (EDA)",
+    "text": "Exploratory Data Analysis (EDA)\n\nAll studies, exploratory or confirmatory, should include a robust exploration stage.\n\nMight be more constrained for confirmatory studies.\n\nEDA Goals:\n\nLook for data quality issues (missingness, censored data, mislabeled data, representativity, …).\nDiscover trends in the data (within one variable, between 2+ variables).\n\nThere is no perfect checklist for EDA.\nIt is a VERY iterative process."
+  },
+  {
+    "objectID": "data306_wk03tues.html#qualities-of-an-effective-data-scientist",
+    "href": "data306_wk03tues.html#qualities-of-an-effective-data-scientist",
+    "title": "DATA/MATH 306",
+    "section": "Qualities of an Effective Data Scientist",
+    "text": "Qualities of an Effective Data Scientist\n\n\n\n\n\n\nI think one is missing: Curiosity!"
+  },
+  {
+    "objectID": "data306_wk03tues.html#general-incomplete-eda-checklist",
+    "href": "data306_wk03tues.html#general-incomplete-eda-checklist",
+    "title": "DATA/MATH 306",
+    "section": "General (Incomplete) EDA Checklist",
+    "text": "General (Incomplete) EDA Checklist\nDisclaimer: Not every item on this list will work for every project.\n\nFormulate a few questions you want to answer with your explorations. Typical questions:\n\nWhat type of variation occurs within the variables?\nWhat type of variation occurs between the variables?\n\nCheck the size of the data.\n\nDo you have the correct number of observations and variable?\n\nSpend time exploring how the data are coded.\n\nDo the variables have the correct classification in R or Python?\n\nSummarize from many angles.\n\nWhat are typical values?\nAny red flags? If so, explore different subsets of the data.\nWhat information is gained from these summaries?"
+  },
+  {
+    "objectID": "data306_wk03tues.html#general-incomplete-eda-checklist-1",
+    "href": "data306_wk03tues.html#general-incomplete-eda-checklist-1",
+    "title": "DATA/MATH 306",
+    "section": "General (Incomplete) EDA Checklist",
+    "text": "General (Incomplete) EDA Checklist\n\nValidate with at least one external data source.\n\nAre my summaries reasonably similar to the external source? If not, why not?\n\nMake many plots.\n\nAre there any unusual patterns? If so, what might explain them?\nWhat information is gained from these plots?\nGo back and compute additional summary statistics based on what you learned from the plots.\n\nTidy\n\nDetermine what data wrangling steps should go into creating a tidy version of the data.\n\nTry the easy solution.\n\nTry to at least partially answer some of your research questions via your EDA output."
+  },
+  {
+    "objectID": "data306_wk03tues.html#eda-activity-1",
+    "href": "data306_wk03tues.html#eda-activity-1",
+    "title": "DATA/MATH 306",
+    "section": "EDA Activity",
+    "text": "EDA Activity"
   }
 ]

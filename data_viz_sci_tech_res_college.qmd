@@ -1,0 +1,146 @@
+---
+pagetitle: "Data Viz: Society and Tech"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 1
+    menu: 
+      side: right
+      numbers: true
+    code-overflow: wrap
+execute:
+  echo: true
+  warning: false
+  message: false
+  fig-asp: 0.75
+  fig-width: 8
+#  fig-align: center
+  fig-dpi: 500
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+# Some global options still not available in quarto
+ knitr::opts_chunk$set(fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_update(text = element_text(size = 20))
+```
+
+::: columns
+::: {.column .center width="55%"}
+![](img/DAW.png){width="80%"}
+:::
+
+::: {.column .center width="45%"}
+<br>
+
+[Data Visualization]{.custom-title}
+
+<br> <br> <br> <br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[Science & Tech Res College Common Hour \| Fall 2025]{.custom-subtitle}
+:::
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Why create a data visualization? {.center}
+
+<br>
+
+::: {.fragment .fade-up .midi}
+To **explore** the data.
+:::
+
+::: {.fragment .fade-up .midi}
+To **summarize** the data.
+:::
+
+::: {.fragment .fade-up .midi}
+To showcase **trends** and make **comparisons**.
+:::
+
+::: {.fragment .fade-up .midi}
+To tell a compelling **story**.
+:::
+
+------------------------------------------------------------------------
+
+## Challenger
+
+-   On January 27th, 1986, engineers from Morton Thiokol recommended NASA delay launch of space shuttle *Challenger* due to cold weather.
+
+    -   Believed cold weather impacted the o-rings that held the rockets together.
+    -   Used 13 charts in their argument.
+
+-   After a two hour conference call, the engineer's recommendation was overruled due to lack of persuasive evidence and the launch proceeded.
+
+-   The Challenger exploded 73 seconds into launch.
+
+------------------------------------------------------------------------
+
+## Challenger
+
+Here's one of those charts.
+
+![](img/table_o_rings.jpg){width="90%" fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Challenger
+
+Here's another one of those charts.
+
+![](img/o_ring_rockets.jpg){width="30%" fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Challenger
+
+Here's a graphic I created from [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte)'s data.
+
+```{r, echo = FALSE, out.width = "60%", fig.asp = .6}
+library(ggplot2)
+library(dplyr)
+library(readr)
+Challenger <- read_delim("open_data/Challenger2.txt", 
+                         "\t", escape_double =
+                           FALSE, trim_ws = TRUE)
+
+
+
+ggplot(data = Challenger, mapping = aes(x = T, y = I)) + geom_point(alpha = 0.5, color = "orange", size = 5) + labs(y = "Tufte's O-ring damage index", x = "Temperature (degrees F) at launch") #+ geom_smooth(se = FALSE)
+```
+
+------------------------------------------------------------------------
+
+## Challenger
+
+This adaptation is a recreation of Edward Tufte's graphic.
+
+::: aside
+For more information on this example and other examples, check out [Tufte's book](https://www.edwardtufte.com/tufte/books_visex).
+:::
+
+```{r, echo = FALSE, out.width = "60%", fig.align='center', fig.asp= .6}
+
+ggplot() + geom_point(data = Challenger, mapping = aes(x = T, y = I),alpha = 0.5, color = "orange", size = 5) + labs(y = "Tufte's O-ring damage index", x = "Temperature (degrees F) at launch") +
+  xlim(22, 85) +
+  geom_rect(mapping = aes(xmin = 26, xmax = 29, ymin = 0, ymax = 11), alpha = 0.2) +  annotate(geom = "text", x = 28, y = 6, label = "Forcasted \ntemperature \nfor \nJanuary 27th")#+ geom_smooth(se = FALSE) 
+```
+
