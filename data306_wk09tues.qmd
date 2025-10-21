@@ -1,0 +1,144 @@
+---
+pagetitle: "Lab Day"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Lab Day]{.custom-title}
+
+<br>
+<br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 9 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+# {background-image="img/Big_data_bowl.png" background-size="contain"}
+
+
+# {background-image="img/data_loss.png" background-size="contain"}
+
+
+---
+
+## Plan for Next Three Classes
+
+* Today: Lab Day/Check-ins
+
+* Thurs: Mock Consulting Sessions with DCDS Advisory Board Members
+
+* Next Tuesday: Progress Report #2 Presentations
+    
+---
+
+## Mock Consulting
+
+* Please be here by 9:59am.
+* There will be a photographer.  Please let me know if you would like to not be photographed.
+    + These photos will be featured in DCDS-related venues, such as the website, LinkedIn, and the newsletter.  
+* We will start in 212 but then will use both 212 and 210.  
+* Our mock clients will be 5-6 people from the [DCDS Advisory Board Members](https://www.bucknell.edu/academics/beyond-classroom/academic-centers-institutes/dominguez-center-data-science/about-dcds/dcds-advisory-board).
+
+
+---
+
+## Mock Consulting
+
+* I will assign each of you to a consulting team and you will participate in two 15 minute mock sessions.
+* Be ready to:
+    + Run a 15 minute meeting.
+    + Learn about their fictitious project.
+    + Ask good questions.
+    + Provide initial thoughts on how you'd approach the project.
+    + Summarize the meeting and outline next steps.
+
+---
+
+## Next Tuesday: Second Round of Progress Report Presentations
+
+
+* Progress report 1 feedback has been shared in Gradescope and Google Drive.
+
+* Five minute presentation
+    + Will be held to the time limit.
+    + All group members should participate.
+
+* Goal of the talk:
+    + Tell us a data story related to your research question.
+    + Include: Hook, well-defined and well motivated question, how you answered that question, key takeaways.
+    + Make sure to include visuals!
+
+* NOT the goal: To give us an exhaustive list of everything you have done since the last presentation.
+
+---
+
+
+## Second Round of Progress Report Presentations
+
+* Will be recorded.
+
+* Stakeholders will either be in attendance or will watch recording.
+
+* Audience: Class mates and other project stakeholders
+    + Make sure to not assume prior knowledge.
+
+* Week 10 Team Leader: 
+    + In-charge of organizing the presentation so that your team tells a coherent story.
+    + Submit the slide deck or a URL to your slide deck to Gradescope by 10am.
+    + Add the slide deck or a URL to your group's GitHub repository.  
+        + Make clear where slides are located.
+        
+---
+
+## Today: Lab Day and Check-In
+
+* I will be meeting with each group to hear about your progress and to discuss your next set of tasks.
+    + I want you to determine the tasks this time.
+    + Focus the tasks on your presentations for next week!
+
+* Heads up: Will be releasing a short form related to group dynamics/workload on Gradescope on Thursday.
