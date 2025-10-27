@@ -1,0 +1,86 @@
+---
+pagetitle: "Progress Report #2"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Progress Report #2]{.custom-title}
+
+<br>
+<br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 10 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Plan for This Week
+
+* Today: Progress Reports
+    + Make sure to turn in your peer feedback by Thursday's class on Gradescope.
+
+* Thurs: Data Science in Nonprofits + Elevator Speeches
+
+    
+---
+
+## Elevator Speeches
+
+* **Come to class with 2 versions** (one for educated non-expert and one for general public).
+    + Make sure to give your name, year, and major.
+    + Pick a data project for your speech.  (It can be your 306 project, summer work, DCDS project, etc.)
+    + Follow the advice in the readings for the week.
+    + Make sure to avoid jargon and only provide technical information if needed.
+    + Connect your project to broad interest.
+    + Each speech should be 2 - 3 minutes long and make sure to speak at a reasonable pace.
+    + Be ready for a follow-up question.  
+    
+* Incorporate feedback and then create a recording of both your speeches.  
+    + Upload to Google Drive.  Share the link with me via Google Drive and on Gradescope.
+    + Due by 10am next Tuesday (November 4th).

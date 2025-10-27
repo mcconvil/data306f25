@@ -18,4 +18,5 @@ The lecture slides will be posted here.
 | Week 7, Tues  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk07tues.html) |
 | Week 8, Thurs  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk08thurs.html) |
 | Week 9, Tues  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk09tues.html) |
+| Week 10, Tues  | [{{< fa display >}}](https://mcconvil.github.io/data306f25/data306_wk10tues.html) |
 :::
