@@ -1,0 +1,121 @@
+---
+pagetitle: "Lab Day"
+format: 
+  revealjs:
+#    chalkboard: true
+    incremental: true
+    theme: [default, custom.scss]
+#    multiplex: true
+    height: 900
+    width: 1600
+    slide-number: c
+    auto-stretch: false
+    callout-appearance: simple
+    pdf-max-pages-per-slide: 2
+    menu: 
+      side: right
+      numbers: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = 'center')
+library(knitr)
+library(tidyverse)
+theme_set(theme_minimal(base_size = 19))
+library(patchwork)
+
+# set width of code output
+# options(width = 65)
+```
+
+
+
+::::: columns
+::: {.column .center width="60%"}
+![](img/Data306_Unicorn_Fall2025.png){width="90%"}
+:::
+
+::: {.column .center width="40%"}
+<br>
+
+[Lab Day + Writing]{.custom-title}
+
+<br>
+<br>
+
+[Kelly McConville]{.custom-subtitle}
+
+[DATA/MATH 306 <br> Week 13 \| Fall 2025]{.custom-subtitle}
+:::
+:::::
+
+---
+
+## Plan for This Week
+
+* Today: Lab Day
+
+* Thurs: Open Office Hours
+
+    
+---
+
+## Deliverables
+
+Required of each group:
+
+* A well-documented repository of all the code and materials used for the project. 
+    + Make sure to have ReadMes in each folder.
+    + Move extraneous work to a Work or Sandbox folder.
+* A 15 minute presentation on Monday, December 15th 9 - 11am, Taylor 212
++ A technical report of key findings.  Due on Monday, December 15th at 9am.
+
+::: fragment
+
+Other deliverables will vary by project.  
+
+:::
+
+
+* I am going to chat with each group today to check-in on deliverables.
+
+---
+
+## Technical Reports
+
+* Lean on the guidance from this week's readings and the last set of readings.
+
+* Follow my framework from the [Technical Report Guidance document](https://github.com/Bucknell-DATA306-F25/class-site/blob/main/Activities/technical_report_guidance.pdf)
+
+---
+
+## Suggested Timeline for Technical Report
+
+* By November 21st: Draft the Data and/or Methods section
+* By December 2nd: Draft the Results section 
+* By December 5th: Draft the Introduction section & have revised the other sections
+* By December 9th: Draft the Discussion/Conclusion & have revised the Introduction
+* By December 12th: Draft the Abstract, Title, and Keywords
+* By December 15th (9am): Have revised and turned in technical report!
+
+---
+
+## Looking ahead to after Thanksgiving Break
+
+* Week 14: Tuesday
+    + Final presentation guidance
+
+* Week 14: Thursday
+    + Lab day
+    
+* Week 15: Tuesday
+    + Practice presentations
